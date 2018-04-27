@@ -1,0 +1,109 @@
+javac -cp "$CLASSPATH:/home/alex/Escritorio/TFG/voltdb/voltdb/*" /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/store_procedures.java
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+OPCION1: No carga los valores en la base de datos cuando accedes al sqlcmd e intentas cargar las clases storedprocs.jar. El fallo está en la ruta de *.class, tienes que estar en la ruta donde esta clase antes de hacer el comando para que lo guarde en el mismo directorio que el manifest.
+--jar cvf /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/storedprocs.jar /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/*.class
+
+OPCION2:
+
+cd /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/
+
+jar cvf /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/storedprocs.jar *.class
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+sqlcmd
+	
+	1> load classes /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/storedprocs.jar;
+
+	2> FILE /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/SQLs/taxis.sql
+
+	3> exit
+
+csvloader --skip 1 --file /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/CSVs/yellow_tripdata_2017-12.csv taxis --limitrows 10000
+
+csvloader --skip 1 --file /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/CSVs/taxi-zone-lookup-with-ntacode.csv Location
+
+
+
+
+
+Ejecutar procedimientos almacenados:
+
+exec store_procedures 'Arrochar/Fort Wadsworth'; -- En Java
+
+exec Boroughs_name 6; --sin Java
+
+
+
+
+
+
+
+
+
+
+
+Los ficheros :
+
+Invalid row file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_LOCATION_insert_invalidrows.csv
+Log file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_LOCATION_insert_log.log
+Report file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_LOCATION_insert_report.log
+
+
+Se crean en la carpeta donde esta el archivo.java
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+alex@alex-VirtualBox:~$ javac -cp "$CLASSPATH:/home/alex/Escritorio/TFG/voltdb/voltdb/*" /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/store_procedures.java
+alex@alex-VirtualBox:~$ cd /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files
+alex@alex-VirtualBox:~/Escritorio/Taxis_TFG/Taxis_Alex/data/files$ jar cvf /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/storedprocs.jar *.class
+manifiesto agregado
+agregando: store_procedures.class(entrada = 779) (salida = 460)(desinflado 40%)
+alex@alex-VirtualBox:~/Escritorio/Taxis_TFG/Taxis_Alex/data/files$ sqlcmd
+SQL Command :: localhost:21212
+1> load classes /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/storedprocs.jar;
+Command succeeded.
+2> FILE /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/SQLs/taxis.sql 
+Command succeeded.
+Command succeeded.
+Command succeeded.
+Command succeeded.
+Command succeeded.
+Command succeeded.
+3> exit
+
+alex@alex-VirtualBox:~/Escritorio/Taxis_TFG/Taxis_Alex/data/files$ csvloader --skip 1 --file /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/CSVs/yellow_tripdata_2017-12.csv taxis --limitrows 10000
+WARN: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+Read 10000 rows from file and successfully inserted 10000 rows (final)
+Elapsed time: 4.54 seconds
+Invalid row file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_TAXIS_insert_invalidrows.csv
+Log file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_TAXIS_insert_log.log
+Report file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_TAXIS_insert_report.log
+alex@alex-VirtualBox:~/Escritorio/Taxis_TFG/Taxis_Alex/data/files$ csvloader --skip 1 --file /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/CSVs/taxi-zone-lookup-with-ntacode.csv Location
+WARN: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+Read 265 rows from file and successfully inserted 265 rows (final)
+Elapsed time: 2.552 seconds
+Invalid row file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_LOCATION_insert_invalidrows.csv
+Log file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_LOCATION_insert_log.log
+Report file: /home/alex/Escritorio/Taxis_TFG/Taxis_Alex/data/files/csvloader_LOCATION_insert_report.log
+alex@alex-VirtualBox:~/Escritorio/Taxis_TFG/Taxis_Alex/data/files$ ^C
+alex@alex-VirtualBox:~/Escritorio/Taxis_TFG/Taxis_Alex/data/files$ 
+alex@alex-VirtualBox:~/Escritorio/Taxis_TFG/Taxis_Alex/data/files$ sqlcmd
+SQL Command :: localhost:21212
+1> exec store_procedures 'Arrochar/Fort Wadsworth';
+LOCATION_ID 
+------------
+           6
+
+(Returned 1 rows in 0,02s)
+2> exec Boroughs_name 6;
+LOCATION_ID  BOROUGH        ZONE                     SERVICE_ZONE  NTACODE 
+------------ -------------- ------------------------ ------------- --------
+           6 Staten Island  Arrochar/Fort Wadsworth  Boro Zone     SI14    
+
+(Returned 1 rows in 0,01s)
+3> exit
+
