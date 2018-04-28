@@ -1,0 +1,12 @@
+2018-04-28 11:46:00,656   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-04-28 11:46:02,261   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
+2018-04-28 11:46:02,261   INFO  [main] CSVLOADER: Elapsed time: 2.029 seconds
+2018-04-28 11:46:02,261   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS_insert_invalidrows.csv
+2018-04-28 11:46:02,261   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS_insert_log.log
+2018-04-28 11:46:02,262   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS_insert_report.log
+2018-04-28 11:46:02,813   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-04-28 11:46:03,268   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
+2018-04-28 11:46:03,268   INFO  [main] CSVLOADER: Elapsed time: 0.711 seconds
+2018-04-28 11:46:03,268   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-04-28 11:46:03,269   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-04-28 11:46:03,269   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
