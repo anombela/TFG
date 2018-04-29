@@ -10,7 +10,8 @@ javac -cp "$CLASSPATH:$1/*" $2/files/*.java
 cd $2/files
 jar cvf $2/files/storedprocs.jar *.class
 echo -e "load classes $2/files/storedprocs.jar" | sqlcmd
-echo -e "FILE $2/SQLs/taxis.sql" | sqlcmd
+echo -e "FILE $2/SQLs/taxis2016.sql" | sqlcmd
+echo -e "FILE $2/SQLs/taxis2017.sql" | sqlcmd
 csvloader --skip 1 --file $2/../CSVs/$4 taxis2016 --limitrows $3
 csvloader --skip 1 --file $2/../CSVs/$5 taxis2017 --limitrows $3
 csvloader --skip 1 --file $2/../CSVs/$6 location --limitrows $3

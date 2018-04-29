@@ -1,25 +1,3 @@
-CREATE TABLE taxis2016 (
-   vendorID INTEGER,
-   tpep_pickup_datetime VARCHAR(64),
-   tpep_dropoff_datetime VARCHAR(64),
-   passenger_count INTEGER,
-   trip_distance DECIMAL,
-   pickup_longitude DECIMAL,
-   pickup_latitude DECIMAL,
-   ratecodeID INTEGER,
-   store_and_fwd_flag VARCHAR(1),
-   dropoff_longitude DECIMAL NOT NULL,
-   dropoff_latitude DECIMAL NOT NULL,
-   payment_type INTEGER,
-   fare_amount DECIMAL,
-   extra DECIMAL,
-   mta_tax DECIMAL,
-   tip_amount DECIMAL,
-   tolls_amount DECIMAL,
-   improvement_surcharge DECIMAL,
-   total_amount DECIMAL
-);
-
 
 CREATE TABLE taxis2017 (
    vendorID INTEGER,
@@ -87,5 +65,8 @@ CREATE PROCEDURE boroughs_name --nombre del distrito
 
 --procedimiento simple con java
 CREATE PROCEDURE
-	--PARTITION ON TABLE yellow_tripdata COLUMN zona para este simple demomento no vale esto
-	FROM CLASS store_procedures;
+	FROM CLASS get_id_location_zone;
+
+
+CREATE PROCEDURE
+  FROM CLASS max_distance_trips2017;
