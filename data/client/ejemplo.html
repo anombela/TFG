@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="height:100%">
+  <head>
+    <title>Crean un polígono en Google Maps</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      html, body{
+        height:100%;
+        margin: 0px;
+      }
+      #googleMap{
+        width:100%;
+        height:100%;
+      }
+    </style>
+    <script type="text/javascript">
+      function initialize() {
+        // Configuración del mapa
+        var mapProp = {
+          center: {lat: -30.466697939183756, lng: -63.462234249999995},
+          zoom: 4,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        // Agregando el mapa al tag de id googleMap
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        
+       
+        // Definiendo las coordenadas para el path del polígono
+        var triangleCoords = [
+          {lat: -34.6036844, lng: -58.381559100000004}, // Brasil
+          {lat: -14.235004, lng: -51.92527999999999},// Argentina
+          {lat: -33.4488897, lng: -70.6692655} // Chile
+        ];
+       
+        // Construyendo el póligono
+        var poligono = new google.maps.Polygon({
+          paths: triangleCoords,
+          strokeColor: '#FF0000',
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: '#FF0000',
+          fillOpacity: 0.35
+        });
+        poligono.setMap(map);
+       
+      }
+       
+    </script>
+    <script async defer type="text/javascript" src="http://maps.googleapis.com/maps/api/js?signed_in=true&callback=initialize"></script>
+  </head>
+  <body>
+    <div id="googleMap"></div>
+  </body>
+</html>
