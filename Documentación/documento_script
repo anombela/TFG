@@ -33,7 +33,7 @@ Ejecutar procedimientos almacenados:
 
 exec store_procedures 'Arrochar/Fort Wadsworth'; -- En Java
 
-exec Boroughs_name 6; --sin Java
+exec boroughs_name 6; --sin Java
 
 
 
