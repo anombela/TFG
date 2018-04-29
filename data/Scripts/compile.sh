@@ -6,5 +6,5 @@ javac -cp "$CLASSPATH:$1/*" $2/files/*.java
 cd $2/files
 jar cvf $2/files/storedprocs.jar *.class
 echo -e "load classes $2/files/storedprocs.jar" | sqlcmd
-#echo -e "FILE $2/SQLs/taxis.sql" | sqlcmd
+
 

@@ -3,12 +3,12 @@ import org.voltdb.*;
 public class store_procedures extends VoltProcedure {
 
 	public final SQLStmt get_id = new SQLStmt(
-		"select Location_Id from Location " +
-		"where Zone = ?;"
+		"select location_Id from location " +
+		"where zone = ?;"
 	);
 
 
-	//le paso un string con el el nombre dela zona ("Central Park" por ejemplo)
+	//le paso un string con el el nombre de la zona ("Central Park" por ejemplo)
 	public VoltTable[] run(String zona) 
 
 
