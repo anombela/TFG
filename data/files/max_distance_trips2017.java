@@ -16,9 +16,15 @@ public class max_distance_trips2017 extends VoltProcedure {
 		throws VoltAbortException {
 
 			voltQueueSQL(get_trip);
- 			//VoltTable[] results = voltExecuteSQL();
+ 			VoltTable[] results = voltExecuteSQL();
 
- 			//System.out.println(results[0].getColumnName(1));
+ 	
+ 			System.out.println(results[0]);
+ 			System.out.println(results[0].toFormattedString());
+ 			System.out.println(results[0].getColumnCount());
+ 			System.out.println(results[0].getColumnName(1));
+ 			System.out.println(results[0].getRowCount());
+ 			//System.out.println(results[0].fetchRow(1));
 
           	return voltExecuteSQL();
 		}
