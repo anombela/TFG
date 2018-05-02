@@ -1,4 +1,5 @@
-var map
+var map;
+var markers = [];
 
 function init() {
 
@@ -53,6 +54,7 @@ function initialize() {
         map: map,
         title: 'Hello World!'
     });
+    markers.push(marker);
 
      
 }
@@ -66,13 +68,14 @@ function Ejemplo(datos){
     var cord1 = parseFloat(datos.results[0].data[0][2])
 
   
-    var marca = new google.maps.Marker({
+    var marker = new google.maps.Marker({
         position: {lat: cord1, lng: cord2},
         //position: {lat: -73.871330261230, lng: 40.773773193359},
         map: map,
         title: 'Hello World!2222'
     });
-    marca.setMap(map);
+    marker.setMap(map);
+    markers.push(marker);
 }
 
 function carga(){
@@ -83,11 +86,15 @@ function carga(){
     callJSON(url,"Ejemplo");
 }
 
+function setMapOnAll(aux) {
+    for (var i = 0; i < markers.length; i++) {
+        markers[i].setMap(aux);
+    }
+}
 
-/*
-var url = "http://localhost:8080/api/1.0/" +
-            "?Procedure=GetAlertsByLocation&Parameters=" +
-            "["4"]";
-callJSON(url,"ejemplo");
-*/
+
+function clearMarkers() {
+    setMapOnAll(null);
+}
+
 
