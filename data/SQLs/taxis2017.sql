@@ -34,35 +34,6 @@ CREATE TABLE location(
 );
 
 
-
-
---numero de rutas por localizacón de inicio de ruta (ejemplo)
---Ejecución -->  > exec numtrips_PU 4;
-CREATE PROCEDURE numtrips_PU
-  PARTITION ON TABLE taxis2017 COLUMN PULocationId
-  AS 
-    select 
-      count(1) 
-    from taxis2017 a
-    left join location b
-    on
-      a.PULocationId = b.location_Id
-    where 
-      b.location_Id = ?
-;
-
-
---procedimiento de ayuda para el anterior ejemplo, pasandole el id me dice todo
---ejecución-->   > exec Boroughs_name 4;
-CREATE PROCEDURE boroughs_name --nombre del distrito
-  AS 
-    select   
-      *
-    from location 
-    where location_Id = ?
-;
-
-
 --procedimiento simple con java
 CREATE PROCEDURE
 	FROM CLASS get_id_location_zone;

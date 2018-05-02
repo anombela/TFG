@@ -8531,3 +8531,852 @@ PROCEDURE CHANGES:
 2018-05-02 15:48:40,763   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
 2018-05-02 15:48:40,772   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 22.444187000000003
 2018-05-02 15:48:40,772   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 3FA6308157, D7A7D214B8).
+2018-05-02 16:37:09,722   INFO  [Thread-2] CONSOLE: ********************************************************************************
+2018-05-02 16:37:09,723   INFO  [Thread-2] CONSOLE: * The VoltDB server will shut down due to a control-C or other JVM exit. *
+2018-05-02 16:37:09,724   INFO  [Thread-2] CONSOLE: ********************************************************************************
+2018-05-02 16:37:17,657   INFO  [main] HOST: PID of this Volt process is 24220
+2018-05-02 16:37:17,696   INFO  [main] HOST: Command line arguments: org.voltdb.VoltDB initialize force
+2018-05-02 16:37:17,700   INFO  [main] HOST: Command line JVM arguments: -Xmx2048m -Djava.awt.headless=true -Djavax.security.auth.useSubjectCredsOnly=false -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseCondCardMark -Dsun.rmi.dgc.server.gcInterval=9223372036854775807 -Dsun.rmi.dgc.client.gcInterval=9223372036854775807 -XX:CMSWaitDuration=120000 -XX:CMSMaxAbortablePrecleanTime=120000 -XX:+ExplicitGCInvokesConcurrent -XX:+CMSScavengeBeforeRemark -XX:+CMSClassUnloadingEnabled -Dlog4j.configuration=file:///home/alex/Escritorio/TFG/voltdb/voltdb/log4j.xml -Djava.library.path=default
+2018-05-02 16:37:17,701   INFO  [main] HOST: Command line JVM classpath: /home/alex/Escritorio/TFG/voltdb/voltdb/voltdb-8.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/vmetrics.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpclient-4.3.6.jar:/home/alex/Escritorio/TFG/voltdb/lib/commons-lang3-3.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/super-csv-2.1.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/kafka_2.11-0.8.2.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-servlet-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/felix.jar:/home/alex/Escritorio/TFG/voltdb/lib/owner-1.0.9.jar:/home/alex/Escritorio/TFG/voltdb/lib/scala-library-2.11.5.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpcore-4.3.3.jar:/home/alex/Escritorio/TFG/voltdb/lib/jackson-mapper-asl-1.9.13.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-security-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/jna.jar:/home/alex/Escritorio/TFG/voltdb/lib/metrics-core-2.2.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/owner-java8-1.0.9.jar:/home/alex/Escritorio/TFG/voltdb/lib/kafka-clients-0.8.2.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-util-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/scala-xml_2.11-1.0.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-server-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpcore-nio-4.3.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jackson-core-asl-1.9.13.jar:/home/alex/Escritorio/TFG/voltdb/lib/commons-logging-1.1.3.jar:/home/alex/Escritorio/TFG/voltdb/lib/scala-parser-combinators_2.11-1.0.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/commons-codec-1.6.jar:/home/alex/Escritorio/TFG/voltdb/lib/protobuf-java-3.4.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-http-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/tomcat-juli.jar:/home/alex/Escritorio/TFG/voltdb/lib/tomcat-jdbc.jar:/home/alex/Escritorio/TFG/voltdb/lib/slf4j-nop-1.6.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jsch-0.1.51.jar:/home/alex/Escritorio/TFG/voltdb/lib/log4j-1.2.16.jar:/home/alex/Escritorio/TFG/voltdb/lib/snmp4j-2.5.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/avro-1.7.7.jar:/home/alex/Escritorio/TFG/voltdb/lib/servlet-api-3.1.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpasyncclient-4.0.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-io-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/slf4j-api-1.6.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/lz4-1.2.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/jline-2.10.jar:/home/alex/Escritorio/TFG/voltdb/lib/snappy-java-1.1.1.7.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-continuation-9.3.21.v20170918.jar
+2018-05-02 16:37:17,712   INFO  [main] HOST: Generating default deployment file "/home/alex/Escritorio/TFG-taxis/data/Scripts/voltdbroot/config/deployment.xml"
+2018-05-02 16:37:19,050   INFO  [main] CONSOLE: When using the INIT command, some deployment file settings (hostcount and voltdbroot path) are ignored
+2018-05-02 16:37:19,050   INFO  [main] HOST: When using the INIT command, some deployment file settings (hostcount and voltdbroot path) are ignored
+2018-05-02 16:37:19,101   INFO  [main] HOST: Initialized VoltDB root directory voltdbroot
+2018-05-02 16:37:19,101   INFO  [main] CONSOLE: Initialized VoltDB root directory voltdbroot
+2018-05-02 16:37:20,460   INFO  [main] HOST: PID of this Volt process is 24238
+2018-05-02 16:37:20,487   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2018-05-02 16:37:20,487   INFO  [main] HOST: Searching for license file located /home/alex/Escritorio/TFG-taxis/data/Scripts/license.xml
+2018-05-02 16:37:20,492   INFO  [main] CONSOLE: Build: 8.0 voltdb-7.8.1-173-g7323f90 Community Edition
+2018-05-02 16:37:20,492   INFO  [main] HOST: Command line arguments: org.voltdb.VoltDB probe placementgroup 0 mesh 
+2018-05-02 16:37:20,500   INFO  [main] HOST: Command line JVM arguments: -Xmx2048m -Djava.awt.headless=true -Djavax.security.auth.useSubjectCredsOnly=false -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseCondCardMark -Dsun.rmi.dgc.server.gcInterval=9223372036854775807 -Dsun.rmi.dgc.client.gcInterval=9223372036854775807 -XX:CMSWaitDuration=120000 -XX:CMSMaxAbortablePrecleanTime=120000 -XX:+ExplicitGCInvokesConcurrent -XX:+CMSScavengeBeforeRemark -XX:+CMSClassUnloadingEnabled -Dlog4j.configuration=file:///home/alex/Escritorio/TFG/voltdb/voltdb/log4j.xml -Djava.library.path=default
+2018-05-02 16:37:20,500   INFO  [main] HOST: Command line JVM classpath: /home/alex/Escritorio/TFG/voltdb/voltdb/voltdb-8.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/vmetrics.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpclient-4.3.6.jar:/home/alex/Escritorio/TFG/voltdb/lib/commons-lang3-3.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/super-csv-2.1.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/kafka_2.11-0.8.2.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-servlet-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/felix.jar:/home/alex/Escritorio/TFG/voltdb/lib/owner-1.0.9.jar:/home/alex/Escritorio/TFG/voltdb/lib/scala-library-2.11.5.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpcore-4.3.3.jar:/home/alex/Escritorio/TFG/voltdb/lib/jackson-mapper-asl-1.9.13.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-security-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/jna.jar:/home/alex/Escritorio/TFG/voltdb/lib/metrics-core-2.2.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/owner-java8-1.0.9.jar:/home/alex/Escritorio/TFG/voltdb/lib/kafka-clients-0.8.2.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-util-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/scala-xml_2.11-1.0.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-server-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpcore-nio-4.3.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jackson-core-asl-1.9.13.jar:/home/alex/Escritorio/TFG/voltdb/lib/commons-logging-1.1.3.jar:/home/alex/Escritorio/TFG/voltdb/lib/scala-parser-combinators_2.11-1.0.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/commons-codec-1.6.jar:/home/alex/Escritorio/TFG/voltdb/lib/protobuf-java-3.4.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-http-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/tomcat-juli.jar:/home/alex/Escritorio/TFG/voltdb/lib/tomcat-jdbc.jar:/home/alex/Escritorio/TFG/voltdb/lib/slf4j-nop-1.6.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jsch-0.1.51.jar:/home/alex/Escritorio/TFG/voltdb/lib/log4j-1.2.16.jar:/home/alex/Escritorio/TFG/voltdb/lib/snmp4j-2.5.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/avro-1.7.7.jar:/home/alex/Escritorio/TFG/voltdb/lib/servlet-api-3.1.jar:/home/alex/Escritorio/TFG/voltdb/lib/httpasyncclient-4.0.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-io-9.3.21.v20170918.jar:/home/alex/Escritorio/TFG/voltdb/lib/slf4j-api-1.6.2.jar:/home/alex/Escritorio/TFG/voltdb/lib/lz4-1.2.0.jar:/home/alex/Escritorio/TFG/voltdb/lib/jline-2.10.jar:/home/alex/Escritorio/TFG/voltdb/lib/snappy-java-1.1.1.7.jar:/home/alex/Escritorio/TFG/voltdb/lib/jetty-continuation-9.3.21.v20170918.jar
+2018-05-02 16:37:21,201   INFO  [main] CONSOLE: Loaded node-specific settings from voltdbroot/config/path.properties
+2018-05-02 16:37:21,201   INFO  [main] HOST: Loaded node-specific settings from voltdbroot/config/path.properties
+2018-05-02 16:37:21,495   INFO  [main] NETWORK: Default network thread count: 2
+2018-05-02 16:37:21,521   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2018-05-02 16:37:21,526   INFO  [main] HOST: Attempting to bind to leader ip 0.0.0.0/0.0.0.0:3021
+2018-05-02 16:37:21,529   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2018-05-02 16:37:21,574   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:7181
+2018-05-02 16:37:21,586   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2018-05-02 16:37:21,701   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:7181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@2b71e916
+2018-05-02 16:37:21,709   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:7181
+2018-05-02 16:37:21,712   INFO  [main-SendThread(localhost:7181)] ZK-CLIENT: Socket connection established to localhost/127.0.0.1:7181, initiating session
+2018-05-02 16:37:21,712   INFO  [NIOServerCxn.Factory:/127.0.0.1:7181] ZK-SERVER: Accepted socket connection from /127.0.0.1:36978
+2018-05-02 16:37:21,715   INFO  [NIOServerCxn.Factory:/127.0.0.1:7181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:36978
+2018-05-02 16:37:21,730   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x25f788b25a000000 with negotiated timeout 6000 for client /127.0.0.1:36978
+2018-05-02 16:37:21,730   INFO  [main-SendThread(localhost:7181)] ZK-CLIENT: Session establishment complete on server localhost/127.0.0.1:7181, sessionid = 0x25f788b25a000000, negotiated timeout = 6000
+2018-05-02 16:37:21,791   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2018-05-02 16:37:21,822   INFO  [main] HOST: Host id of this node is: 0
+2018-05-02 16:37:21,826   INFO  [main] CONSOLE: Host id of this node is: 0
+2018-05-02 16:37:21,851   INFO  [main] HOST: Starting a new database cluster
+2018-05-02 16:37:21,851   INFO  [main] CONSOLE: Starting a new database cluster
+2018-05-02 16:37:21,903   INFO  [main] HOST: URL of deployment: voltdbroot/config/deployment.xml
+2018-05-02 16:37:21,912   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2018-05-02 16:37:21,912   INFO  [main] HOST: Elastic duration set to 50 milliseconds
+2018-05-02 16:37:21,912   INFO  [main] HOST: Elastic throughput set to 2 mb/s
+2018-05-02 16:37:21,913   INFO  [main] HOST: Max temptable size set to 100 mb
+2018-05-02 16:37:21,913   INFO  [main] HOST: Snapshot priority set to 6 [0 - 10]
+2018-05-02 16:37:21,913   INFO  [main] HOST: Query timeout set to 10000 milliseconds
+2018-05-02 16:37:21,913   WARN  [main] CONSOLE: User authentication is not enabled. The database is accessible and could be modified or shut down by anyone on the network.
+2018-05-02 16:37:22,245   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2018-05-02 16:37:23,132   INFO  [main] HOST: Framework properties are: {org.osgi.framework.system.packages.extra=com.google_voltpatches.common.base;version=1.0.0,com.google_voltpatches.common.collect;version=1.0.0,com.google_voltpatches.common.io;version=1.0.0,com.google_voltpatches.common.net;version=1.0.0,com.google_voltpatches.common.util.concurrent;version=1.0.0,com.yammer.metrics;version=1.0.0,com.yammer.metrics.core;version=1.0.0,com.yammer.metrics.reporting;version=1.0.0,com.yammer.metrics.stats;version=1.0.0,com.yammer.metrics.util;version=1.0.0,jsr166y;version=1.0.0,org.apache.log4j;version=1.0.0,org.slf4j;version=1.0.0,org.voltcore.network;version=1.0.0,org.voltcore.logging;version=1.0.0,org.voltcore.utils;version=1.0.0,org.voltdb;include:="VoltType",version=1.0.0,org.voltdb.client;version=1.0.0,org.voltdb.common;exclude="Permission",version=1.0.0,org.voltdb.importer;version=1.0.0,org.voltdb.importer.formatter;version=1.0.0,org.voltdb.types;version=1.0.0, org.osgi.framework.storage.clean=onFirstInit, felix.cache.rootdir=/home/alex/Escritorio/TFG-taxis/data/Scripts/voltdbroot/.bundles-cache, felix.cache.locking=false}
+2018-05-02 16:37:23,480   INFO  [main] IMPORT: Final importer count:0
+2018-05-02 16:37:23,480   INFO  [main] IMPORT: Currently loaded importer modules: [], types: []
+2018-05-02 16:37:23,482   INFO  [main] EXPORT: System is not using any export functionality or connectors configured are disabled.
+2018-05-02 16:37:23,484   INFO  [main] EXPORT: Cleaning out contents of export overflow directory /home/alex/Escritorio/TFG-taxis/data/Scripts/voltdbroot/export_overflow for create with force
+2018-05-02 16:37:23,517   INFO  [main] CONSOLE: Initializing the database. This may take a moment...
+2018-05-02 16:37:23,701   INFO  [SP 0 Site - 0:0] HOST: Loading native VoltDB code (voltdb-8.0). A confirmation message will follow if the loading is successful.
+2018-05-02 16:37:23,771   INFO  [SP 0 Site - 0:0] HOST: Successfully loaded native VoltDB library voltdb-8.0.
+2018-05-02 16:37:23,772   WARN  [SP 0 Site - 0:0] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-02 16:37:23,993   INFO  [main] TM: Setting maximum size of MPI read pool to: 20
+2018-05-02 16:37:24,046   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2018-05-02 16:37:24,063   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 1
+2018-05-02 16:37:24,070   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2018-05-02 16:37:24,082   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:2 as leader for partition 2
+2018-05-02 16:37:24,084   INFO  [LeaderCache] TM: SP 0:1 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2018-05-02 16:37:24,095   INFO  [LeaderCache] TM: SP 0:1 for partition 1 finished leader promotion. Took 14 ms.
+2018-05-02 16:37:24,095   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 34 ms.
+2018-05-02 16:37:24,106   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 1
+2018-05-02 16:37:24,106   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 0
+2018-05-02 16:37:24,126   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:3 as leader for partition 3
+2018-05-02 16:37:24,134   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:0 for partition:0
+2018-05-02 16:37:24,134   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:1 for partition:1
+2018-05-02 16:37:24,139   INFO  [LeaderCache] TM: SP 0:2 for partition 2 found (including self) 1 surviving replicas to repair.  Survivors: 0:2
+2018-05-02 16:37:24,139   INFO  [LeaderCache] TM: SP 0:2 for partition 2 finished leader promotion. Took 18 ms.
+2018-05-02 16:37:24,142   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 2
+2018-05-02 16:37:24,171   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:4 as leader for partition 4
+2018-05-02 16:37:24,175   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:2 for partition:2
+2018-05-02 16:37:24,177   INFO  [LeaderCache] TM: SP 0:3 for partition 3 found (including self) 1 surviving replicas to repair.  Survivors: 0:3
+2018-05-02 16:37:24,178   INFO  [LeaderCache] TM: SP 0:3 for partition 3 finished leader promotion. Took 11 ms.
+2018-05-02 16:37:24,181   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 3
+2018-05-02 16:37:24,209   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:5 as leader for partition 5
+2018-05-02 16:37:24,232   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:3 for partition:3
+2018-05-02 16:37:24,234   INFO  [LeaderCache] TM: SP 0:4 for partition 4 found (including self) 1 surviving replicas to repair.  Survivors: 0:4
+2018-05-02 16:37:24,235   INFO  [LeaderCache] TM: SP 0:4 for partition 4 finished leader promotion. Took 26 ms.
+2018-05-02 16:37:24,245   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 4
+2018-05-02 16:37:24,282   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:6 as leader for partition 6
+2018-05-02 16:37:24,289   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:4 for partition:4
+2018-05-02 16:37:24,291   INFO  [LeaderCache] TM: SP 0:5 for partition 5 found (including self) 1 surviving replicas to repair.  Survivors: 0:5
+2018-05-02 16:37:24,291   INFO  [LeaderCache] TM: SP 0:5 for partition 5 finished leader promotion. Took 12 ms.
+2018-05-02 16:37:24,293   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 5
+2018-05-02 16:37:24,342   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:7 as leader for partition 7
+2018-05-02 16:37:24,347   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:5 for partition:5
+2018-05-02 16:37:24,351   INFO  [LeaderCache] TM: SP 0:6 for partition 6 found (including self) 1 surviving replicas to repair.  Survivors: 0:6
+2018-05-02 16:37:24,351   INFO  [LeaderCache] TM: SP 0:6 for partition 6 finished leader promotion. Took 34 ms.
+2018-05-02 16:37:24,354   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 6
+2018-05-02 16:37:24,378   INFO  [LeaderCache] TM: SP 0:7 for partition 7 found (including self) 1 surviving replicas to repair.  Survivors: 0:7
+2018-05-02 16:37:24,378   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:6 for partition:6
+2018-05-02 16:37:24,378   INFO  [LeaderCache] TM: SP 0:7 for partition 7 finished leader promotion. Took 11 ms.
+2018-05-02 16:37:24,386   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 7
+2018-05-02 16:37:24,408   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:7 for partition:7
+2018-05-02 16:37:24,417   INFO  [LeaderCache] TM: MP 0:8 for partition 16383 finished leader promotion. Took 10 ms.
+2018-05-02 16:37:24,430   INFO  [LeaderCache] HOST: [Cartographer MP] Sending leader change notification with new leader:
+2018-05-02 16:37:24,430   INFO  [LeaderCache] HOST: [Cartographer] Sending leader change notification with new leader:0:8 for partition:16383
+2018-05-02 16:37:24,457   INFO  [main] HOST: Database start action is Create.
+2018-05-02 16:37:24,457   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2018-05-02 16:37:24,457   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2018-05-02 16:37:24,457   INFO  [main] HOST: Local machine HTTP monitoring is listening on port 8080.
+2018-05-02 16:37:24,457   INFO  [main] HOST: Json API over HTTP enabled at path /api/1.0/, listening on port 8080.
+2018-05-02 16:37:24,458   INFO  [main] HOST: Maximum usable Java heap set to 2031 mb.
+2018-05-02 16:37:24,458   INFO  [main] HOST: Minimum required Java heap for catalog and server config is 384 MB.
+2018-05-02 16:37:24,461   INFO  [main] HOST: Cluster has 1 hosts with leader hostname: "localhost". 8 local sites count. K = 0.
+2018-05-02 16:37:24,461   INFO  [main] HOST: The entire cluster has 1 copy of each of the 8 logical partitions.
+2018-05-02 16:37:24,461   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2018-05-02 16:37:24,461   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2018-05-02 16:37:24,461   INFO  [main] HOST: No schedule set for automated snapshots.
+2018-05-02 16:37:24,461   INFO  [main] HOST: Using "/home/alex/Escritorio/TFG-taxis/data/Scripts/voltdbroot" for voltdbroot directory.
+2018-05-02 16:37:24,465   INFO  [main] HOST: CPU INFO:         2 Cores, 1 Sockets, 2 Hardware Threads
+2018-05-02 16:37:24,465   INFO  [main] HOST: CPU DESC:         Intel(R) Core(TM) i5-4210M CPU @ 2.60GHz 3072 KB cache
+2018-05-02 16:37:24,465   INFO  [main] HOST: HOST MEMORY (MB): 11909
+2018-05-02 16:37:24,465   INFO  [main] HOST: OS PROFILE:       Linux 4.13.0-39-generic amd64 es_ES
+2018-05-02 16:37:24,465   INFO  [main] HOST: DB VERSION:       8.0
+2018-05-02 16:37:24,465   INFO  [main] HOST: JAVA VERSION:     1.8.0_162
+2018-05-02 16:37:24,465   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12)
+2018-05-02 16:37:24,465   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (25.162-b12, mixed mode)
+2018-05-02 16:37:24,465   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port,admin-port,http-port
+2018-05-02 16:37:24,466   INFO  [main] HOST:   Host id: 0 with interfaces: 10.0.2.15 21212,21211,8080 [SELF]
+2018-05-02 16:37:24,472   WARN  [main] CONSOLE: This is not a highly available cluster. K-Safety is set to 0.
+2018-05-02 16:37:24,472   WARN  [main] CONSOLE: Durability is turned off. Command logging is off.
+2018-05-02 16:37:24,499   INFO  [SnapshotDaemon] LOGGING: This node was selected as the leader for snapshot truncation
+2018-05-02 16:37:24,512   INFO  [Thread-16] HOST: Logging config info
+2018-05-02 16:37:24,519   INFO  [SnapshotDaemon] LOGGING: Checking for existence of snapshot truncation request
+2018-05-02 16:37:24,563   INFO  [Thread-17] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:37:24,564   INFO  [Thread-17] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:37:24,564   INFO  [Thread-17] EXPORT: System is not using any export functionality or connectors configured are disabled.
+2018-05-02 16:37:24,585   INFO  [Thread-17] CONSOLE: Server Operational State is: NORMAL
+2018-05-02 16:37:24,585   INFO  [Thread-17] CONSOLE: Server completed initialization.
+2018-05-02 16:39:03,552   INFO  [NTPServiceThread-0] COMPILER: @UpdateClasses is invoked, modifying catalog classes.
+2018-05-02 16:39:03,552   INFO  [NTPServiceThread-0] COMPILER: Updating java classes available to stored procedures
+2018-05-02 16:39:03,611   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+  Changes have been made to user code (procedures, supporting classes, etc).
+2018-05-02 16:39:03,620   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:03,621   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:03,740   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash DB1E967A40, deployment hash D7A7D214B8, version 0
+2018-05-02 16:39:03,740   INFO  [MP Site - 0:8] HOST: To: catalog hash: 1BAE80830B, deployment hash: D7A7D214B8
+2018-05-02 16:39:03,751   INFO  [SP 0 Site - 0:0] HOST: Site 0:0 acknowledged data and catalog prechecks.
+2018-05-02 16:39:03,766   INFO  [SP 7 Site - 0:7] IMPORT: Final importer count:0
+2018-05-02 16:39:03,767   INFO  [SP 7 Site - 0:7] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:03,767   INFO  [SP 7 Site - 0:7] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:03,834   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 96.285784
+2018-05-02 16:39:03,834   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 1BAE80830B, D7A7D214B8).
+2018-05-02 16:39:06,637   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:06,637   INFO  [NTPServiceThread-1] COMPILER: 	CREATE TABLE taxis2016 (
+   vendorID INTEGER,
+   tpep_pickup_datetime VARCHAR(64),
+   tpep_dropoff_datetime VARCHAR(64),
+   passenger_count INTEGER,
+   trip_distance DECIMAL,
+   pickup_longitude DECIMAL,
+   pickup_latitude DECIMAL,
+   ratecodeID INTEGER,
+   store_and_fwd_flag VARCHAR(1),
+   dropoff_longitude DECIMAL NOT NULL,
+   dropoff_latitude DECIMAL NOT NULL,
+   payment_type INTEGER,
+   fare_amount DECIMAL,
+   extra DECIMAL,
+   mta_tax DECIMAL,
+   tip_amount DECIMAL,
+   tolls_amount DECIMAL,
+   improvement_surcharge DECIMAL,
+   total_amount DECIMAL
+)
+2018-05-02 16:39:07,041   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table TAXIS2016 added.
+
+2018-05-02 16:39:07,043   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:07,043   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:07,152   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 1BAE80830B, deployment hash D7A7D214B8, version 1
+2018-05-02 16:39:07,152   INFO  [MP Site - 0:8] HOST: To: catalog hash: BBAAB29754, deployment hash: D7A7D214B8
+2018-05-02 16:39:07,156   INFO  [SP 1 Site - 0:1] HOST: Site 0:1 acknowledged data and catalog prechecks.
+2018-05-02 16:39:07,207   INFO  [SP 6 Site - 0:6] IMPORT: Final importer count:0
+2018-05-02 16:39:07,208   INFO  [SP 6 Site - 0:6] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:07,208   INFO  [SP 6 Site - 0:6] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:07,227   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 74.849967
+2018-05-02 16:39:07,227   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes BBAAB29754, D7A7D214B8).
+2018-05-02 16:39:07,305   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:07,305   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE journey_max_total_amount_trips2016
+  AS 
+    SELECT total_amount, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude
+    FROM taxis2016
+    ORDER BY total_amount
+    DESC LIMIT 1
+2018-05-02 16:39:07,706   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure journey_max_total_amount_trips2016 added.
+
+2018-05-02 16:39:07,708   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:07,708   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:07,816   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash BBAAB29754, deployment hash D7A7D214B8, version 2
+2018-05-02 16:39:07,816   INFO  [MP Site - 0:8] HOST: To: catalog hash: BD35CEA68F, deployment hash: D7A7D214B8
+2018-05-02 16:39:07,818   INFO  [SP 2 Site - 0:2] HOST: Site 0:2 acknowledged data and catalog prechecks.
+2018-05-02 16:39:07,856   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:07,856   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:07,856   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:07,874   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 57.779861
+2018-05-02 16:39:07,874   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes BD35CEA68F, D7A7D214B8).
+2018-05-02 16:39:07,923   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:07,923   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE journey_min_total_amount_trips2016
+  AS 
+    SELECT total_amount, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude
+    FROM taxis2016
+    ORDER BY total_amount
+    ASC LIMIT 1
+2018-05-02 16:39:08,174   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure journey_min_total_amount_trips2016 added.
+
+2018-05-02 16:39:08,175   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:08,175   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:08,284   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash BD35CEA68F, deployment hash D7A7D214B8, version 3
+2018-05-02 16:39:08,284   INFO  [MP Site - 0:8] HOST: To: catalog hash: C45CF1F0CD, deployment hash: D7A7D214B8
+2018-05-02 16:39:08,286   INFO  [SP 3 Site - 0:3] HOST: Site 0:3 acknowledged data and catalog prechecks.
+2018-05-02 16:39:08,311   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:08,316   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:08,317   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:08,329   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 44.678644999999996
+2018-05-02 16:39:08,329   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes C45CF1F0CD, D7A7D214B8).
+2018-05-02 16:39:08,372   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:08,372   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE total_voided_trips2016
+  AS 
+    SELECT count(payment_type) AS total_voided_trips
+    FROM taxis2016
+    WHERE payment_type = 6
+2018-05-02 16:39:08,588   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_voided_trips2016 added.
+
+2018-05-02 16:39:08,591   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:08,597   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:08,718   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash C45CF1F0CD, deployment hash D7A7D214B8, version 4
+2018-05-02 16:39:08,718   INFO  [MP Site - 0:8] HOST: To: catalog hash: A48B836CE6, deployment hash: D7A7D214B8
+2018-05-02 16:39:08,735   INFO  [SP 4 Site - 0:4] HOST: Site 0:4 acknowledged data and catalog prechecks.
+2018-05-02 16:39:08,761   INFO  [SP 1 Site - 0:1] IMPORT: Final importer count:0
+2018-05-02 16:39:08,766   INFO  [SP 1 Site - 0:1] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:08,766   INFO  [SP 1 Site - 0:1] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:08,780   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 61.207152
+2018-05-02 16:39:08,780   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes A48B836CE6, D7A7D214B8).
+2018-05-02 16:39:08,818   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:08,818   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE total_no_charge_trips2016
+  AS 
+    SELECT count(payment_type) AS total_no_charge_trips
+    FROM taxis2016
+    WHERE payment_type = 3
+2018-05-02 16:39:09,012   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_no_charge_trips2016 added.
+
+2018-05-02 16:39:09,018   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:09,026   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:09,136   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash A48B836CE6, deployment hash D7A7D214B8, version 5
+2018-05-02 16:39:09,136   INFO  [MP Site - 0:8] HOST: To: catalog hash: 90C2D347E0, deployment hash: D7A7D214B8
+2018-05-02 16:39:09,138   INFO  [SP 5 Site - 0:5] HOST: Site 0:5 acknowledged data and catalog prechecks.
+2018-05-02 16:39:09,188   INFO  [SP 6 Site - 0:6] IMPORT: Final importer count:0
+2018-05-02 16:39:09,189   INFO  [SP 6 Site - 0:6] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:09,189   INFO  [SP 6 Site - 0:6] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:09,272   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 134.32570199999998
+2018-05-02 16:39:09,273   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 90C2D347E0, D7A7D214B8).
+2018-05-02 16:39:09,308   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:09,308   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE total_payment_type_trips2016
+  AS 
+    SELECT count(payment_type) AS total_payment_type_trips
+    FROM taxis2016
+    WHERE payment_type = ?
+2018-05-02 16:39:09,489   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_payment_type_trips2016 added.
+
+2018-05-02 16:39:09,489   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:09,489   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:09,597   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 90C2D347E0, deployment hash D7A7D214B8, version 6
+2018-05-02 16:39:09,597   INFO  [MP Site - 0:8] HOST: To: catalog hash: F13FC096C8, deployment hash: D7A7D214B8
+2018-05-02 16:39:09,599   INFO  [SP 6 Site - 0:6] HOST: Site 0:6 acknowledged data and catalog prechecks.
+2018-05-02 16:39:09,618   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:09,623   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:09,623   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:09,633   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 36.55881
+2018-05-02 16:39:09,634   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes F13FC096C8, D7A7D214B8).
+2018-05-02 16:39:09,670   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:09,670   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE total_rate_code_trips2016
+  AS 
+    SELECT count(ratecodeID) AS rate_code_trip
+    FROM taxis2016
+    WHERE ratecodeID = ?
+2018-05-02 16:39:09,810   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_rate_code_trips2016 added.
+
+2018-05-02 16:39:09,814   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:09,818   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:09,936   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash F13FC096C8, deployment hash D7A7D214B8, version 7
+2018-05-02 16:39:09,936   INFO  [MP Site - 0:8] HOST: To: catalog hash: 6F51A7923F, deployment hash: D7A7D214B8
+2018-05-02 16:39:09,940   INFO  [SP 7 Site - 0:7] HOST: Site 0:7 acknowledged data and catalog prechecks.
+2018-05-02 16:39:09,987   INFO  [SP 6 Site - 0:6] IMPORT: Final importer count:0
+2018-05-02 16:39:09,988   INFO  [SP 6 Site - 0:6] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:09,988   INFO  [SP 6 Site - 0:6] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:10,002   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 66.296035
+2018-05-02 16:39:10,002   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 6F51A7923F, D7A7D214B8).
+2018-05-02 16:39:10,053   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:10,053   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE total_passengers_vendorId_trips2016
+  AS 
+    SELECT SUM(passenger_count) AS total_passengers_vendorId 
+    FROM taxis2016 
+    WHERE vendorID = ?
+2018-05-02 16:39:10,239   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_passengers_vendorId_trips2016 added.
+
+2018-05-02 16:39:10,240   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:10,240   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:10,347   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 6F51A7923F, deployment hash D7A7D214B8, version 8
+2018-05-02 16:39:10,348   INFO  [MP Site - 0:8] HOST: To: catalog hash: 29C6727115, deployment hash: D7A7D214B8
+2018-05-02 16:39:10,349   INFO  [SP 0 Site - 0:0] HOST: Site 0:0 acknowledged data and catalog prechecks.
+2018-05-02 16:39:10,372   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:10,373   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:10,373   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:10,383   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 35.532358
+2018-05-02 16:39:10,383   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 29C6727115, D7A7D214B8).
+2018-05-02 16:39:10,423   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:10,423   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE average_passengers_taxi_trips2016
+  AS 
+    SELECT AVG(passenger_count) AS average_passengers_taxi
+    FROM taxis2016
+2018-05-02 16:39:10,583   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure average_passengers_taxi_trips2016 added.
+
+2018-05-02 16:39:10,583   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:10,583   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:10,696   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 29C6727115, deployment hash D7A7D214B8, version 9
+2018-05-02 16:39:10,696   INFO  [MP Site - 0:8] HOST: To: catalog hash: D473D66EF6, deployment hash: D7A7D214B8
+2018-05-02 16:39:10,698   INFO  [SP 1 Site - 0:1] HOST: Site 0:1 acknowledged data and catalog prechecks.
+2018-05-02 16:39:10,718   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:10,718   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:10,719   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:10,730   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 34.25332100000001
+2018-05-02 16:39:10,730   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes D473D66EF6, D7A7D214B8).
+2018-05-02 16:39:10,759   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:10,759   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE
+  FROM CLASS max_distance_trips2016
+2018-05-02 16:39:10,818   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:10,960   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure max_distance_trips2016 added.
+
+2018-05-02 16:39:10,962   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:10,969   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:11,082   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash D473D66EF6, deployment hash D7A7D214B8, version 10
+2018-05-02 16:39:11,082   INFO  [MP Site - 0:8] HOST: To: catalog hash: 6C587A3EAF, deployment hash: D7A7D214B8
+2018-05-02 16:39:11,085   INFO  [SP 2 Site - 0:2] HOST: Site 0:2 acknowledged data and catalog prechecks.
+2018-05-02 16:39:11,101   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:11,101   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:11,101   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:11,130   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 47.810623
+2018-05-02 16:39:11,130   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 6C587A3EAF, D7A7D214B8).
+2018-05-02 16:39:11,164   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:11,165   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE
+  FROM CLASS min_distance_trips2016
+2018-05-02 16:39:11,221   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:11,226   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:11,352   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure min_distance_trips2016 added.
+
+2018-05-02 16:39:11,352   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:11,354   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:11,459   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 6C587A3EAF, deployment hash D7A7D214B8, version 11
+2018-05-02 16:39:11,459   INFO  [MP Site - 0:8] HOST: To: catalog hash: 235485879E, deployment hash: D7A7D214B8
+2018-05-02 16:39:11,460   INFO  [SP 3 Site - 0:3] HOST: Site 0:3 acknowledged data and catalog prechecks.
+2018-05-02 16:39:11,477   INFO  [SP 5 Site - 0:5] IMPORT: Final importer count:0
+2018-05-02 16:39:11,477   INFO  [SP 5 Site - 0:5] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:11,477   INFO  [SP 5 Site - 0:5] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:11,491   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 31.643776999999996
+2018-05-02 16:39:11,491   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 235485879E, D7A7D214B8).
+2018-05-02 16:39:14,354   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:14,355   INFO  [NTPServiceThread-0] COMPILER: 	CREATE TABLE taxis2017 (
+   vendorID INTEGER,
+   tpep_pickup_datetime VARCHAR(64),
+   tpep_dropoff_datetime VARCHAR(64),
+   passenger_count INTEGER,
+   trip_distance DECIMAL,
+   ratecodeID INTEGER,
+   store_and_fwd_flag VARCHAR(1),
+   PULocationID INTEGER NOT NULL,
+   DOLocationID INTEGER NOT NULL,
+   payment_type INTEGER,
+   fare_amount DECIMAL,
+   extra DECIMAL,
+   mta_tax DECIMAL,
+   tip_amount DECIMAL,
+   tolls_amount DECIMAL,
+   improvement_surcharge DECIMAL,
+   total_amount DECIMAL
+)
+2018-05-02 16:39:14,484   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:14,491   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:14,751   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table TAXIS2017 added.
+
+2018-05-02 16:39:14,758   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:14,765   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:14,873   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 235485879E, deployment hash D7A7D214B8, version 12
+2018-05-02 16:39:14,873   INFO  [MP Site - 0:8] HOST: To: catalog hash: 0654CD399F, deployment hash: D7A7D214B8
+2018-05-02 16:39:14,877   INFO  [SP 4 Site - 0:4] HOST: Site 0:4 acknowledged data and catalog prechecks.
+2018-05-02 16:39:14,922   INFO  [SP 4 Site - 0:4] IMPORT: Final importer count:0
+2018-05-02 16:39:14,927   INFO  [SP 4 Site - 0:4] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:14,927   INFO  [SP 4 Site - 0:4] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:14,953   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 80.038331
+2018-05-02 16:39:14,953   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 0654CD399F, D7A7D214B8).
+2018-05-02 16:39:15,041   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:15,042   INFO  [NTPServiceThread-1] COMPILER: 	CREATE INDEX y_tripdata_idx ON taxis2017 (PULocationId, DOLocationId)
+2018-05-02 16:39:15,128   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:15,135   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:15,309   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table TAXIS2017 has been modified.
+
+2018-05-02 16:39:15,313   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:15,313   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:15,447   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 0654CD399F, deployment hash D7A7D214B8, version 13
+2018-05-02 16:39:15,447   INFO  [MP Site - 0:8] HOST: To: catalog hash: 6693550505, deployment hash: D7A7D214B8
+2018-05-02 16:39:15,448   INFO  [SP 5 Site - 0:5] HOST: Site 0:5 acknowledged data and catalog prechecks.
+2018-05-02 16:39:15,493   INFO  [SP 4 Site - 0:4] IMPORT: Final importer count:0
+2018-05-02 16:39:15,494   INFO  [SP 4 Site - 0:4] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:15,495   INFO  [SP 4 Site - 0:4] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:15,521   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 74.394059
+2018-05-02 16:39:15,521   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 6693550505, D7A7D214B8).
+2018-05-02 16:39:15,604   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:15,604   INFO  [NTPServiceThread-0] COMPILER: 	PARTITION TABLE taxis2017 ON COLUMN PULocationId
+2018-05-02 16:39:15,735   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:15,737   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:16,001   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table TAXIS2017 has been modified.
+
+2018-05-02 16:39:16,005   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:16,022   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:16,137   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 6693550505, deployment hash D7A7D214B8, version 14
+2018-05-02 16:39:16,137   INFO  [MP Site - 0:8] HOST: To: catalog hash: 84A309331F, deployment hash: D7A7D214B8
+2018-05-02 16:39:16,140   INFO  [SP 6 Site - 0:6] HOST: Site 0:6 acknowledged data and catalog prechecks.
+2018-05-02 16:39:16,178   INFO  [SP 1 Site - 0:1] IMPORT: Final importer count:0
+2018-05-02 16:39:16,179   INFO  [SP 1 Site - 0:1] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:16,180   INFO  [SP 1 Site - 0:1] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:16,203   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 66.745785
+2018-05-02 16:39:16,213   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 84A309331F, D7A7D214B8).
+2018-05-02 16:39:16,308   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:16,308   INFO  [NTPServiceThread-1] COMPILER: 	CREATE TABLE location(
+  location_Id INTEGER NOT NULL primary key,
+  borough VARCHAR(64),
+  zone VARCHAR(64),
+  service_Zone VARCHAR(64),
+  ntacode VARCHAR(64)
+)
+2018-05-02 16:39:16,388   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:16,390   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:16,505   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table LOCATION added.
+
+2018-05-02 16:39:16,509   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:16,513   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:16,628   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 84A309331F, deployment hash D7A7D214B8, version 15
+2018-05-02 16:39:16,629   INFO  [MP Site - 0:8] HOST: To: catalog hash: DCFFB492C7, deployment hash: D7A7D214B8
+2018-05-02 16:39:16,634   INFO  [SP 7 Site - 0:7] HOST: Site 0:7 acknowledged data and catalog prechecks.
+2018-05-02 16:39:16,663   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:16,663   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:16,663   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:16,684   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 55.743032
+2018-05-02 16:39:16,684   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes DCFFB492C7, D7A7D214B8).
+2018-05-02 16:39:16,756   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:16,756   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE numtrips_PU
+  PARTITION ON TABLE taxis2017 COLUMN PULocationId
+  AS 
+    select 
+      count(1) 
+    from taxis2017 a
+    left join location b
+    on
+      a.PULocationId = b.location_Id
+    where 
+      b.location_Id = ?
+2018-05-02 16:39:16,891   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:16,954   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:17,052   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure numtrips_PU added.
+
+2018-05-02 16:39:17,053   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:17,053   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:17,160   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash DCFFB492C7, deployment hash D7A7D214B8, version 16
+2018-05-02 16:39:17,160   INFO  [MP Site - 0:8] HOST: To: catalog hash: 98366D9CEC, deployment hash: D7A7D214B8
+2018-05-02 16:39:17,163   INFO  [SP 0 Site - 0:0] HOST: Site 0:0 acknowledged data and catalog prechecks.
+2018-05-02 16:39:17,228   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:17,231   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:17,231   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:17,258   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 97.48132000000001
+2018-05-02 16:39:17,258   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 98366D9CEC, D7A7D214B8).
+2018-05-02 16:39:17,333   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:17,334   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE boroughs_name 
+  AS 
+    select   
+      *
+    from location 
+    where location_Id = ?
+2018-05-02 16:39:17,428   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:17,431   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:17,574   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure boroughs_name added.
+
+2018-05-02 16:39:17,578   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:17,585   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:17,694   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 98366D9CEC, deployment hash D7A7D214B8, version 17
+2018-05-02 16:39:17,694   INFO  [MP Site - 0:8] HOST: To: catalog hash: 949B3F84B9, deployment hash: D7A7D214B8
+2018-05-02 16:39:17,696   INFO  [SP 1 Site - 0:1] HOST: Site 0:1 acknowledged data and catalog prechecks.
+2018-05-02 16:39:17,773   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:17,776   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:17,777   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:17,815   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 121.151329
+2018-05-02 16:39:17,815   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 949B3F84B9, D7A7D214B8).
+2018-05-02 16:39:17,886   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:17,887   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE
+	FROM CLASS get_id_location_zone
+2018-05-02 16:39:17,963   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:17,981   WARN  [NTPServiceThread-0] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:17,985   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:18,113   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure get_id_location_zone added.
+
+2018-05-02 16:39:18,118   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:18,121   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:18,230   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 949B3F84B9, deployment hash D7A7D214B8, version 18
+2018-05-02 16:39:18,231   INFO  [MP Site - 0:8] HOST: To: catalog hash: EC5165A64F, deployment hash: D7A7D214B8
+2018-05-02 16:39:18,231   INFO  [SP 2 Site - 0:2] HOST: Site 0:2 acknowledged data and catalog prechecks.
+2018-05-02 16:39:18,257   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:18,257   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:18,258   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:18,274   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 44.064651
+2018-05-02 16:39:18,274   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes EC5165A64F, D7A7D214B8).
+2018-05-02 16:39:18,330   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:18,330   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE
+  FROM CLASS max_distance_trips2017
+2018-05-02 16:39:18,409   WARN  [NTPServiceThread-1] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:18,410   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:18,493   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:18,498   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:18,692   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure max_distance_trips2017 added.
+
+2018-05-02 16:39:18,696   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:18,700   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:18,809   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash EC5165A64F, deployment hash D7A7D214B8, version 19
+2018-05-02 16:39:18,809   INFO  [MP Site - 0:8] HOST: To: catalog hash: 6667C620ED, deployment hash: D7A7D214B8
+2018-05-02 16:39:18,810   INFO  [SP 3 Site - 0:3] HOST: Site 0:3 acknowledged data and catalog prechecks.
+2018-05-02 16:39:18,830   INFO  [SP 5 Site - 0:5] IMPORT: Final importer count:0
+2018-05-02 16:39:18,831   INFO  [SP 5 Site - 0:5] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:18,831   INFO  [SP 5 Site - 0:5] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:18,844   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 35.726242
+2018-05-02 16:39:18,844   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 6667C620ED, D7A7D214B8).
+2018-05-02 16:39:30,898   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:30,899   INFO  [NTPServiceThread-0] COMPILER: 	ALTER TABLE taxis2016 ADD COLUMN Year_Trip integer default 2016
+2018-05-02 16:39:30,968   WARN  [NTPServiceThread-0] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:30,982   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:31,129   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:31,138   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:31,312   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table TAXIS2016 has been modified.
+
+2018-05-02 16:39:31,318   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:31,327   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:31,438   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 6667C620ED, deployment hash D7A7D214B8, version 20
+2018-05-02 16:39:31,438   INFO  [MP Site - 0:8] HOST: To: catalog hash: 3974A96345, deployment hash: D7A7D214B8
+2018-05-02 16:39:31,440   INFO  [SP 0 Site - 0:0] HOST: Site 0:0 acknowledged data and catalog prechecks.
+2018-05-02 16:39:31,457   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:31,462   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:31,463   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:31,673   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 234.311861
+2018-05-02 16:39:31,673   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 3974A96345, D7A7D214B8).
+2018-05-02 16:39:34,508   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:34,508   INFO  [NTPServiceThread-1] COMPILER: 	ALTER TABLE taxis2017 ADD COLUMN Year_Trip integer default 2017
+2018-05-02 16:39:34,666   WARN  [NTPServiceThread-1] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:34,667   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:34,703   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:34,704   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:34,902   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table TAXIS2017 has been modified.
+
+2018-05-02 16:39:34,909   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:34,909   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:35,016   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 3974A96345, deployment hash D7A7D214B8, version 21
+2018-05-02 16:39:35,017   INFO  [MP Site - 0:8] HOST: To: catalog hash: 0A55311F03, deployment hash: D7A7D214B8
+2018-05-02 16:39:35,017   INFO  [SP 1 Site - 0:1] HOST: Site 0:1 acknowledged data and catalog prechecks.
+2018-05-02 16:39:35,043   INFO  [SP 1 Site - 0:1] IMPORT: Final importer count:0
+2018-05-02 16:39:35,044   INFO  [SP 1 Site - 0:1] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:35,045   INFO  [SP 1 Site - 0:1] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:35,108   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 90.925878
+2018-05-02 16:39:35,108   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 0A55311F03, D7A7D214B8).
+2018-05-02 16:39:37,503   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:37,503   INFO  [NTPServiceThread-0] COMPILER: 	CREATE TABLE central_park_weather (
+   station VARCHAR(64),
+   name VARCHAR(64),
+   date_time VARCHAR(64),
+   awnd DECIMAL,
+   prcp DECIMAL,
+   snow DECIMAL,
+   snwd INTEGER,
+   tmax INTEGER,
+   tmin INTEGER,
+)
+2018-05-02 16:39:37,641   WARN  [NTPServiceThread-0] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:37,644   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:37,653   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:37,655   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:37,880   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+TABLE CHANGES:
+  Table CENTRAL_PARK_WEATHER added.
+
+2018-05-02 16:39:37,883   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:37,889   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:38,003   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 0A55311F03, deployment hash D7A7D214B8, version 22
+2018-05-02 16:39:38,004   INFO  [MP Site - 0:8] HOST: To: catalog hash: 2B377F4CEA, deployment hash: D7A7D214B8
+2018-05-02 16:39:38,008   INFO  [SP 2 Site - 0:2] HOST: Site 0:2 acknowledged data and catalog prechecks.
+2018-05-02 16:39:38,086   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:38,087   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:38,087   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:38,117   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 112.92458599999999
+2018-05-02 16:39:38,117   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 2B377F4CEA, D7A7D214B8).
+2018-05-02 16:39:38,270   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:38,270   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE total_voided_trips
+AS
+	SELECT count(payment_type) AS total_voided_trips
+	FROM (
+		SELECT payment_type, year_trip FROM taxis2016 
+		UNION ALL
+		SELECT payment_type, year_trip FROM taxis2017 
+	) as total
+	WHERE year_trip = ? AND payment_type = 6
+2018-05-02 16:39:38,409   WARN  [NTPServiceThread-1] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:38,409   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:38,524   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:38,524   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:38,738   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_voided_trips added.
+
+2018-05-02 16:39:38,743   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:38,746   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:38,855   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 2B377F4CEA, deployment hash D7A7D214B8, version 23
+2018-05-02 16:39:38,855   INFO  [MP Site - 0:8] HOST: To: catalog hash: 3FA6308157, deployment hash: D7A7D214B8
+2018-05-02 16:39:38,856   INFO  [SP 3 Site - 0:3] HOST: Site 0:3 acknowledged data and catalog prechecks.
+2018-05-02 16:39:38,898   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:38,899   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:38,899   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:38,920   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 64.98315
+2018-05-02 16:39:38,920   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 3FA6308157, D7A7D214B8).
+2018-05-02 16:39:38,966   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:38,966   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE total_no_charge_trips
+AS
+   SELECT count(payment_type) AS total_no_charge_trips
+   FROM (
+      SELECT payment_type, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT payment_type, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND payment_type = 3
+2018-05-02 16:39:39,036   WARN  [NTPServiceThread-0] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,037   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,044   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,045   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,217   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_no_charge_trips added.
+
+2018-05-02 16:39:39,218   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:39,219   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:39,322   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 3FA6308157, deployment hash D7A7D214B8, version 24
+2018-05-02 16:39:39,323   INFO  [MP Site - 0:8] HOST: To: catalog hash: FA868CF8AB, deployment hash: D7A7D214B8
+2018-05-02 16:39:39,323   INFO  [SP 4 Site - 0:4] HOST: Site 0:4 acknowledged data and catalog prechecks.
+2018-05-02 16:39:39,341   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:39,341   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:39,341   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:39,351   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 28.30914
+2018-05-02 16:39:39,351   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes FA868CF8AB, D7A7D214B8).
+2018-05-02 16:39:39,431   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:39,431   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE total_payment_type_trips
+AS
+   SELECT count(payment_type) AS total_payment_type_trips
+   FROM (
+      SELECT payment_type, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT payment_type, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND payment_type = ?
+2018-05-02 16:39:39,475   WARN  [NTPServiceThread-1] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,475   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,524   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,524   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,671   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_payment_type_trips added.
+
+2018-05-02 16:39:39,674   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:39,682   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:39,790   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash FA868CF8AB, deployment hash D7A7D214B8, version 25
+2018-05-02 16:39:39,790   INFO  [MP Site - 0:8] HOST: To: catalog hash: 3BEAAACA06, deployment hash: D7A7D214B8
+2018-05-02 16:39:39,790   INFO  [SP 5 Site - 0:5] HOST: Site 0:5 acknowledged data and catalog prechecks.
+2018-05-02 16:39:39,816   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:39,817   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:39,817   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:39,826   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 36.076614
+2018-05-02 16:39:39,826   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 3BEAAACA06, D7A7D214B8).
+2018-05-02 16:39:39,863   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:39,923   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE total_rate_code_trips
+AS
+   SELECT count(ratecodeID) AS total_rate_code_trips
+   FROM (
+      SELECT ratecodeID, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT ratecodeID, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND ratecodeID = ?
+2018-05-02 16:39:39,976   WARN  [NTPServiceThread-0] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,976   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,983   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:39,983   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,112   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_rate_code_trips added.
+
+2018-05-02 16:39:40,112   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:40,122   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:40,229   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 3BEAAACA06, deployment hash D7A7D214B8, version 26
+2018-05-02 16:39:40,229   INFO  [MP Site - 0:8] HOST: To: catalog hash: C749C059B9, deployment hash: D7A7D214B8
+2018-05-02 16:39:40,230   INFO  [SP 6 Site - 0:6] HOST: Site 0:6 acknowledged data and catalog prechecks.
+2018-05-02 16:39:40,253   INFO  [SP 2 Site - 0:2] IMPORT: Final importer count:0
+2018-05-02 16:39:40,253   INFO  [SP 2 Site - 0:2] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:40,253   INFO  [SP 2 Site - 0:2] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:40,263   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 33.93617
+2018-05-02 16:39:40,263   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes C749C059B9, D7A7D214B8).
+2018-05-02 16:39:40,325   INFO  [NTPServiceThread-1] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:40,325   INFO  [NTPServiceThread-1] COMPILER: 	CREATE PROCEDURE total_passengers_vendorId
+AS
+   SELECT SUM(passenger_count) AS total_passengers_vendorId
+   FROM (
+      SELECT vendorID, passenger_count, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT vendorID, passenger_count, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND vendorID = ?
+2018-05-02 16:39:40,390   WARN  [NTPServiceThread-1] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,390   WARN  [NTPServiceThread-1] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,414   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,415   WARN  [NTPServiceThread-1] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,571   INFO  [NTPServiceThread-1] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure total_passengers_vendorId added.
+
+2018-05-02 16:39:40,571   INFO  [NTPServiceThread-1] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:40,574   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:40,679   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash C749C059B9, deployment hash D7A7D214B8, version 27
+2018-05-02 16:39:40,679   INFO  [MP Site - 0:8] HOST: To: catalog hash: 324DD51216, deployment hash: D7A7D214B8
+2018-05-02 16:39:40,681   INFO  [SP 7 Site - 0:7] HOST: Site 0:7 acknowledged data and catalog prechecks.
+2018-05-02 16:39:40,697   INFO  [SP 0 Site - 0:0] IMPORT: Final importer count:0
+2018-05-02 16:39:40,698   INFO  [SP 0 Site - 0:0] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:40,698   INFO  [SP 0 Site - 0:0] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:40,709   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 30.566098
+2018-05-02 16:39:40,709   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 324DD51216, D7A7D214B8).
+2018-05-02 16:39:40,767   INFO  [NTPServiceThread-0] COMPILER: Applying the following DDL to cluster:
+2018-05-02 16:39:40,767   INFO  [NTPServiceThread-0] COMPILER: 	CREATE PROCEDURE average_passengers_taxi
+AS
+   SELECT AVG(passenger_count) AS average_passengers_taxi
+   FROM (
+      SELECT passenger_count, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT passenger_count, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ?
+2018-05-02 16:39:40,801   WARN  [NTPServiceThread-0] COMPILER: [get_id_location_zone.class]: Procedure get_id_location_zone has a statement with a non-deterministic result - statement: "select location_Id from location where zone = ?;", reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,802   WARN  [NTPServiceThread-0] COMPILER: [min_distance_trips2016.class]: Procedure min_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,838   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,838   WARN  [NTPServiceThread-0] COMPILER: [max_distance_trips2016.class]: Procedure max_distance_trips2016 has a statement with a non-deterministic result - statement: "SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude FROM taxis2016 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+2018-05-02 16:39:40,939   INFO  [NTPServiceThread-0] COMPILER: Catalog Difference Report
+=========================
+PROCEDURE CHANGES:
+  Procedure average_passengers_taxi added.
+
+2018-05-02 16:39:40,959   INFO  [NTPServiceThread-Priority-0] HOST: Verify user procedure classes and write catalog jar
+2018-05-02 16:39:40,976   INFO  [NTPServiceThread-0] HOST: Max timeout setting for VerifyCatalogAndWriteJar is 60 seconds
+2018-05-02 16:39:41,088   INFO  [MP Site - 0:8] HOST: New catalog update from: Catalog: catalog hash 324DD51216, deployment hash D7A7D214B8, version 28
+2018-05-02 16:39:41,088   INFO  [MP Site - 0:8] HOST: To: catalog hash: 6FA3ABAF40, deployment hash: D7A7D214B8
+2018-05-02 16:39:41,088   INFO  [SP 0 Site - 0:0] HOST: Site 0:0 acknowledged data and catalog prechecks.
+2018-05-02 16:39:41,109   INFO  [SP 3 Site - 0:3] IMPORT: Final importer count:0
+2018-05-02 16:39:41,109   INFO  [SP 3 Site - 0:3] HOST: Resource limit monitoring configured to run every 60 seconds
+2018-05-02 16:39:41,109   INFO  [SP 3 Site - 0:3] HOST: RSS limit: 80% (9,30 GB)
+2018-05-02 16:39:41,146   INFO  [MP Site - 0:8] HOST: Catalog update block time (milliseconds): 58.363174
+2018-05-02 16:39:41,146   INFO  [MP Site - 0:8] HOST: Globally updating the current application catalog and deployment (new hashes 6FA3ABAF40, D7A7D214B8).
+2018-05-02 16:58:35,733   INFO  [Thread-2] CONSOLE: ********************************************************************************
+2018-05-02 16:58:35,733   INFO  [Thread-2] CONSOLE: * The VoltDB server will shut down due to a control-C or other JVM exit. *
+2018-05-02 16:58:35,733   INFO  [Thread-2] CONSOLE: ********************************************************************************
