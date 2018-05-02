@@ -20,5 +20,4 @@ AS
 		UNION ALL
 		SELECT payment_type, year_trip FROM taxis2017 
 	) as total
-	WHERE year_trip = ?
-;
+	WHERE year_trip = ? AND payment_type = 6;

@@ -12,12 +12,10 @@ jar cvf $2/files/storedprocs.jar *.class
 echo -e "load classes $2/files/storedprocs.jar" | sqlcmd
 echo -e "FILE $2/SQLs/taxis2016.sql" | sqlcmd
 echo -e "FILE $2/SQLs/taxis2017.sql" | sqlcmd
-echo -e "FILE $2/SQLs/commun.sql" | sqlcmd
 csvloader --skip 1 --file $2/../CSVs/$4 taxis2016 --limitrows $3
 csvloader --skip 1 --file $2/../CSVs/$5 taxis2017 --limitrows $3
 csvloader --skip 1 --file $2/../CSVs/$6 location --limitrows $3
-csvloader --skip 1 --file $2/../CSVs/$7 central_park_weather --limitrows $3
-
 echo -e "ALTER TABLE taxis2016 ADD COLUMN Year_Trip integer default 2016;" | sqlcmd
 echo -e "ALTER TABLE taxis2017 ADD COLUMN Year_Trip integer default 2017;" | sqlcmd
-
+echo -e "FILE $2/SQLs/commun.sql" | sqlcmd
+csvloader --skip 1 --file $2/../CSVs/$7 central_park_weather --limitrows $3
