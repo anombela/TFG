@@ -25,4 +25,4 @@ mv $2/files/*.log $2/files/csvloaders_log/
 mv $2/files/*.class $2/files/class/
 
 echo -e "-------------------------------------------------ERRORS-------------------------------------------------"
-cat /home/alex/Escritorio/TFG-taxis/data/files/exec_output/voltdb.log | grep ERROR
+cat $2/files/exec_output/voltdb.log | grep ERROR
