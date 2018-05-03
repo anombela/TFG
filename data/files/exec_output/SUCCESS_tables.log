@@ -1,0 +1,81 @@
+
+FILE /home/alex/Escritorio/TFG-taxis/data/SQLs/commun.sql
+
+CREATE TABLE central_park_weather (
+   station VARCHAR(64),
+   name VARCHAR(64),
+   date_time VARCHAR(64),
+   awnd DECIMAL,
+   prcp DECIMAL,
+   snow DECIMAL,
+   snwd INTEGER,
+   tmax INTEGER,
+   tmin INTEGER,
+);
+Command succeeded.
+
+CREATE PROCEDURE total_voided_trips
+AS
+	SELECT count(payment_type) AS total_voided_trips
+	FROM (
+		SELECT payment_type, year_trip FROM taxis2016 
+		UNION ALL
+		SELECT payment_type, year_trip FROM taxis2017 
+	) as total
+	WHERE year_trip = ? AND payment_type = 6;
+Command succeeded.
+
+CREATE PROCEDURE total_no_charge_trips
+AS
+   SELECT count(payment_type) AS total_no_charge_trips
+   FROM (
+      SELECT payment_type, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT payment_type, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND payment_type = 3;
+Command succeeded.
+
+CREATE PROCEDURE total_payment_type_trips
+AS
+   SELECT count(payment_type) AS total_payment_type_trips
+   FROM (
+      SELECT payment_type, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT payment_type, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND payment_type = ?;
+Command succeeded.
+
+CREATE PROCEDURE total_rate_code_trips
+AS
+   SELECT count(ratecodeID) AS total_rate_code_trips
+   FROM (
+      SELECT ratecodeID, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT ratecodeID, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND ratecodeID = ?;
+Command succeeded.
+
+CREATE PROCEDURE total_passengers_vendorId
+AS
+   SELECT SUM(passenger_count) AS total_passengers_vendorId
+   FROM (
+      SELECT vendorID, passenger_count, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT vendorID, passenger_count, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ? AND vendorID = ?;
+Command succeeded.
+
+CREATE PROCEDURE average_passengers_taxi
+AS
+   SELECT AVG(passenger_count) AS average_passengers_taxi
+   FROM (
+      SELECT passenger_count, year_trip FROM taxis2016 
+      UNION ALL
+      SELECT passenger_count, year_trip FROM taxis2017 
+   ) as total
+   WHERE year_trip = ?;
+Command succeeded.
