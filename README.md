@@ -6,7 +6,7 @@ repositorio para el TFG de Alfonso y Alejandro
 1. Encendemos voltdb ejecutando:
 
     ```
-	cd /home/alex/Escritorio/TFG-taxis/data/Scripts/
+        cd /home/alex/Escritorio/TFG-taxis/data/Scripts/
         ./start_voltdb.sh > /home/alex/Escritorio/TFG-taxis/data/files/exec_output/voltdb.log &
     ```
 2. Dejamos que inicie Voltdb y tras 10 segundos de espera:
