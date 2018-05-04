@@ -3,7 +3,7 @@ repositorio para el TFG de Alfonso y Alejandro
 
 ### EJEMPLO CARGAR DATOS:
 
-1. Encendemos voltdb ejecutando:
+1. Encendemos voltdb ejecutando en background:
 
     ```
        $ cd /home/alex/Escritorio/TFG-taxis/data/Scripts/
