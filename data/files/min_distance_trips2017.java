@@ -1,10 +1,10 @@
 import org.voltdb.*;
 
-public class max_distance_trips2017 extends VoltProcedure {
+public class min_distance_trips2017 extends VoltProcedure {
 
 	public final SQLStmt get_trip = new SQLStmt(
 		"SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 "
-		+ "ORDER BY trip_distance DESC LIMIT 1;"
+		+ "ORDER BY trip_distance ASC LIMIT 1;"
 	);
 
 	public final SQLStmt get_origin_zone = new SQLStmt(

@@ -34,9 +34,18 @@ CREATE PROCEDURE journey_min_total_amount_trips2016
     FROM taxis2016
     ORDER BY total_amount
     ASC LIMIT 1;
-  
-CREATE PROCEDURE
-  FROM CLASS max_distance_trips2016;
 
-CREATE PROCEDURE
-  FROM CLASS min_distance_trips2016;
+CREATE PROCEDURE max_distance_trips2016
+  AS 
+    SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude
+    FROM taxis2016
+    ORDER BY trip_distance
+    DESC LIMIT 1;
+
+CREATE PROCEDURE min_distance_trips2016
+  AS 
+    SELECT trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude
+    FROM taxis2016
+    ORDER BY trip_distance
+    ASC LIMIT 1;
+
