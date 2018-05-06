@@ -1,9 +1,82 @@
-html, body{
-	height:100%;
-	margin: 0px;
+body{
+    padding:20px;
+    margin:20px 60px;
+    font-family:Arial;
+    font-size: 12px;
+    background-color:silver;
 }
 
-#googleMap{
-	width:700px;
-	height:500px;
+.contenedorglobal{
+    width: 95%;
+    height: 900px;
+    background-color: white;
+    margin: -20px 10px 10px 10px ;
+    border:2px inset purple;
+}
+
+.encabezado
+{
+    width: 97.5%;
+    height: 75px;
+    background-color: #848484;
+    margin: 10px 10px 10px 10px ;
+    border:2px inset purple;
+    color: #0000FF;
+    text-align:center;
+}
+
+
+.contenedorinterno{
+    width: 97.5%;
+    height: 790px;
+    background-color: white;
+    margin: 10px 10px 10px 10px ;
+    border:2px inset purple;
+}
+
+.izquierdo{
+    width: 20%;
+    height: 230px;
+    background-color: D0FA58;
+    margin: 10px 10px 10px 10px ;
+    float: left;
+    border:2px inset purple;
+    text-align:center;
+    cursor: crosshair;
+}
+.izquierdo2{
+    width: 20%;
+    height: 510px;
+    background-color: D0FA58;
+    margin: 10px 10px 10px 10px ;
+    float: left;
+    border:2px inset purple;
+    text-align:center;
+    cursor: crosshair;
+}
+
+
+.central{
+    width: 74%;
+    height: 350px;
+    margin: 10px 10px 10px 10px ;
+    border:4px inset purple;
+    float: right;
+}
+
+
+h2{
+    color:#FF0000;
+}
+
+.central2{
+    width: 74%;
+    height: 380px;
+    background-color: D0FA58;
+    margin: 10px 10px 10px 10px ;
+    float: left;
+    border:4px inset purple;
+    text-align:center;
+    color:#298A08;
+    float: right;
 }

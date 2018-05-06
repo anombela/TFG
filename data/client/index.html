@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Aplicación cliente Rutas Taxis NY</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="client_app.css" />
+	<script type="text/javascript" src="client_app.js"></script>
+	<script async defer type="text/javascript" src="http://maps.googleapis.com/maps/api/js?signed_in=true&callback=initialize"></script>
+</head>
+
+<body >
+<div class="contenedorglobal">  <!-- contenedor global-->
+  <div class="encabezado">
+  <h1>RUTAS TAXIS NUEVA YORK<h1>
+  </div>
+  
+
+  <div class="contenedorinterno">    <!-- contenedor interno-->
+   
+   
+      <div class="izquierdo">
+      <input type="button" value="Ruta mas larga" onclick="javascript:carga();"/>
+	<input type="button" value="Borra" onclick="javascript:clearMarkers();"/>
+	<input type="button" value="Poligono_PU" onclick="javascript:getRectangle_PU();"/>
+	<input type="button" value="Poligono_PO" onclick="javascript:getRectangle_PO();"/>
+  		</div>  		
+   
+      <div id="googleMap" class="central"></div>
+
+      <div class="izquierdo2">
+      	Número de rutas: <div id="num_trips"></div>
+      </div>
+   		
+      <div class="central2">tabla con todas las rutas</div>
+   
+     
+    
+   
+       
+      
+  </div> <!-- Cierro el contenedor interno-->
+ </div>  <!-- Cierro el contenedor global-->
+</body>
+</html>
