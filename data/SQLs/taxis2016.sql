@@ -51,3 +51,6 @@ CREATE PROCEDURE min_distance_trips2016
 
 CREATE PROCEDURE
   FROM CLASS most_used_vendorID;
+
+CREATE PROCEDURE
+  FROM CLASS cheaper_rate_vendorID;

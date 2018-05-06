@@ -79,7 +79,3 @@ AS
    ) as total
    WHERE year_trip = ?;
 Command succeeded.
-
-CREATE PROCEDURE
-  FROM CLASS most_used_vendorID;
-Command succeeded.

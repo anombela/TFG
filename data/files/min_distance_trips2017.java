@@ -21,22 +21,21 @@ public class min_distance_trips2017 extends VoltProcedure {
 
  			
  			final int colCount = result.getColumnCount();
- 			int rowCount = 1;
  			long PULocationID = 0;
  			long DOLocationID = 0;
  			result.resetRowPosition();
  			while (result.advanceRow()) {
-      			for (int col=0; col<colCount; col++) {
-               		if (col == 1){
+   			for (int col=0; col<colCount; col++) {
+            		if (col == 1){
       					PULocationID = result.getLong(col);
       					System.out.printf("%d\n", PULocationID);
-      				}
-               		else if (col == 2) {
-               			DOLocationID = result.getLong(col);
-               			System.out.printf("%d\n", DOLocationID);
-               		}
-      			}
+   				   }
+            		else if (col == 2) {
+            			DOLocationID = result.getLong(col);
+            			System.out.printf("%d\n", DOLocationID);
+            		}
    			}
+   		}
 
    			voltQueueSQL(get_trip);
    			voltQueueSQL(get_origin_zone, PULocationID);
