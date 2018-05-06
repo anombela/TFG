@@ -49,3 +49,5 @@ CREATE PROCEDURE min_distance_trips2016
     ORDER BY trip_distance
     ASC LIMIT 1;
 
+CREATE PROCEDURE
+  FROM CLASS most_used_vendorID;

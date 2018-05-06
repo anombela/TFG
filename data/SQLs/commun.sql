@@ -87,6 +87,3 @@ AS
       SELECT passenger_count, year_trip FROM taxis2017 
    ) as total
    WHERE year_trip = ?;
-
-
-
