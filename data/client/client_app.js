@@ -1,8 +1,10 @@
 var map;
 var markers = [];
-var rectangles = ["Rectangle_PU","Rectangle_PO"];
+var rectangles = ["Rectangle_PU","Rectangle_DO"];
 var infoWindow;
 var mapupdater;
+var polygon_PU = '';
+var polygon_DO = '';
 
 function init() {
     initialize();
@@ -97,7 +99,7 @@ function getRectangle_PU(){
    
 }
 //el rectangulo seobtine con los puntos de abajo izquierda y arriba derecha, los otros se calcularán
-function getRectangle_PO(){ 
+function getRectangle_DO(){ 
     var bounds = {
         north: 40.693103,
         south: 40.673103,
@@ -117,12 +119,16 @@ function getRectangle_PO(){
         editable: true // de momento no
 
     });
-    if (rectangles[1] != "Rectangle_PO"){
+    if (rectangles[1] != "Rectangle_DO"){
         rectangles[1].setMap(null);
     }
     rectangles[1] = rectangle
     rectangle.setMap(map);
-    rectangle.addListener('bounds_changed', move_PO);
+    rectangle.addListener('bounds_changed', function(){
+    	clearTimeout(mapupdater);
+     	mapupdater=setTimeout(move_DO,500); 
+     	//pequeño retraso de medio segundo, porque si no se llamaba a la funcíón muchas veces y colapsaba
+    });
 
 
 }
@@ -146,12 +152,12 @@ function move_PU(data){
 
         infoWindow.open(map);
 
-        get_trips(ne.lat(),sw.lat(),ne.lng(),sw.lng());
+        get_trips(0,ne.lat(),sw.lat(),ne.lng(),sw.lng());
 
 
 }
 
-function move_PO(data){
+function move_DO(data){
     console.log(data)
 
     var ne = rectangles[1].getBounds().getNorthEast();
@@ -167,18 +173,41 @@ function move_PO(data){
 
         infoWindow.open(map);
 
+        get_trips(1,ne.lat(),sw.lat(),ne.lng(),sw.lng());
 
 }
 
-function get_trips(north_PU,south_PU,east_PU,west_PU){
-    var url = "http://localhost:8080/api/1.0/?Procedure=get_info_2016&Parameters=" +
-            "[" + north_PU + "," + south_PU + "," + east_PU + "," + west_PU + "]";
-    console.log(url)
+//type es 1 si es PU y 0 si es DO
+function get_trips(type,north_PU,south_PU,east_PU,west_PU){
+
+
+	//punto 1 del rectangulo arriba a la derecha, el resto en estido horario
+	//van primero longitud y luego latitud (horizontal- vertical)
+	var P1 = east_PU + " " + north_PU;
+    var P2 = west_PU + " " + north_PU;
+    var P3 = west_PU + " " + south_PU;
+    var P4 = east_PU + " " + south_PU;
+
+	//polygonFromText('POLYGON((-64.72 32.16, -80.41 25.30, -65.82 18.40, -64.72 32.16))')
+	var polygon= "POLYGON(("+P1+", "+P2+", "+P3+", "+P4+", "+P1+"))";
+	if (type == 0){
+		console.log("polygon_PU =polygon");
+		polygon_PU =polygon
+	}else if (type == 1){
+		console.log("polygon_Do =polygon");
+		polygon_DO =polygon
+	}
+
+
+    var url = "http://localhost:8080/api/1.0/?Procedure=get_info_2016&Parameters=" + 
+    		  "['" +  polygon_PU + "','" + polygon_DO + "']";
+    console.log(url);
     callJSON(url,"Count_Trips");
 }
 
 function Count_Trips(datos){
 
+	console.log(datos);
     console.log(datos.results[0].data[0][0]);
     var x = document.getElementById("num_trips");
     x.innerHTML = datos.results[0].data[0][0];
