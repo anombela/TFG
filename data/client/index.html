@@ -5,9 +5,10 @@
 	<link rel="stylesheet" type="text/css" href="client_app.css" />
 	<script type="text/javascript" src="client_app.js"></script>
 	<script async defer type="text/javascript" src="http://maps.googleapis.com/maps/api/js?signed_in=true&callback=initialize"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
-<body >
+<body onload="init();">
 <div class="contenedorglobal">  <!-- contenedor global-->
   <div class="encabezado">
   <h1>RUTAS TAXIS NUEVA YORK<h1>
@@ -30,10 +31,15 @@
       	Número de rutas: <div id="num_trips"></div>
       </div>
    		
-      <div class="central2">tabla con todas las rutas</div>
+      <div class="central2">
+        <table id="trips_table" class="w3-table-all w3-hoverable">
+          <thead id='table_head'></thead>
+          <tbody id='table_info'></tbody>
+        </table>
+      </div>
    
      
-    
+  
    
        
       

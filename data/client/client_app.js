@@ -6,9 +6,30 @@ var mapupdater;
 var polygon_PU = '';
 var polygon_DO = '';
 
-function init() {
-    initialize();
+
+function reset_coord(coord){
+	//console.log("entraaaaaa");
+	var P1 = "180" + " " + "90";
+    var P2 = "-180" + " " + "90";
+    var P3 = "-180" + " " + "-90";
+    var P4 = "180" + " " + "-90";
+	var polygon= "POLYGON(("+P1+", "+P2+", "+P3+", "+P4+", "+P1+"))";
+	if (coord == "polygon_PU"){
+		polygon_PU =polygon;
+	}else if (coord == "polygon_DO"){
+		polygon_DO =polygon;
+	}
 }
+
+
+function init() {
+	reset_coord("polygon_PU");
+	reset_coord("polygon_DO");
+    initialize();
+
+}
+
+
 
 function callJSON(url,callback) {
    var script = document.createElement('script');
@@ -208,7 +229,30 @@ function get_trips(type,north_PU,south_PU,east_PU,west_PU){
 function Count_Trips(datos){
 
 	console.log(datos);
-    console.log(datos.results[0].data[0][0]);
+    console.log(datos.results[0].schema.length);
     var x = document.getElementById("num_trips");
-    x.innerHTML = datos.results[0].data[0][0];
+    x.innerHTML = datos.results[0].data.length;
+
+    var t_head = '<tr>';
+    for (var i=0;i<datos.results[0].schema.length;i++){
+    	t_head+= "<th>"+datos.results[0].schema[i].name+"</th>";
+    }
+    t_head += '</tr>';
+    console.log(t_head);
+    var t1 = document.getElementById("table_head");
+    t1.innerHTML = t_head;
+
+
+    var t_info = '';
+    for (var i=0;i<datos.results[0].data.length;i++){
+    	t_info += '<tr>';
+    	for (var j=0;j<datos.results[0].data[i].length;j++){
+    	
+    		t_info+= "<td>"+datos.results[0].data[i][j]+"</td>";
+    	}
+    	t_info += '</tr>';
+    }
+    console.log(t_info);
+    var t1 = document.getElementById("table_info");
+    t1.innerHTML = t_info;
 }

@@ -79,4 +79,10 @@ h2{
     text-align:center;
     color:#298A08;
     float: right;
+    overflow:auto;
+}
+
+#trips_table{
+    overflow-x:auto; 
+    overflow-y:auto; 
 }
