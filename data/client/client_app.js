@@ -71,6 +71,7 @@ function Max_Trip(datos){
 function carga(){
     var url = "http://localhost:8080/api/1.0/?Procedure=max_distance_trips2016";
     callJSON(url,"Max_Trip");
+    callJSON(url,"Print_Table");
 }
 
 //pinta todos los marcadores que hay en el array
@@ -223,10 +224,10 @@ function get_trips(type,north_PU,south_PU,east_PU,west_PU){
     var url = "http://localhost:8080/api/1.0/?Procedure=get_info_2016&Parameters=" + 
     		  "['" +  polygon_PU + "','" + polygon_DO + "']";
     console.log(url);
-    callJSON(url,"Count_Trips");
+    callJSON(url,"Print_Table");
 }
 
-function Count_Trips(datos){
+function Print_Table(datos){
 
 	console.log(datos);
     console.log(datos.results[0].schema.length);
