@@ -23,9 +23,12 @@ function reset_coord(coord){
 
 
 function init() {
+    $( "#tabs" ).tabs();
 	reset_coord("polygon_PU");
 	reset_coord("polygon_DO");
     initialize();
+
+
 
 }
 
@@ -230,7 +233,7 @@ function get_trips(type,north_PU,south_PU,east_PU,west_PU){
 function Print_Table(datos){
 
 	console.log(datos);
-    console.log(datos.results[0].schema.length);
+
     var x = document.getElementById("num_trips");
     x.innerHTML = datos.results[0].data.length;
 
@@ -253,7 +256,41 @@ function Print_Table(datos){
     	}
     	t_info += '</tr>';
     }
-    console.log(t_info);
+
     var t1 = document.getElementById("table_info");
     t1.innerHTML = t_info;
+
+    //segunda query
+    var t2 = document.getElementById("most_expensive_trip");
+    if (datos.results[1].data.length > 0 ){
+        t2.innerHTML = datos.results[1].data[0][18];
+    }else{
+        t2.innerHTML = 0;
+    }
+
+    //tercera query
+    var t3 = document.getElementById("most_cheap_trip");
+    if (datos.results[2].data.length > 0 ){
+        t3.innerHTML = datos.results[2].data[0][18];
+    }else{
+        t3.innerHTML = 0;
+    }
+
+     //cuarta query
+    var t4 = document.getElementById("max_distance");
+    if (datos.results[3].data.length > 0 ){
+        t4.innerHTML = datos.results[3].data[0][4];
+    }else{
+        t4.innerHTML = 0;
+    }
+
+
+       //quinta query
+    var t5 = document.getElementById("min_distance");
+    if (datos.results[4].data.length > 0 ){
+        t5.innerHTML = datos.results[4].data[0][4];
+    }else{
+        t5.innerHTML = 0;
+    }
+
 }

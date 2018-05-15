@@ -2,9 +2,12 @@
 <head>
 	<title>Aplicación cliente Rutas Taxis NY</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="external/jquery/jquery-ui.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="client_app.css" />
 	<script type="text/javascript" src="client_app.js"></script>
 	<script async defer type="text/javascript" src="http://maps.googleapis.com/maps/api/js?signed_in=true&callback=initialize"></script>
+  <script src="external/jquery/jquery.js"></script>
+  <script src="external/jquery/jquery-ui.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
@@ -18,21 +21,38 @@
   <div class="contenedorinterno">    <!-- contenedor interno-->
    
    
-      <div class="izquierdo">
-      <input type="button" value="Ruta mas larga" onclick="javascript:carga();"/>
-	<input type="button" value="Borra" onclick="javascript:clearMarkers();"/>
-	<input type="button" value="Poligono_PU" onclick="javascript:getRectangle_PU();"/>
-	<input type="button" value="Poligono_DO" onclick="javascript:getRectangle_DO();"/>
-  		</div>  		
+    <div class="izquierdo">
+      <div id="tabs">
+        <ul style="margin-right:0px;float: center;">
+          <li class= "tab"><a href="#tabs-1">Año 2016</a></li>
+          <li class= "tab"><a href="#tabs-2">Año 2017</a></li>
+        </ul>
+        <div id="tabs-1">
+          <input type="button" value="Zona de Subida" onclick="javascript:getRectangle_PU();">
+          <input type="button" value="Zona de Bajada" onclick="javascript:getRectangle_DO();">
+        </div>
+        <div id="tabs-2"></div>
+      </div>
+      <!--<input type="button" value="Ruta mas larga" onclick="javascript:carga();"/>
+      <input type="button" value="Borra" onclick="javascript:clearMarkers();"/>
+      <input type="button" value="Poligono_PU" onclick="javascript:getRectangle_PU();"/>
+      <input type="button" value="Poligono_DO" onclick="javascript:getRectangle_DO();"/>-->
+  	</div>  		
    
       <div id="googleMap" class="central"></div>
 
       <div class="izquierdo2">
-      	Número de rutas: <div id="num_trips"></div>
+        <ul>
+      	<li>Número de rutas<div id="num_trips" class="data"></div></li>
+        <li>Ruta mas cara ($)<div id="most_expensive_trip" class="data"></div></li>
+        <li>Ruta mas barata ($)<div id="most_cheap_trip"  class="data"></div></li>
+        <li>Ruta mas larga <div id="max_distance"  class="data"></div></li>
+        <li>Ruta mas corta <div id="min_distance"  class="data"></div></li>
+      </ul>
       </div>
-   		
+   		<h3 id="info" style="text-decoration: underline red; margin-left:280px;"> Información de las rutas</h3>
       <div class="central2">
-        <table id="trips_table" class="w3-table-all w3-hoverable">
+        <table id="trips_table" class="w3-table-all w3-hoverable" style="font-size:x-small;">
           <thead id='table_head'></thead>
           <tbody id='table_info'></tbody>
         </table>
