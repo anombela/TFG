@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<title>Rutas Nueva York</title>
+<style>
+html, body, #googleMap {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=es"></script>
+<script>
+
+    var rendererOptions = {draggable: true};
+    var directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);;
+    var directionsService = new google.maps.DirectionsService();
+    var map;
+
+    var Nueva_York = new google.maps.LatLng(40.7142700,-74.0059700);
+
+    var str1 = "Manhattan";
+    var str2 = "Queens";
+
+    function initialize() {
+
+      var mapOptions = {
+          zoom: 10,
+          center: Nueva_York
+      };
+      
+      map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
+      directionsDisplay.setMap(map);
+      directionsDisplay.setPanel(document.getElementById('directionsPanel'));
+
+      google.maps.event.addListener(directionsDisplay, 'directions_changed', function() {
+          distanciaTotal(directionsDisplay.getDirections());
+      });
+
+      calculaRuta(str1,str2);
+    }
+
+
+    function calculaRuta(str1,str2) {
+
+      var request = {
+            //origin: {lat: 40.773773193359, lng: -73.871330261230},
+            //destination: {lat: 41.191703796387, lng: -73.209617614746},
+            origin: str1 + ',' +'Nueva York, EE. UU',
+            destination: str2 + ',' +'Nueva York, EE. UU',
+            travelMode: google.maps.TravelMode.DRIVING
+      };
+
+      directionsService.route(request, function(response, status) {
+          if (status == google.maps.DirectionsStatus.OK) {
+              directionsDisplay.setDirections(response);
+          }
+      });
+    }
+
+    function distanciaTotal(result) {
+      var total = 0;
+      var myroute = result.routes[0];
+      for (var i = 0; i < myroute.legs.length; i++) {
+        total += myroute.legs[i].distance.value;
+      }
+      total = total / 1000.0;
+      document.getElementById('total').innerHTML = total + ' km';
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+</head>
+<body>
+<div id="googleMap" style="float:left;width:70%; height:350px"></div>
+<div id="directionsPanel" style="float:right;width:30%;height: 350px;overflow-y: scroll">
+  <p>Distancia Total: <span id="total"></span></p>
+</div>
+</body>
+</html>

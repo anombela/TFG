@@ -262,5 +262,5 @@ location_id,borough,zone,service_zone,ntacode
 261,Manhattan,World Trade Center,Yellow Zone,MN25
 262,Manhattan,Yorkville East,Yellow Zone,MN32
 263,Manhattan,Yorkville West,Yellow Zone,MN32
-264,Unknown,NV,N/A,
-265,Unknown,NA,N/A,
+264,Jersey City,Jersey City,Yellow Zone,MN32
+265,Manhasset,Manhasset,Yellow Zone,MN32
