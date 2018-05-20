@@ -1,14 +1,99 @@
 var map;
-var markers = [];
+//var markers = [];
 var rectangles = ["Rectangle_PU","Rectangle_DO"];
 var infoWindow;
 var mapupdater;
 var polygon_PU = '';
 var polygon_DO = '';
+var current_year = 0;
+
+
+
+//************INIcializa el mapa***************************
+var rendererOptions = {draggable: true};
+var directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);;
+var directionsService = new google.maps.DirectionsService();
+
+//var str1 = "Manhattan";
+//var str2 = "Queens";
+
+function initialize() {
+
+    var mapOptions = {
+        zoom: 10,
+        center: {lat: 40.7142700, lng: -74.0059700}
+    };
+      
+    map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
+    infoWindow = new google.maps.InfoWindow();
+    directionsDisplay.setMap(map);
+    directionsDisplay.setPanel(document.getElementById('directionsPanel'));
+
+    google.maps.event.addListener(directionsDisplay, 'directions_changed', function() {
+        distanciaTotal(directionsDisplay.getDirections());
+    });
+
+      //calculaRuta(str1,str2);
+}
+
+
+function calculaRutaName(str1,str2) {
+
+    var request = {
+        //origin: {lat: 40.773773193359, lng: -73.871330261230},
+        //destination: {lat: 41.191703796387, lng: -73.209617614746},
+        origin: str1 + ',' +'Nueva York, EE. UU',
+        destination: str2 + ',' +'Nueva York, EE. UU',
+        travelMode: google.maps.TravelMode.DRIVING
+    };
+
+    directionsService.route(request, function(response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        }
+    });
+}
+
+function calculaRutaCoords(str1,str2,str3,str4) {
+    console.log(str1,str2,str3,str4);
+
+    var request = {
+        origin: {lat: str1, lng: str2},
+        destination: {lat: str3, lng: str4},
+        travelMode: google.maps.TravelMode.DRIVING
+    };
+
+    directionsService.route(request, function(response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        }
+    });
+}
+
+function distanciaTotal(result) {
+    var total = 0;
+    var myroute = result.routes[0];
+    for (var i = 0; i < myroute.legs.length; i++) {
+        total += myroute.legs[i].distance.value;
+    }
+    total = total / 1000.0;
+    document.getElementById('total').innerHTML = total + ' km';
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+//**************fin inicializar mapa****///////////////
+
+
+
+
+
+
 
 
 function reset_coord(coord){
-	//console.log("entraaaaaa");
 	var P1 = "180" + " " + "90";
     var P2 = "-180" + " " + "90";
     var P3 = "-180" + " " + "-90";
@@ -22,11 +107,34 @@ function reset_coord(coord){
 }
 
 
+function select_year(year){
+    current_year = year;
+    reset_coord("polygon_PU");
+    reset_coord("polygon_DO");
+    Print_Table(null);
+    var x = document.getElementById("year");
+    if (year ==0){
+        x.innerHTML = "Total";
+    }else{
+        x.innerHTML = year;
+    }
+   directionsDisplay.setDirections({routes: []}); ///ver comomejorar esto
+    var y = document.getElementById("directionsPanel");
+    y.innerHTML = "<p>Distancia Total: <span id='total'></span></p>";
+    if (rectangles[0] != "Rectangle_PU"){
+        rectangles[0].setMap(null);
+    }
+    if (rectangles[1] != "Rectangle_DO"){
+        rectangles[1].setMap(null);
+    }
+
+}
+
 function init() {
     $( "#tabs" ).tabs();
 	reset_coord("polygon_PU");
 	reset_coord("polygon_DO");
-    initialize();
+    //initialize();
 
 
 
@@ -42,6 +150,7 @@ function callJSON(url,callback) {
    head.appendChild(script);
 }
 
+/*
 function initialize() {
     // Configuración del mapa
     var mapProp = {
@@ -54,10 +163,10 @@ function initialize() {
     infoWindow = new google.maps.InfoWindow();
 
 }
-
+*/
 ////////////////////////s
 
-function Max_Trip(datos){
+/*function Max_Trip(datos){
 
     var cord2 = parseFloat(datos.results[0].data[0][1])
     var cord1 = parseFloat(datos.results[0].data[0][2])
@@ -76,19 +185,22 @@ function carga(){
     callJSON(url,"Max_Trip");
     callJSON(url,"Print_Table");
 }
+*/
 
+
+/*
 //pinta todos los marcadores que hay en el array
-function setMapOnAll(aux) {
-    for (var i = 0; i < markers.length; i++) {
-        markers[i].setMap(aux);
+function setMapOnAll(data,aux) {
+    for (var i = 0; i < data.length; i++) {
+        data[i].setMap(aux);
     }
 }
-
+/*
 //elimina todos los marcadores
 function clearMarkers() {
     setMapOnAll(null);
 }
-
+*//////
 function getRectangle_PU(){
     var bounds = {
         north: 40.713103,
@@ -202,6 +314,51 @@ function move_DO(data){
 
 }
 
+
+
+
+
+//////////////////////////FUNCIONES PARAOBTENER DISTINTAS RUTAS/////////////////////////////////
+function Max_Trip2017(datos){
+
+    var destino1 = datos.results[1].data[0][2];
+    var destino2 = datos.results[2].data[0][2];
+
+    calculaRutaName(destino1,destino2);
+
+}
+
+function load_max_trips2017(){
+    var url = "http://localhost:8080/api/1.0/?Procedure=max_distance_trips2017";
+    callJSON(url,"Max_Trip2017");
+    callJSON(url,"Print_Table");
+}
+
+function Max_Trip2016(datos){
+
+    var destino1 = parseFloat(datos.results[0].data[0][2]);
+    var destino2 = parseFloat(datos.results[0].data[0][1]);
+    var destino3 = parseFloat(datos.results[0].data[0][4]);
+    var destino4 = parseFloat(datos.results[0].data[0][3]);
+
+    calculaRutaCoords(destino1,destino2,destino3,destino4);
+
+}
+
+function load_max_trips2016(){
+    var url = "http://localhost:8080/api/1.0/?Procedure=max_distance_trips2016";
+    callJSON(url,"Max_Trip2016");
+    callJSON(url,"Print_Table");
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
 //type es 1 si es PU y 0 si es DO
 function get_trips(type,north_PU,south_PU,east_PU,west_PU){
 
@@ -235,6 +392,25 @@ function Print_Table(datos){
 	console.log(datos);
 
     var x = document.getElementById("num_trips");
+    var t = document.getElementById("table_head");
+    var t1 = document.getElementById("table_info");
+    var t2 = document.getElementById("most_expensive_trip");
+    var t3 = document.getElementById("most_cheap_trip");
+    var t4 = document.getElementById("max_distance");
+    var t5 = document.getElementById("min_distance");
+
+    
+    if (datos == null){
+        x.innerHTML = "";
+        t.innerHTML = "";
+        t1.innerHTML = "";
+        t2.innerHTML = "";
+        t3.innerHTML = "";
+        t4.innerHTML = "";
+        t5.innerHTML = "";
+        return;
+    }
+
     x.innerHTML = datos.results[0].data.length;
 
     var t_head = '<tr>';
@@ -242,26 +418,32 @@ function Print_Table(datos){
     	t_head+= "<th>"+datos.results[0].schema[i].name+"</th>";
     }
     t_head += '</tr>';
-    console.log(t_head);
-    var t1 = document.getElementById("table_head");
-    t1.innerHTML = t_head;
+    t.innerHTML = t_head;
 
 
     var t_info = '';
-    for (var i=0;i<datos.results[0].data.length;i++){
-    	t_info += '<tr>';
-    	for (var j=0;j<datos.results[0].data[i].length;j++){
-    	
-    		t_info+= "<td>"+datos.results[0].data[i][j]+"</td>";
-    	}
-    	t_info += '</tr>';
+    if (current_year == 2016){
+        for (var i=0;i<datos.results[0].data.length;i++){
+            t_info += '<tr onclick="javascript:calculaRutaCoords('+ datos.results[0].data[i][6]+','+datos.results[0].data[i][5] +','+datos.results[0].data[i][10]+','+datos.results[0].data[i][9]+');">';
+            for (var j=0;j<datos.results[0].data[i].length;j++){
+        
+                t_info+= "<td>"+datos.results[0].data[i][j]+"</td>";
+            }
+            t_info += '</tr>';
+        }
+    }else{
+        for (var i=0;i<datos.results[0].data.length;i++){
+            t_info += '<tr>';
+            for (var j=0;j<datos.results[0].data[i].length;j++){
+        
+                t_info+= "<td>"+datos.results[0].data[i][j]+"</td>";
+            }
+            t_info += '</tr>';
+        }
     }
-
-    var t1 = document.getElementById("table_info");
     t1.innerHTML = t_info;
 
     //segunda query
-    var t2 = document.getElementById("most_expensive_trip");
     if (datos.results[1].data.length > 0 ){
         t2.innerHTML = datos.results[1].data[0][18];
     }else{
@@ -269,7 +451,6 @@ function Print_Table(datos){
     }
 
     //tercera query
-    var t3 = document.getElementById("most_cheap_trip");
     if (datos.results[2].data.length > 0 ){
         t3.innerHTML = datos.results[2].data[0][18];
     }else{
@@ -277,7 +458,6 @@ function Print_Table(datos){
     }
 
      //cuarta query
-    var t4 = document.getElementById("max_distance");
     if (datos.results[3].data.length > 0 ){
         t4.innerHTML = datos.results[3].data[0][4];
     }else{
@@ -286,7 +466,6 @@ function Print_Table(datos){
 
 
        //quinta query
-    var t5 = document.getElementById("min_distance");
     if (datos.results[4].data.length > 0 ){
         t5.innerHTML = datos.results[4].data[0][4];
     }else{

@@ -1,24 +1,25 @@
 body{
-    padding:20px;
-    margin:20px 60px;
     font-family:Arial;
     font-size: 12px;
     background-color:silver;
+
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top:10px;
 }
 
-.contenedorglobal{
-    width: 1000px;
-    height: 900px;
+#contenedorglobal{
     background-color: white;
-    margin: -20px 10px 10px 10px ;
     border:2px inset purple;
-    margin-left:5%;
 }
 
 .encabezado
 {
-    width: 97.5%;
     height: 75px;
+    width: 1175px;
     background-color: #848484;
     margin: 10px 10px 10px 10px ;
     border:2px inset purple;
@@ -28,57 +29,73 @@ body{
 
 
 .contenedorinterno{
-    width: 97.5%;
-    height: 790px;
+    width: 1175px;
+    height: 90%;
     background-color: white;
     margin: 10px 10px 10px 10px ;
     border:2px inset purple;
 }
 
 .izquierdo{
+    float:left;
+    overflow: auto;
+    width: 250px;
+}
+.izquierdo1{
     width: 240px;
     height: 230px;
     background-color: D0FA58;
-    margin: 10px 10px 10px 10px ;
-    float: left;
+    margin: 10px 10px 0px 10px;
     border:2px inset purple;
-    text-align:center;
-    cursor: crosshair;
+    text-align:left;
+
+    
 }
 .izquierdo2{
     width: 240px;
     height: 510px;
     background-color: D0FA58;
     margin: 10px 10px 10px 10px ;
-    float: left;
     border:2px inset purple;
-    cursor: crosshair;
+
 }
 
+.derecho{
+ 
+    float:right;
+   
+}
 
 .central{
-    width: 690px;
+    width: 600px;
     height: 350px;
-    margin: 10px 10px 10px 0px ;
+    margin: 10px 10px 10px 10px ;
     border:4px inset purple;
-    float: right;
+    float:left;
+   
 }
 
+.indicaciones{
+    width: 290px;
+    height: 350px;
+    border:4px inset purple;
+    margin: 10px 0px 10px 10px ;
+    overflow-y: scroll;
+   
+}
 
 h2{
     color:#FF0000;
 }
 
 .central2{
-    width: 687px;
+    width: 900px;
     height: 355px;
     background-color: D0FA58;
     margin: 0px 10px 10px 10px ;
-    float: left;
     border:4px inset purple;
     text-align:center;
     color:#298A08;
-    float: right;
     overflow:auto;
 }
 
