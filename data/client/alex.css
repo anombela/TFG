@@ -1,22 +1,25 @@
 body{
-    padding:5px;
-    margin:5px 5px;
     font-family:Arial;
     font-size: 12px;
     background-color:silver;
+
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top:10px;
 }
 
-.contenedorglobal{
-    height: 900px;
+#contenedorglobal{
     background-color: white;
-    margin: 10px 10px 10px 10px ;
     border:2px inset purple;
 }
 
 .encabezado
 {
-    width: 97.5%;
     height: 75px;
+    width: 1175px;
     background-color: #848484;
     margin: 10px 10px 10px 10px ;
     border:2px inset purple;
@@ -26,48 +29,59 @@ body{
 
 
 .contenedorinterno{
-    width: 97.5%;
-    height: 790px;
+    width: 1175px;
+    height: 90%;
     background-color: white;
     margin: 10px 10px 10px 10px ;
     border:2px inset purple;
 }
 
 .izquierdo{
-    width: 220px;
+    float:left;
+    overflow: auto;
+    width: 250px;
+}
+.izquierdo1{
+    width: 240px;
     height: 350px;
     background-color: D0FA58;
-    margin: 10px 10px 10px 10px ;
-    float: left;
+    margin: 10px 10px 0px 10px;
     border:2px inset purple;
-    text-align:center;
-    cursor: crosshair;
+    text-align:left;
+
+    
 }
 .izquierdo2{
-    width: 220px;
+    width: 240px;
     height: 400px;
     background-color: D0FA58;
-    margin: 0px 0px 10px 10px ;
-    float: left;
+    margin: 10px 10px 10px 10px ;
     border:2px inset purple;
-    cursor: crosshair;
+
 }
 
+.derecho{
+ 
+    float:right;
+   
+}
 
 .central{
-    width: 660px;
+    width: 600px;
     height: 350px;
-    margin: 10px 0px 10px 0px ;
+    margin: 10px 10px 10px 10px ;
     border:4px inset purple;
-    float: right;
+    float:left;
+   
 }
 
 .indicaciones{
-    width: 300px;
+    width: 290px;
     height: 350px;
-    margin: 10px 10px 10px 0px ;
     border:4px inset purple;
-    float: right;
+    margin: 10px 0px 10px 10px ;
+    overflow-y: scroll;
+   
 }
 
 h2{
@@ -75,15 +89,13 @@ h2{
 }
 
 .central2{
-    width: 965px;
-    height: 400px;
+    width: 900px;
+    height: 355px;
     background-color: D0FA58;
-    margin: 0px 10px 10px 0px ;
-    float: left;
+    margin: 0px 10px 10px 10px ;
     border:4px inset purple;
     text-align:center;
     color:#298A08;
-    float: right;
     overflow:auto;
 }
 

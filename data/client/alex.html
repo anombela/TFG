@@ -4,92 +4,15 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link href="external/jquery/jquery-ui.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="alex.css" />
-	<script type="text/javascript" src="alex.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=es"></script>
-  <script>
-
-    var rendererOptions = {draggable: true};
-    var directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);;
-    var directionsService = new google.maps.DirectionsService();
-    var map;
-
-    var Nueva_York = new google.maps.LatLng(40.7142700,-74.0059700);
-
-    //var str1 = "Manhattan";
-    //var str2 = "Queens";
-
-    function initialize() {
-
-      var mapOptions = {
-          zoom: 10,
-          center: Nueva_York
-      };
-      
-      map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
-      infoWindow = new google.maps.InfoWindow();
-      directionsDisplay.setMap(map);
-      directionsDisplay.setPanel(document.getElementById('directionsPanel'));
-
-      google.maps.event.addListener(directionsDisplay, 'directions_changed', function() {
-          distanciaTotal(directionsDisplay.getDirections());
-      });
-
-      //calculaRuta(str1,str2);
-    }
-
-
-    function calculaRutaName(str1,str2) {
-
-      var request = {
-            //origin: {lat: 40.773773193359, lng: -73.871330261230},
-            //destination: {lat: 41.191703796387, lng: -73.209617614746},
-            origin: str1 + ',' +'Nueva York, EE. UU',
-            destination: str2 + ',' +'Nueva York, EE. UU',
-            travelMode: google.maps.TravelMode.DRIVING
-      };
-
-      directionsService.route(request, function(response, status) {
-          if (status == google.maps.DirectionsStatus.OK) {
-              directionsDisplay.setDirections(response);
-          }
-      });
-    }
-
-    function calculaRutaCoords(str1,str2,str3,str4) {
-
-      var request = {
-            origin: {lat: str1, lng: str2},
-            destination: {lat: str3, lng: str4},
-            travelMode: google.maps.TravelMode.DRIVING
-      };
-
-      directionsService.route(request, function(response, status) {
-          if (status == google.maps.DirectionsStatus.OK) {
-              directionsDisplay.setDirections(response);
-          }
-      });
-    }
-
-    function distanciaTotal(result) {
-      var total = 0;
-      var myroute = result.routes[0];
-      for (var i = 0; i < myroute.legs.length; i++) {
-        total += myroute.legs[i].distance.value;
-      }
-      total = total / 1000.0;
-      document.getElementById('total').innerHTML = total + ' km';
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-
-</script>
+  <script type="text/javascript" src="alex.js"></script>
   <script src="external/jquery/jquery.js"></script>
   <script src="external/jquery/jquery-ui.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body onload="init();">
-<div class="contenedorglobal">  <!-- contenedor global-->
+<div class="container" id="contenedorglobal">  <!-- contenedor global-->
   <div class="encabezado">
   <h1>RUTAS TAXIS NUEVA YORK<h1>
   </div>
@@ -97,42 +20,52 @@
 
   <div class="contenedorinterno">    <!-- contenedor interno-->
    
-   
     <div class="izquierdo">
+    <div class="izquierdo1">
+
       <div id="tabs">
         <ul style="margin-right:0px;float: center;">
-          <li class= "tab"><a href="#tabs-1">Año 2016</a></li>
-          <li class= "tab"><a href="#tabs-2">Año 2017</a></li>
+          <li  class= "tab"><a href="#tabs-1" onclick="javascript:select_year(0);">Total</a></li>
+          <li  class= "tab"><a href="#tabs-2" onclick="javascript:select_year(2016);"> 2016 </a></li>
+          <li  class= "tab"><a href="#tabs-3" onclick="javascript:select_year(2017);"> 2017 </a></li>
         </ul>
         <div id="tabs-1">
-          <input type="button" value="Zona de Subida" onclick="javascript:getRectangle_PU();">
-          <input type="button" value="Zona de Bajada" onclick="javascript:getRectangle_DO();">
-          <input type="button" value="Ruta mas larga" onclick="javascript:load_max_trips2016();">
+          <input type="button" value="Larga2016" onclick="javascript:load_max_trips2016();">
+          <input type="button" value="Cara2016" onclick="javascript:load_max_total_amount_trips2016();">
+          <input type="button" value="Barata2016" onclick="javascript:load_min_total_amount_trips2016();">
+          <input type="button" value="Larga2017" onclick="javascript:load_max_trips2017();">
+          <input type="button" value="Cara2017" onclick="javascript:load_max_total_amount_trips2017();">
+          <input type="button" value="Barata2017" onclick="javascript:load_min_total_amount_trips2017();">   
         </div>
         <div id="tabs-2">
-          <input type="button" value="Ruta mas larga" onclick="javascript:load_max_trips2017();"> 
+          <li> Filtrar por polígonos</li>
+          <input type="button" value="Subida" onclick="javascript:getRectangle_PU();">    
+          <input type="button" value="Bajada" onclick="javascript:getRectangle_DO();">
         </div>
+        <div id="tabs-3"></div>
       </div>
-      <!--<input type="button" value="Ruta mas larga" onclick="javascript:carga();"/>
-      <input type="button" value="Borra" onclick="javascript:clearMarkers();"/>
-      <input type="button" value="Poligono_PU" onclick="javascript:getRectangle_PU();"/>
-      <input type="button" value="Poligono_DO" onclick="javascript:getRectangle_DO();"/>-->
-  	</div>  		
+  	</div>  
+    <div class="izquierdo2">
+        <ul>
+        <li>Año<div id="year" class="data">Total</div></li>
+        <li>Número de rutas<div id="num_trips" class="data"></div></li>
+        <li>Ruta mas cara ($)<div id="most_expensive_trip" class="data"></div></li>
+        <li>Ruta mas barata ($)<div id="most_cheap_trip"  class="data"></div></li>
+        <li onclick="javascript:load_max_trips2016();">Ruta mas larga <div id="max_distance"  class="data"></div></li>
+        <li>Ruta mas corta <div id="min_distance"  class="data"></div></li>
+      </ul>
+      </div>		
+    </div>  
 
-      <div id="googleMap" class="central" style="float:left"></div>
-      <div id="directionsPanel" class="indicaciones" style="float:right;overflow-y: scroll">
+<div class="derecho">
+
+      <div id="googleMap" class="central"></div>
+      <div id="directionsPanel" class="indicaciones">
         <p>Distancia Total: <span id="total"></span></p>
       </div>
 
-      <div class="izquierdo2">
-        <ul>
-      	<li>Número de rutas<div id="num_trips" class="data"></div></li>
-        <li>Ruta mas cara ($)<div id="most_expensive_trip" class="data"></div></li>
-        <li>Ruta mas barata ($)<div id="most_cheap_trip"  class="data"></div></li>
-        <li>Ruta mas larga <div id="max_distance"  class="data"></div></li>
-        <li>Ruta mas corta <div id="min_distance"  class="data"></div></li>
-      </ul>
-      </div>
+      
+   		<h3 id="info" style="text-decoration: underline red; margin-left:280px;"> Información de las rutas</h3>
       <div class="central2">
         <table id="trips_table" class="w3-table-all w3-hoverable" style="font-size:x-small;">
           <thead id='table_head'></thead>
@@ -140,7 +73,7 @@
         </table>
       </div>
    
-     
+    </div> 
   
    
        
