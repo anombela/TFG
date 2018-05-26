@@ -273,6 +273,17 @@ WARN: [get_info_2016.class]: Procedure get_info_2016 has a statement with a non-
 WARN: [journey_max_total_amount_trips2017.class]: Procedure journey_max_total_amount_trips2017 has a statement with a non-deterministic result - statement: "SELECT total_amount, PULocationId, DOLocationId FROM taxis2017 ORDER BY total_amount DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
 WARN: [journey_min_total_amount_trips2017.class]: Procedure journey_min_total_amount_trips2017 has a statement with a non-deterministic result - statement: "SELECT total_amount, PULocationId, DOLocationId FROM taxis2017 ORDER BY total_amount ASC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
 WARN: [max_distance_trips2017.class]: Procedure max_distance_trips2017 has a statement with a non-deterministic result - statement: "SELECT trip_distance, PULocationID, DOLocationID FROM taxis2017 ORDER BY trip_distance DESC LIMIT 1;" , reason: the query result does not guarantee a consistent ordering
+ERROR: Cannot invoke procedure total_voided_trips 2016. Procedure not found.
+ERROR: Cannot invoke procedure total_voided_trips[2016]. Procedure not found.
+ERROR: Cannot invoke procedure total_voided_trips[2016]. Procedure not found.
+231
+265
+231
+265
+170
+1
+170
+1
 164
 264
 164

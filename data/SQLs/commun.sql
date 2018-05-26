@@ -64,7 +64,7 @@ AS
 
 
 -- Pasarle el año:
-  -- year_trip = 2016 0 2017 ; vendorID = 1 o 2 ===> Creative Mobile Technologies o VeriFone que hizo el trayecto
+  -- year_trip = 2016 0 2017 ; vendorID = 1 o 2 ===> Creative Mobile Technologies o VeriFone que midió el trayecto
 CREATE PROCEDURE total_passengers_vendorId
 AS
    SELECT SUM(passenger_count) AS total_passengers_vendorId

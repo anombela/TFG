@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="alex.css" />
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=es"></script>
   <script type="text/javascript" src="alex.js"></script>
+  <script type="text/javascript" src="rutas2016.js"></script>
+  <script type="text/javascript" src="rutas2017.js"></script>
   <script src="external/jquery/jquery.js"></script>
   <script src="external/jquery/jquery-ui.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -30,19 +32,42 @@
           <li  class= "tab"><a href="#tabs-3" onclick="javascript:select_year(2017);"> 2017 </a></li>
         </ul>
         <div id="tabs-1">
-          <input type="button" value="Larga2016" onclick="javascript:load_max_trips2016();">
-          <input type="button" value="Cara2016" onclick="javascript:load_max_total_amount_trips2016();">
-          <input type="button" value="Barata2016" onclick="javascript:load_min_total_amount_trips2016();">
-          <input type="button" value="Larga2017" onclick="javascript:load_max_trips2017();">
-          <input type="button" value="Cara2017" onclick="javascript:load_max_total_amount_trips2017();">
-          <input type="button" value="Barata2017" onclick="javascript:load_min_total_amount_trips2017();">   
+          <input type="button" value="Larga 2016" onclick="javascript:load_max_trips2016();">
+          <input type="button" value="Cara 2016" onclick="javascript:load_max_total_amount_trips2016();">
+          <input type="button" value="Barata 2016" onclick="javascript:load_min_total_amount_trips2016();">
+          <input type="button" value="Larga 2017" onclick="javascript:load_max_trips2017();">
+          <input type="button" value="Cara 2017" onclick="javascript:load_max_total_amount_trips2017();">
+          <input type="button" value="Barata 2017" onclick="javascript:load_min_total_amount_trips2017();">   
         </div>
         <div id="tabs-2">
           <li> Filtrar por polígonos</li>
           <input type="button" value="Subida" onclick="javascript:getRectangle_PU();">    
           <input type="button" value="Bajada" onclick="javascript:getRectangle_DO();">
+          <li> Querys sin ruta</li>
+          <input type="button" value="Viajes anulados" onclick="javascript:total_voided_trips_2016();">
+          <input type="button" value="Viajes sin cargo" onclick="javascript:total_no_charge_trips_2016();">
+          <input type="button" value="Viajes pagados tarjeta" onclick="javascript:total_payment_credit_trips_2016();">
+          <input type="button" value="Viajes pagados efectivo" onclick="javascript:total_payment_efective_trips_2016();">
+          <input type="button" value="Viajes tarifa estándar" onclick="javascript:total_rate_standar_trips_2016();">
+          <input type="button" value="Viajes tarifa negociada" onclick="javascript:total_rate_negociate_trips_2016();">
+          <input type="button" value="Viajes tarifa grupo" onclick="javascript:total_rate_group_trips_2016();">
+          <input type="button" value="Total pasajeros Vendor1" onclick="javascript:total_passengers_vendorId1_2016();">
+          <input type="button" value="Total pasajeros Vendor2" onclick="javascript:total_passengers_vendorId2_2016();">
+          <input type="button" value="Media pasajeros/taxi" onclick="javascript:average_passengers_taxi_2016();">
         </div>
-        <div id="tabs-3"></div>
+        <div id="tabs-3">
+          <li> Querys sin ruta</li>
+          <input type="button" value="Viajes anulados" onclick="javascript:total_voided_trips_2017();">
+          <input type="button" value="Viajes sin cargo" onclick="javascript:total_no_charge_trips_2017();">
+          <input type="button" value="Viajes pagados tarjeta" onclick="javascript:total_payment_credit_trips_2017();">
+          <input type="button" value="Viajes pagados efectivo" onclick="javascript:total_payment_efective_trips_2017();">
+          <input type="button" value="Viajes tarifa estándar" onclick="javascript:total_rate_standar_trips_2017();">
+          <input type="button" value="Viajes tarifa negociada" onclick="javascript:total_rate_negociate_trips_2017();">
+          <input type="button" value="Viajes tarifa grupo" onclick="javascript:total_rate_group_trips_2017();">
+          <input type="button" value="Total pasajeros Vendor1" onclick="javascript:total_passengers_vendorId1_2017();">
+          <input type="button" value="Total pasajeros Vendor2" onclick="javascript:total_passengers_vendorId2_2017();">
+          <input type="button" value="Media pasajeros/taxi" onclick="javascript:average_passengers_taxi_2017();">
+        </div>
       </div>
   	</div>  
     <div class="izquierdo2">
