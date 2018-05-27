@@ -78,6 +78,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 //**************fin inicializar mapa****///////////////
 
+function slespsed(){
+    var url = "http://localhost:8080/api/1.0/?Procedure=time_slespsed";
+    callJSON(url,"Print_Table");
+}
+
 
 function reset_coord(coord){
 	var P1 = "180" + " " + "90";

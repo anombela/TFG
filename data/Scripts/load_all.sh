@@ -24,5 +24,14 @@ mv $2/files/*.csv $2/files/csvloaders_log/
 mv $2/files/*.log $2/files/csvloaders_log/
 mv $2/files/*.class $2/files/class/
 
+cat $2/files/csvloaders_log/csvloader_TAXIS2016_insert_report.log | grep -E "successfully|elaspsed" >> $2/files/csvloaders_log/time_slelpsed.txt
+cat $2/files/csvloaders_log/csvloader_TAXIS2017_insert_report.log | grep -E "successfully|elaspsed" >> $2/files/csvloaders_log/time_slelpsed.txt
+cat $2/files/csvloaders_log/csvloader_LOCATION_insert_report.log | grep -E "successfully|elaspsed" >> $2/files/csvloaders_log/time_slelpsed.txt
+cat $2/files/csvloaders_log/csvloader_CENTRAL_PARK_WEATHER_insert_report.log | grep -E "successfully|elaspsed" >> $2/files/csvloaders_log/time_slelpsed.txt
+
+csvloader --file $2/files/csvloaders_log/time_slelpsed.txt time_slespsed
+
+rm -rf $2/files/csvloaders_log/time_slelpsed.txt
+
 echo -e "-------------------------------------------------ERRORS-------------------------------------------------"
 cat $2/files/exec_output/voltdb.log | grep ERROR

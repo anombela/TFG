@@ -10,6 +10,15 @@ CREATE TABLE central_park_weather (
    tmin INTEGER,
 );
 
+CREATE TABLE time_slespsed (
+   slespesd VARCHAR(64),
+);
+
+CREATE PROCEDURE time_slespsed
+AS 
+  SELECT *
+  FROM time_slespsed;
+
 
 -- Pasarle el año:
   -- year_trip = 2016 0 2017 ===> total trayectos anulados

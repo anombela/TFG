@@ -14,6 +14,17 @@ CREATE TABLE central_park_weather (
 );
 Command succeeded.
 
+CREATE TABLE time_slespsed (
+   slespesd VARCHAR(64),
+);
+Command succeeded.
+
+CREATE PROCEDURE time_slespsed
+AS 
+  SELECT *
+  FROM time_slespsed;
+Command succeeded.
+
 CREATE PROCEDURE total_voided_trips
 AS
 	SELECT count(payment_type) AS total_voided_trips
