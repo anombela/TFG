@@ -24,13 +24,13 @@ AS
   -- year_trip = 2016 0 2017 ===> total trayectos anulados
 CREATE PROCEDURE total_voided_trips
 AS
-	SELECT count(payment_type) AS total_voided_trips
-	FROM (
-		SELECT payment_type, year_trip FROM taxis2016 
-		UNION ALL
-		SELECT payment_type, year_trip FROM taxis2017 
-	) as total
-	WHERE year_trip = ? AND payment_type = 6;
+  SELECT count(payment_type) AS total_voided_trips
+  FROM (
+    SELECT payment_type, year_trip FROM taxis2016 
+    UNION ALL
+    SELECT payment_type, year_trip FROM taxis2017 
+  ) as total
+  WHERE year_trip = ? AND payment_type = 6;
 
 
 -- Pasarle el año:

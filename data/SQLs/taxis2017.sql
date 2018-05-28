@@ -1,4 +1,3 @@
-
 CREATE TABLE taxis2017 (
    vendorID INTEGER,
    tpep_pickup_datetime VARCHAR(64),
@@ -45,3 +44,6 @@ CREATE PROCEDURE
 
 CREATE PROCEDURE
   FROM CLASS min_distance_trips2017;
+
+CREATE PROCEDURE
+  FROM CLASS  get_info_2017;

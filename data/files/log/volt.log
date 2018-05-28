@@ -1,235 +1,39 @@
-2018-05-27 14:47:46,386   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 14:47:46,386   INFO  [main] CSVLOADER: Elapsed time: 4.97 seconds
-2018-05-27 14:47:46,387   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 14:47:46,387   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 14:47:46,387   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 14:47:48,762   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 14:47:48,762   INFO  [main] CSVLOADER: Elapsed time: 2.053 seconds
-2018-05-27 14:47:48,763   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 14:47:48,763   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 14:47:48,763   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 14:47:50,261   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 14:47:50,262   INFO  [main] CSVLOADER: Elapsed time: 0.986 seconds
-2018-05-27 14:47:50,262   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 14:47:50,262   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 14:47:50,262   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 14:47:57,336   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 14:47:57,337   INFO  [main] CSVLOADER: Elapsed time: 0.689 seconds
-2018-05-27 14:47:57,337   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 14:47:57,338   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 14:47:57,338   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 18:07:12,751   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:07:12,751   INFO  [main] CSVLOADER: Elapsed time: 2.922 seconds
-2018-05-27 18:07:12,752   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 18:07:12,752   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 18:07:12,752   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 18:07:14,833   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:07:14,834   INFO  [main] CSVLOADER: Elapsed time: 1.752 seconds
-2018-05-27 18:07:14,834   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 18:07:14,834   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 18:07:14,834   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 18:07:16,276   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 18:07:16,276   INFO  [main] CSVLOADER: Elapsed time: 1.136 seconds
-2018-05-27 18:07:16,276   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 18:07:16,277   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 18:07:16,277   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 18:07:22,071   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 18:07:22,072   INFO  [main] CSVLOADER: Elapsed time: 0.556 seconds
-2018-05-27 18:07:22,072   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 18:07:22,072   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 18:07:22,072   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 18:17:51,215   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:17:51,216   INFO  [main] CSVLOADER: Elapsed time: 3.192 seconds
-2018-05-27 18:17:51,217   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 18:17:51,217   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 18:17:51,217   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 18:17:53,719   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:17:53,720   INFO  [main] CSVLOADER: Elapsed time: 1.798 seconds
-2018-05-27 18:17:53,720   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 18:17:53,723   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 18:17:53,723   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 18:17:55,594   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 18:17:55,594   INFO  [main] CSVLOADER: Elapsed time: 1.235 seconds
-2018-05-27 18:17:55,594   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 18:17:55,595   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 18:17:55,595   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 18:18:01,996   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 18:18:01,996   INFO  [main] CSVLOADER: Elapsed time: 0.674 seconds
-2018-05-27 18:18:01,997   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 18:18:01,997   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 18:18:01,997   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 18:35:12,771   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:35:12,771   INFO  [main] CSVLOADER: Elapsed time: 4.452 seconds
-2018-05-27 18:35:12,771   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 18:35:12,771   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 18:35:12,771   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 18:35:14,376   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:35:14,377   INFO  [main] CSVLOADER: Elapsed time: 1.273 seconds
-2018-05-27 18:35:14,377   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 18:35:14,377   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 18:35:14,377   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 18:35:15,861   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 18:35:15,862   INFO  [main] CSVLOADER: Elapsed time: 1.147 seconds
-2018-05-27 18:35:15,862   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 18:35:15,862   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 18:35:15,862   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 18:35:23,154   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 18:35:23,155   INFO  [main] CSVLOADER: Elapsed time: 0.66 seconds
-2018-05-27 18:35:23,158   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 18:35:23,158   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 18:35:23,158   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 18:35:24,122   INFO  [main] CSVLOADER: Read 16 rows from file and successfully inserted 16 rows (final)
-2018-05-27 18:35:24,123   INFO  [main] CSVLOADER: Elapsed time: 0.498 seconds
-2018-05-27 18:35:24,123   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
-2018-05-27 18:35:24,123   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
-2018-05-27 18:35:24,123   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
-2018-05-27 18:39:58,716   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:39:58,716   INFO  [main] CSVLOADER: Elapsed time: 3.461 seconds
-2018-05-27 18:39:58,717   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 18:39:58,717   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 18:39:58,717   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 18:40:00,414   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:40:00,415   INFO  [main] CSVLOADER: Elapsed time: 1.389 seconds
-2018-05-27 18:40:00,415   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 18:40:00,415   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 18:40:00,415   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 18:40:01,723   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 18:40:01,723   INFO  [main] CSVLOADER: Elapsed time: 0.825 seconds
-2018-05-27 18:40:01,724   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 18:40:01,724   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 18:40:01,724   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 18:40:09,723   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 18:40:09,723   INFO  [main] CSVLOADER: Elapsed time: 1.53 seconds
-2018-05-27 18:40:09,723   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 18:40:09,724   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 18:40:09,724   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 18:40:10,709   INFO  [main] CSVLOADER: Read 24 rows from file and successfully inserted 24 rows (final)
-2018-05-27 18:40:10,710   INFO  [main] CSVLOADER: Elapsed time: 0.536 seconds
-2018-05-27 18:40:10,710   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
-2018-05-27 18:40:10,710   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
-2018-05-27 18:40:10,710   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
-2018-05-27 18:42:42,147   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:42:42,147   INFO  [main] CSVLOADER: Elapsed time: 5.074 seconds
-2018-05-27 18:42:42,147   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 18:42:42,148   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 18:42:42,148   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 18:42:44,486   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:42:44,487   INFO  [main] CSVLOADER: Elapsed time: 1.846 seconds
-2018-05-27 18:42:44,489   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 18:42:44,489   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 18:42:44,489   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 18:42:45,850   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 18:42:45,851   INFO  [main] CSVLOADER: Elapsed time: 0.913 seconds
-2018-05-27 18:42:45,851   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 18:42:45,851   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 18:42:45,851   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 18:42:52,719   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 18:42:52,720   INFO  [main] CSVLOADER: Elapsed time: 0.555 seconds
-2018-05-27 18:42:52,720   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 18:42:52,720   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 18:42:52,720   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 18:42:53,622   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
-2018-05-27 18:42:53,622   INFO  [main] CSVLOADER: Elapsed time: 0.491 seconds
-2018-05-27 18:42:53,623   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
-2018-05-27 18:42:53,623   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
-2018-05-27 18:42:53,623   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
-2018-05-27 18:45:55,340   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:45:55,340   INFO  [main] CSVLOADER: Elapsed time: 2.907 seconds
-2018-05-27 18:45:55,341   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 18:45:55,341   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 18:45:55,341   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 18:45:56,756   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 18:45:56,756   INFO  [main] CSVLOADER: Elapsed time: 1.114 seconds
-2018-05-27 18:45:56,757   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 18:45:56,757   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 18:45:56,757   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 18:45:57,702   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 18:45:57,702   INFO  [main] CSVLOADER: Elapsed time: 0.642 seconds
-2018-05-27 18:45:57,703   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 18:45:57,703   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 18:45:57,703   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 18:46:05,823   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 18:46:05,824   INFO  [main] CSVLOADER: Elapsed time: 0.492 seconds
-2018-05-27 18:46:05,824   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 18:46:05,824   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 18:46:05,825   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 18:46:06,678   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
-2018-05-27 18:46:06,678   INFO  [main] CSVLOADER: Elapsed time: 0.488 seconds
-2018-05-27 18:46:06,678   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
-2018-05-27 18:46:06,678   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
-2018-05-27 18:46:06,678   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
-2018-05-27 19:07:02,781   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 19:07:02,782   INFO  [main] CSVLOADER: Elapsed time: 3.078 seconds
-2018-05-27 19:07:02,782   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 19:07:02,782   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 19:07:02,782   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 19:07:04,309   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 19:07:04,309   INFO  [main] CSVLOADER: Elapsed time: 1.219 seconds
-2018-05-27 19:07:04,309   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 19:07:04,309   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 19:07:04,310   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 19:07:05,251   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 19:07:05,252   INFO  [main] CSVLOADER: Elapsed time: 0.651 seconds
-2018-05-27 19:07:05,252   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 19:07:05,252   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 19:07:05,252   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 19:07:13,979   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 19:07:13,980   INFO  [main] CSVLOADER: Elapsed time: 0.543 seconds
-2018-05-27 19:07:13,980   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 19:07:13,980   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 19:07:13,980   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 19:07:14,792   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
-2018-05-27 19:07:14,793   INFO  [main] CSVLOADER: Elapsed time: 0.474 seconds
-2018-05-27 19:07:14,793   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
-2018-05-27 19:07:14,793   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
-2018-05-27 19:07:14,793   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
-2018-05-27 19:11:21,786   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 19:11:21,787   INFO  [main] CSVLOADER: Elapsed time: 2.949 seconds
-2018-05-27 19:11:21,787   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 19:11:21,787   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 19:11:21,787   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 19:11:23,528   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 19:11:23,528   INFO  [main] CSVLOADER: Elapsed time: 1.394 seconds
-2018-05-27 19:11:23,529   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 19:11:23,529   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 19:11:23,529   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 19:11:24,361   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 19:11:24,362   INFO  [main] CSVLOADER: Elapsed time: 0.538 seconds
-2018-05-27 19:11:24,362   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 19:11:24,362   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 19:11:24,363   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 19:11:30,871   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 19:11:30,871   INFO  [main] CSVLOADER: Elapsed time: 0.956 seconds
-2018-05-27 19:11:30,871   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 19:11:30,871   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 19:11:30,872   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 19:11:31,709   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
-2018-05-27 19:11:31,709   INFO  [main] CSVLOADER: Elapsed time: 0.471 seconds
-2018-05-27 19:11:31,710   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
-2018-05-27 19:11:31,710   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
-2018-05-27 19:11:31,710   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
-2018-05-27 19:16:43,548   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 19:16:43,549   INFO  [main] CSVLOADER: Elapsed time: 3.559 seconds
-2018-05-27 19:16:43,549   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
-2018-05-27 19:16:43,549   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
-2018-05-27 19:16:43,549   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
-2018-05-27 19:16:45,151   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
-2018-05-27 19:16:45,152   INFO  [main] CSVLOADER: Elapsed time: 1.254 seconds
-2018-05-27 19:16:45,152   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
-2018-05-27 19:16:45,152   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
-2018-05-27 19:16:45,152   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
-2018-05-27 19:16:45,907   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
-2018-05-27 19:16:45,908   INFO  [main] CSVLOADER: Elapsed time: 0.461 seconds
-2018-05-27 19:16:45,908   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
-2018-05-27 19:16:45,908   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
-2018-05-27 19:16:45,908   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
-2018-05-27 19:16:52,053   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
-2018-05-27 19:16:52,054   INFO  [main] CSVLOADER: Elapsed time: 0.473 seconds
-2018-05-27 19:16:52,054   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
-2018-05-27 19:16:52,054   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
-2018-05-27 19:16:52,054   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
-2018-05-27 19:16:52,728   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
-2018-05-27 19:16:52,729   INFO  [main] CSVLOADER: Elapsed time: 0.371 seconds
-2018-05-27 19:16:52,729   INFO  [main] CSVLOADER: Invalid row file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
-2018-05-27 19:16:52,729   INFO  [main] CSVLOADER: Log file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
-2018-05-27 19:16:52,729   INFO  [main] CSVLOADER: Report file: /home/alex/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
+2018-05-28 23:55:11,895   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:12,061   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:13,434   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:14,031   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:15,267   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:15,907   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:17,126   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:17,726   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:18,442   ERROR [main] CSVLOADER: CSV file '/home/anombela/Escritorio/TFG-taxis/data/files/csvloaders_log/time_slelpsed.txt' could not be found.
+2018-05-28 23:56:51,877   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Elapsed time: 5.476 seconds
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-05-28 23:56:57,844   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Elapsed time: 2.228 seconds
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
+2018-05-28 23:57:00,647   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Elapsed time: 1.321 seconds
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-05-28 23:57:01,422   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-05-28 23:57:12,228   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:57:12,977   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
+2018-05-28 23:57:12,977   INFO  [main] CSVLOADER: Elapsed time: 1.294 seconds
+2018-05-28 23:57:12,977   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
+2018-05-28 23:57:12,978   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
+2018-05-28 23:57:12,978   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
+2018-05-28 23:57:13,936   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:57:14,615   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Elapsed time: 1.256 seconds
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log

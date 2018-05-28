@@ -6,7 +6,7 @@ body{
 }
 .container{
     width: 1200px;
-    height: 100%;
+    height: 895px;
     margin: 0 auto;
     margin-top:10px;
 }
@@ -30,7 +30,7 @@ body{
 
 .contenedorinterno{
     width: 1175px;
-    height: 90%;
+    height: 785px;
     background-color: white;
     margin: 10px 10px 10px 10px ;
     border:2px inset purple;
@@ -43,7 +43,7 @@ body{
 }
 .izquierdo1{
     width: 240px;
-    height: 230px;
+    height: 270px;
     background-color: D0FA58;
     margin: 10px 10px 0px 10px;
     border:2px inset purple;
@@ -51,9 +51,15 @@ body{
 
     
 }
+.all_buttons{
+    overflow-y: scroll;
+    width: 200px;
+    height: 190px;
+
+}
 .izquierdo2{
     width: 240px;
-    height: 510px;
+    height: 480px;
     background-color: D0FA58;
     margin: 10px 10px 10px 10px ;
     border:2px inset purple;
@@ -82,6 +88,32 @@ body{
     margin: 10px 0px 10px 10px ;
     overflow-y: scroll;
    
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    width: 185px;
+    height: 25px;
+    cursor:pointer;
+}
+
+.button_show{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    width: 165px;
+    height: 25px;
+    cursor:pointer;
 }
 
 h2{

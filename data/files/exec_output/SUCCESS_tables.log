@@ -1,5 +1,5 @@
 
-FILE /home/alex/Escritorio/TFG-taxis/data/SQLs/commun.sql
+FILE /home/anombela/Escritorio/TFG-taxis/data/SQLs/commun.sql
 
 CREATE TABLE central_park_weather (
    station VARCHAR(64),
@@ -27,13 +27,13 @@ Command succeeded.
 
 CREATE PROCEDURE total_voided_trips
 AS
-	SELECT count(payment_type) AS total_voided_trips
-	FROM (
-		SELECT payment_type, year_trip FROM taxis2016 
-		UNION ALL
-		SELECT payment_type, year_trip FROM taxis2017 
-	) as total
-	WHERE year_trip = ? AND payment_type = 6;
+  SELECT count(payment_type) AS total_voided_trips
+  FROM (
+    SELECT payment_type, year_trip FROM taxis2016 
+    UNION ALL
+    SELECT payment_type, year_trip FROM taxis2017 
+  ) as total
+  WHERE year_trip = ? AND payment_type = 6;
 Command succeeded.
 
 CREATE PROCEDURE total_no_charge_trips
