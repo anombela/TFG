@@ -107,8 +107,8 @@ function select_year(year){
     }else{
         x.innerHTML = year;
         $(".button_show").show();
-    }
-   	directionsDisplay.setDirections({routes: []});
+    }	
+	var y = document.getElementById("directionsPanel");
     y.innerHTML = "<p>Distancia Total: <span id='total'></span></p>";
     if (rectangles[0] != "Rectangle_PU"){
         rectangles[0].setMap(null);
@@ -116,7 +116,7 @@ function select_year(year){
     if (rectangles[1] != "Rectangle_DO"){
         rectangles[1].setMap(null);
     }
-
+	directionsDisplay.setDirections({routes: []});
 }
 
 function init() {
