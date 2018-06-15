@@ -1,0 +1,8 @@
+{
+    "log4jDst": [{
+        "format": "'.'yyyy-MM-dd",
+        "path": "/home/alex/Escritorio/TFG-taxis/data/Scripts/voltdbroot/log/volt.log"
+    }],
+    "pid": 3227,
+    "workingDir": "/home/alex/Escritorio/TFG-taxis/data/Scripts"
+}
