@@ -1,0 +1,105 @@
+<html>
+<head>
+	<title>Aplicación cliente Rutas Taxis NY</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="external/jquery/jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="client_app.css" />
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=es"></script>
+  <script type="text/javascript" src="general.js"></script>
+  <script type="text/javascript" src="trips_2016.js"></script>
+  <script src="external/jquery/jquery.js"></script>
+  <script src="external/jquery/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body onload="init();">
+<div class="container" id="contenedorglobal">  <!-- contenedor global-->
+  <div class="encabezado">
+  <h1>RUTAS TAXIS NUEVA YORK (mysql)<h1>
+  </div>
+  
+
+  <div class="contenedorinterno">    <!-- contenedor interno-->
+   
+    <div class="izquierdo">
+    <div class="izquierdo1">
+
+      <div id="tabs">
+        <ul style="margin-right:0px;float: center;">
+          <li  class= "tab"><a href="#tabs-1" onclick="javascript:select_year(0);">Total</a></li>
+          <li  class= "tab"><a href="#tabs-2" onclick="javascript:select_year(2016);"> 2016 </a></li>
+        </ul>
+        <div id="tabs-1">
+           <div class="all_buttons">
+          <input class="boton_personalizado" type="button" value="Larga 2016" onclick="javascript:load_max_trips2016();">
+          <input class="boton_personalizado" type="button" value="Cara 2016" onclick="javascript:load_max_total_amount_trips2016();">
+          <input class="boton_personalizado" type="button" value="Barata 2016" onclick="javascript:load_min_total_amount_trips2016();">
+          </div>  
+        </div>
+        <div id="tabs-2">
+           <div class="all_buttons">
+        	<input class="boton_personalizado" type="button" value="Mostrar Todas" onclick="javascript:get_filtered_trip(0);">
+          <li> Filtrar por polígonos</li>
+          <input class="boton_personalizado" type="button" value="Subida" onclick="javascript:getRectangle_PU();">    
+          <input class="boton_personalizado" type="button" value="Bajada" onclick="javascript:getRectangle_DO();">
+          <li> Querys sin ruta</li>
+          <input class="boton_personalizado" type="button" value="Viajes anulados" onclick="javascript:total_voided_trips_2016();">
+          <input class="boton_personalizado" type="button" value="Viajes sin cargo" onclick="javascript:total_no_charge_trips_2016();">
+          <input class="boton_personalizado" type="button" value="Viajes pagados tarjeta" onclick="javascript:total_payment_credit_trips_2016();">
+          <input class="boton_personalizado" type="button" value="Viajes pagados efectivo" onclick="javascript:total_payment_efective_trips_2016();">
+          <input class="boton_personalizado" type="button" value="Viajes tarifa estándar" onclick="javascript:total_rate_standar_trips_2016();">
+          <input class="boton_personalizado" type="button" value="Viajes tarifa negociada" onclick="javascript:total_rate_negociate_trips_2016();">
+          <input class="boton_personalizado" type="button" value="Viajes tarifa grupo" onclick="javascript:total_rate_group_trips_2016();">
+          <input class="boton_personalizado" type="button" value="Total pasajeros Vendor1" onclick="javascript:total_passengers_vendorId1_2016();">
+          <input class="boton_personalizado" type="button" value="Total pasajeros Vendor2" onclick="javascript:total_passengers_vendorId2_2016();">
+          <input class="boton_personalizado" type="button" value="Media pasajeros/taxi" onclick="javascript:average_passengers_taxi_2016();">
+        </div>
+        </div>
+
+      </div>
+      <!--<input type="button" value="Ruta mas larga" onclick="javascript:carga();"/>
+      <input type="button" value="Borra" onclick="javascript:clearMarkers();"/>
+      <input type="button" value="Poligono_PU" onclick="javascript:getRectangle_PU();"/>
+      <input type="button" value="Poligono_DO" onclick="javascript:getRectangle_DO();"/>-->
+  	</div>  
+    <div class="izquierdo2">
+        <ul>
+        <li>Año<div id="year" class="data">Total</div></li>
+        <li>Número de rutas<div id="num_trips" class="data"></div></li>
+        <li>Ruta mas cara ($)<div id="most_expensive_trip" class="data"></div></li>
+        <input hidden class="button_show" type="button" value="Mostrar" onclick="javascript:get_filtered_trip(1);">
+        <li>Ruta mas barata ($)<div id="most_cheap_trip"  class="data"></div></li>
+        <input hidden class="button_show" type="button" value="Mostrar" onclick="javascript:get_filtered_trip(2);">
+        <li>Ruta mas larga <div id="max_distance"  class="data"></div></li>
+        <input hidden class="button_show" type="button" value="Mostrar" onclick="javascript:get_filtered_trip(3);">
+        <li>Ruta mas corta <div id="min_distance"  class="data"></div></li>
+        <input hidden class="button_show" type="button" value="Mostrar" onclick="javascript:get_filtered_trip(4);">
+      </ul>
+      </div>		
+    </div>  
+
+<div class="derecho">
+
+      <div id="googleMap" class="central"></div>
+      <div id="directionsPanel" class="indicaciones">
+        <p>Distancia Total: <span id="total"></span></p>
+      </div>
+
+      
+   		<h3 id="info" style="text-decoration: underline red; margin-left:280px;"> Información de las rutas</h3>
+      <div class="central2">
+        <table id="trips_table" class="w3-table-all w3-hoverable" style="font-size:x-small;">
+          <thead id='table_head'></thead>
+          <tbody id='table_info'></tbody>
+        </table>
+      </div>
+   
+    </div> 
+  
+   
+       
+      
+  </div> <!-- Cierro el contenedor interno-->
+ </div>  <!-- Cierro el contenedor global-->
+</body>
+</html>

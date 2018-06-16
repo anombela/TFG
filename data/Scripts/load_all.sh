@@ -31,6 +31,9 @@ cat $2/files/csvloaders_log/csvloader_CENTRAL_PARK_WEATHER_insert_report.log | g
 
 csvloader --file $2/files/csvloaders_log/time_slelpsed.txt time_slespsed
 
+mv $2/files/*.csv $2/files/csvloaders_log/
+mv $2/files/*.log $2/files/csvloaders_log/
+
 rm -rf $2/files/csvloaders_log/time_slelpsed.txt
 
 echo -e "-------------------------------------------------ERRORS-------------------------------------------------"

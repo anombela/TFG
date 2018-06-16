@@ -1,8 +1,9 @@
 var map;
 var rectangles = ["Rectangle_PU","Rectangle_DO"];
 var mapupdater;
-var polygon_PU = '';
-var polygon_DO = '';
+//cambiado para mysql
+var polygon_PU = "90,180,-90,-180"; //norte,oeste,syr,este
+var polygon_DO = "90,180,-90,-180";
 var zone_PU = '';
 var zone_DO = '';
 var current_year = 0;
@@ -81,7 +82,7 @@ function slespsed(){
 
 
 function reset_coord(coord){
-
+    /*
 	var P1 = "180" + " " + "90";
     var P2 = "-180" + " " + "90";
     var P3 = "-180" + " " + "-90";
@@ -92,6 +93,14 @@ function reset_coord(coord){
 	}else if (coord == "polygon_DO"){
 		polygon_DO =polygon;
 	}
+    */
+    //cambiado para mysql
+    var polygon = "90,180,-90,-180";
+    if (coord == "polygon_PU"){
+        polygon_PU = polygon;
+    }else if (coord == "polygon_DO"){
+        polygon_DO = polygon;
+    }
 }
 
 
@@ -123,18 +132,25 @@ function init() {
     $( "#tabs" ).tabs();
 	reset_coord("polygon_PU");
 	reset_coord("polygon_DO");
-
+/*
     var url = "http://localhost:8080/api/1.0/?Procedure=get_info_2017&Parameters=[-1,'','']";
-    callJSON(url,"get_zones_2017");
+    callJSON(url,"get_zones_2017");*/
 
 }
 
 function callJSON(url,callback) {
+    //cambiado paramysql
+    $.getJSON(url, function(data) {
+        eval(callback + '(data.data);');
+    });
+//esto era para voltdb
+/*
    var script = document.createElement('script');
    var head = document.getElementsByTagName('head')[0];
    script.src = url + "&jsonp="  + callback;
    script.id = callback;
    head.appendChild(script);
+*/
 }
 
 
@@ -149,16 +165,24 @@ function reset_table(){
     document.getElementById("min_distance").innerHTML = '';
 
 }
+function print_route(datos){ //cambiado para no repetir código
+    var destino1 = parseFloat(datos[0][0]['pickup_latitude']);
+    var destino2 = parseFloat(datos[0][0]['pickup_longitude']);
+    var destino3 = parseFloat(datos[0][0]['dropoff_latitude']);
+    var destino4 = parseFloat(datos[0][0]['dropoff_longitude']);
+    calculaRutaCoords(destino1,destino2,destino3,destino4);
+
+}
 
 function get_info_filtered(datos){
     console.log(datos);
-    Print_Table(datos.results[0]);//siempre que se llame, una cosa u otrta se va a pintar
+    Print_Table(datos[0]);//siempre que se llame, una cosa u otrta se va a pintar
 
-    if (datos.results[0].data.length != 0){
-        var destino1 = parseFloat(datos.results[0].data[0][6]);
-        var destino2 = parseFloat(datos.results[0].data[0][5]);
-        var destino3 = parseFloat(datos.results[0].data[0][10]);
-        var destino4 = parseFloat(datos.results[0].data[0][9]);
+    if (datos[0].length != 0){
+        var destino1 = parseFloat(datos[0][0]['pickup_latitude']);
+        var destino2 = parseFloat(datos[0][0]['pickup_longitude']);
+        var destino3 = parseFloat(datos[0][0]['dropoff_latitude']);
+        var destino4 = parseFloat(datos[0][0]['dropoff_longitude']);
 
         if (current_year == 2016){
             calculaRutaCoords(destino1,destino2,destino3,destino4);
@@ -166,25 +190,23 @@ function get_info_filtered(datos){
             calculaRutaName(zone_PU,zone_DO);
         }
     }
-    if (datos.results.length > 1){
+    if (datos.length > 2){
         var t2 = document.getElementById("most_expensive_trip");
         var t3 = document.getElementById("most_cheap_trip");
         var t4 = document.getElementById("max_distance");
         var t5 = document.getElementById("min_distance");
 
-        t2.innerHTML = datos.results[1].data[0][0];
-        t3.innerHTML = datos.results[1].data[0][1];
-        t4.innerHTML = datos.results[1].data[0][2];
-        t5.innerHTML = datos.results[1].data[0][3];
+        t2.innerHTML = parseFloat(datos[1][0]['max_amount']);
+        t3.innerHTML = parseFloat(datos[1][0]['min_amount']);
+        t4.innerHTML = parseFloat(datos[1][0]['max_distance']);
+        t5.innerHTML = parseFloat(datos[1][0]['min_distance']);
     }
 }   
 
 function get_filtered_trip(type){
 
     if (current_year == 2016){
-        //paso parámetro 0 para que devuelva rutas mas info
-        var url = "http://localhost:8080/api/1.0/?Procedure=get_info_2016&Parameters=" + 
-              "[" + type + ",'" +  polygon_PU + "','" + polygon_DO + "']";
+        var url = "http://localhost:3000/TFG_TAXIS/get_info_2016/" + type + "," + polygon_PU + "," + polygon_DO
 
     }else{
          var url = "http://localhost:8080/api/1.0/?Procedure=get_info_2017&Parameters=" + 
@@ -196,25 +218,22 @@ function get_filtered_trip(type){
 }
 
 function Print(datos){
-    console.log(datos);
-	for (var i=0;i<datos.results.length;i++){
-            Print_Table(datos.results[i]);
+	for (var i=0;i<datos.length-1;i++){
+            Print_Table(datos[i]);
         }
-
 
 }
 
 function Print_Table(datos){//se lepasa unobjeto solo, datos ya es datos.results[i]
-    console.log(datos);
     var x = document.getElementById("num_trips");
     var t = document.getElementById("table_head");
     var t1 = document.getElementById("table_info");
 
-    x.innerHTML = datos.data.length;
+    x.innerHTML = datos.length;
 
     var t_head = '<tr>';
-    for (var i=0;i<datos.schema.length;i++){
-    	t_head+= "<th>"+datos.schema[i].name+"</th>";
+   for (j in datos[0]){
+    	t_head+= "<th>"+ j +"</th>";
     }
     t_head += '</tr>';
     t.innerHTML = t_head;
@@ -222,21 +241,22 @@ function Print_Table(datos){//se lepasa unobjeto solo, datos ya es datos.results
 
     var t_info = '';
     if (current_year == 2016){
-        for (var i=0;i<datos.data.length;i++){
-            t_info += '<tr onclick="javascript:calculaRutaCoords('+ datos.data[i][6]+','+datos.data[i][5] +','+datos.data[i][10]+','+datos.data[i][9]+');">';
-            for (var j=0;j<datos.data[i].length;j++){
+        for (var i=0;i<datos.length;i++){
+            t_info += '<tr onclick="javascript:calculaRutaCoords('+ datos[i]["pickup_latitude"] +','+datos[i]["pickup_longitude"]  
+                +','+datos[i]["dropoff_latitude"]+','+datos[i]["dropoff_longitude"]+');">';
+            for (j in datos[i]){
         
-                t_info+= "<td>"+datos.data[i][j]+"</td>";
+                t_info+= "<td>"+datos[i][j]+"</td>";
             }
             t_info += '</tr>';
         }
     }else{
-        for (var i=0;i<datos.data.length;i++){
-            var strings = "'" +datos.data[i][0]+"','" + datos.data[i][1] +"'";
+        for (var i=0;i<datos.length;i++){
+            var strings = "";//"'" +datos.data[i][0]+"','" + datos.data[i][1] +"'";
             t_info += '<tr onclick="javascript:calculaRutaName('+ strings +');">';
-            for (var j=0;j<datos.data[i].length;j++){
+             for (j in datos[i]){
         
-                t_info+= "<td>"+datos.data[i][j]+"</td>";
+                t_info+= "<td>"+datos[i][j]+"</td>";
             }
             t_info += '</tr>';
         }

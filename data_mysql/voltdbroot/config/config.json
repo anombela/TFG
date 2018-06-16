@@ -1,0 +1,8 @@
+{
+    "log4jDst": [{
+        "format": "'.'yyyy-MM-dd",
+        "path": "/home/anombela/Escritorio/TFG-taxis/data_mysql/voltdbroot/log/volt.log"
+    }],
+    "pid": 5731,
+    "workingDir": "/home/anombela/Escritorio/TFG-taxis/data_mysql"
+}

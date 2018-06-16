@@ -7,7 +7,7 @@ public class get_info_2016 extends VoltProcedure {
 	///todo//////////////////////////////////////////////////////////////////////////////////////
 
 	public final SQLStmt get_trips = new SQLStmt(
-		"SELECT  * FROM taxis2016 "
+		"SELECT top 10000 * FROM taxis2016 "
 		+ "WHERE CONTAINS(polygonFromText(?), pointFromText('POINT('+ pickup_longitude + ' ' + pickup_latitude +')')) "
 		+ "and CONTAINS(polygonFromText(?), pointFromText('POINT('+ dropoff_longitude + ' ' + dropoff_latitude +')')) "
 		+ "ORDER BY TPEP_PICKUP_DATETIME asc;"

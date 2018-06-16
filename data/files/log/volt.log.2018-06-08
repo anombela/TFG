@@ -1,0 +1,1085 @@
+2018-05-28 23:55:11,895   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:12,061   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:13,434   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:14,031   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:15,267   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:15,907   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:17,126   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:55:17,726   ERROR [main] CSVLOADER: Exception Happened while loading CSV data: java.lang.IllegalArgumentException: Table Name parameter does not match any known table.
+2018-05-28 23:55:18,442   ERROR [main] CSVLOADER: CSV file '/home/anombela/Escritorio/TFG-taxis/data/files/csvloaders_log/time_slelpsed.txt' could not be found.
+2018-05-28 23:56:51,877   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Elapsed time: 5.476 seconds
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-05-28 23:56:56,821   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-05-28 23:56:57,844   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Elapsed time: 2.228 seconds
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
+2018-05-28 23:56:59,527   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
+2018-05-28 23:57:00,647   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Elapsed time: 1.321 seconds
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-05-28 23:57:01,421   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-05-28 23:57:01,422   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-05-28 23:57:12,228   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:57:12,977   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
+2018-05-28 23:57:12,977   INFO  [main] CSVLOADER: Elapsed time: 1.294 seconds
+2018-05-28 23:57:12,977   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
+2018-05-28 23:57:12,978   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
+2018-05-28 23:57:12,978   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
+2018-05-28 23:57:13,936   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-05-28 23:57:14,615   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Elapsed time: 1.256 seconds
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
+2018-05-28 23:57:14,616   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
+2018-06-08 19:10:01,143   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:10:06,288   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
+2018-06-08 19:10:06,288   INFO  [main] CSVLOADER: Elapsed time: 5.655 seconds
+2018-06-08 19:10:06,289   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-06-08 19:10:06,289   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-06-08 19:10:06,289   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-06-08 19:10:07,339   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:10:09,060   INFO  [main] CSVLOADER: Read 10000 rows from file and successfully inserted 10000 rows (final)
+2018-06-08 19:10:09,060   INFO  [main] CSVLOADER: Elapsed time: 2.275 seconds
+2018-06-08 19:10:09,060   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
+2018-06-08 19:10:09,060   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
+2018-06-08 19:10:09,060   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
+2018-06-08 19:10:10,679   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:10:11,222   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
+2018-06-08 19:10:11,222   INFO  [main] CSVLOADER: Elapsed time: 1.51 seconds
+2018-06-08 19:10:11,225   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-06-08 19:10:11,225   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-06-08 19:10:11,225   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-06-08 19:10:21,821   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:10:22,576   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
+2018-06-08 19:10:22,577   INFO  [main] CSVLOADER: Elapsed time: 1.604 seconds
+2018-06-08 19:10:22,577   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
+2018-06-08 19:10:22,577   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
+2018-06-08 19:10:22,577   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
+2018-06-08 19:10:23,486   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:10:23,695   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
+2018-06-08 19:10:23,695   INFO  [main] CSVLOADER: Elapsed time: 0.761 seconds
+2018-06-08 19:10:23,696   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
+2018-06-08 19:10:23,696   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
+2018-06-08 19:10:23,696   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
+2018-06-08 19:49:09,869   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:49:10,501   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,501   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,504   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,507   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,507   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,508   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,509   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,509   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,509   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,510   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,511   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,511   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,514   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,514   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,517   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,518   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,519   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,520   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,520   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,521   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,521   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,522   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,522   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,523   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,523   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,523   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,524   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,524   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,524   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,525   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,528   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,532   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,532   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,532   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,533   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,533   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,534   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,534   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,534   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,535   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,535   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,535   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,536   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,536   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,539   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,539   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,542   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,542   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,543   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,543   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,543   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,543   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,543   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,544   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,544   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,544   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,544   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,545   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,545   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,545   ERROR [Thread-3] CSVLOADER: Invalid input on line 62. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,545   ERROR [Thread-3] CSVLOADER: Invalid input on line 63. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,546   ERROR [Thread-3] CSVLOADER: Invalid input on line 64. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,546   ERROR [Thread-3] CSVLOADER: Invalid input on line 65. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,547   ERROR [Thread-3] CSVLOADER: Invalid input on line 66. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,547   ERROR [Thread-3] CSVLOADER: Invalid input on line 67. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,547   ERROR [Thread-3] CSVLOADER: Invalid input on line 68. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,547   ERROR [Thread-3] CSVLOADER: Invalid input on line 69. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,549   ERROR [Thread-3] CSVLOADER: Invalid input on line 70. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,550   ERROR [Thread-3] CSVLOADER: Invalid input on line 71. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,550   ERROR [Thread-3] CSVLOADER: Invalid input on line 72. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,550   ERROR [Thread-3] CSVLOADER: Invalid input on line 73. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,550   ERROR [Thread-3] CSVLOADER: Invalid input on line 74. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,551   ERROR [Thread-3] CSVLOADER: Invalid input on line 75. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,552   ERROR [Thread-3] CSVLOADER: Invalid input on line 76. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,552   ERROR [Thread-3] CSVLOADER: Invalid input on line 77. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,552   ERROR [Thread-3] CSVLOADER: Invalid input on line 78. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,556   ERROR [Thread-3] CSVLOADER: Invalid input on line 79. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,556   ERROR [Thread-3] CSVLOADER: Invalid input on line 80. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,557   ERROR [Thread-3] CSVLOADER: Invalid input on line 81. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,557   ERROR [Thread-3] CSVLOADER: Invalid input on line 82. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,558   ERROR [Thread-3] CSVLOADER: Invalid input on line 83. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,558   ERROR [Thread-3] CSVLOADER: Invalid input on line 84. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,559   ERROR [Thread-3] CSVLOADER: Invalid input on line 85. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,560   ERROR [Thread-3] CSVLOADER: Invalid input on line 86. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,560   ERROR [Thread-3] CSVLOADER: Invalid input on line 87. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,560   ERROR [Thread-3] CSVLOADER: Invalid input on line 88. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,561   ERROR [Thread-3] CSVLOADER: Invalid input on line 89. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,561   ERROR [Thread-3] CSVLOADER: Invalid input on line 90. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,561   ERROR [Thread-3] CSVLOADER: Invalid input on line 91. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,565   ERROR [Thread-3] CSVLOADER: Invalid input on line 92. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,572   ERROR [Thread-3] CSVLOADER: Invalid input on line 93. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,582   ERROR [Thread-3] CSVLOADER: Invalid input on line 94. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,583   ERROR [Thread-3] CSVLOADER: Invalid input on line 95. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,583   ERROR [Thread-3] CSVLOADER: Invalid input on line 96. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,583   ERROR [Thread-3] CSVLOADER: Invalid input on line 97. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,583   ERROR [Thread-3] CSVLOADER: Invalid input on line 98. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,584   ERROR [Thread-3] CSVLOADER: Invalid input on line 99. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,585   ERROR [Thread-3] CSVLOADER: Invalid input on line 100. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,585   ERROR [Thread-3] CSVLOADER: Invalid input on line 101. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,585   ERROR [Thread-3] CSVLOADER: Invalid input on line 102. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:49:10,600   WARN  [main] CSVLOADER: The number of failed rows exceeds the configured maximum failed rows: 100
+2018-06-08 19:49:10,600   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:49:10,600   INFO  [main] CSVLOADER: Elapsed time: 1.243 seconds
+2018-06-08 19:49:10,600   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-06-08 19:49:10,600   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-06-08 19:49:10,600   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-06-08 19:49:11,417   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:49:12,042   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,043   ERROR [Thread-3] CSVLOADER: Invalid input on line 3. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,045   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,046   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,047   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,047   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,048   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,049   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,049   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,049   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,049   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,054   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,055   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,055   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,056   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,059   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,060   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,060   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,061   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,061   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,062   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,064   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,065   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,065   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,065   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,066   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,066   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,067   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,067   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,068   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,068   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,071   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,071   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,072   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,072   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,073   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,076   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,080   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,080   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,081   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,081   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,081   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,081   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,082   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,083   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,083   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,083   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,083   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,084   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,084   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,084   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,084   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,086   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,087   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,087   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,087   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,087   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,091   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,091   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,091   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,092   ERROR [Thread-3] CSVLOADER: Invalid input on line 62. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,092   ERROR [Thread-3] CSVLOADER: Invalid input on line 63. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,092   ERROR [Thread-3] CSVLOADER: Invalid input on line 64. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,092   ERROR [Thread-3] CSVLOADER: Invalid input on line 65. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,093   ERROR [Thread-3] CSVLOADER: Invalid input on line 66. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,093   ERROR [Thread-3] CSVLOADER: Invalid input on line 67. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,093   ERROR [Thread-3] CSVLOADER: Invalid input on line 68. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,093   ERROR [Thread-3] CSVLOADER: Invalid input on line 69. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,095   ERROR [Thread-3] CSVLOADER: Invalid input on line 70. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,095   ERROR [Thread-3] CSVLOADER: Invalid input on line 71. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,095   ERROR [Thread-3] CSVLOADER: Invalid input on line 72. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,096   ERROR [Thread-3] CSVLOADER: Invalid input on line 73. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,096   ERROR [Thread-3] CSVLOADER: Invalid input on line 74. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,096   ERROR [Thread-3] CSVLOADER: Invalid input on line 75. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,096   ERROR [Thread-3] CSVLOADER: Invalid input on line 76. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,100   ERROR [Thread-3] CSVLOADER: Invalid input on line 77. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,100   ERROR [Thread-3] CSVLOADER: Invalid input on line 78. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,100   ERROR [Thread-3] CSVLOADER: Invalid input on line 79. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,100   ERROR [Thread-3] CSVLOADER: Invalid input on line 80. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,103   ERROR [Thread-3] CSVLOADER: Invalid input on line 81. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,111   ERROR [Thread-3] CSVLOADER: Invalid input on line 82. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,111   ERROR [Thread-3] CSVLOADER: Invalid input on line 83. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,112   ERROR [Thread-3] CSVLOADER: Invalid input on line 84. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,114   ERROR [Thread-3] CSVLOADER: Invalid input on line 85. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,114   ERROR [Thread-3] CSVLOADER: Invalid input on line 86. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,115   ERROR [Thread-3] CSVLOADER: Invalid input on line 87. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,116   ERROR [Thread-3] CSVLOADER: Invalid input on line 88. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,116   ERROR [Thread-3] CSVLOADER: Invalid input on line 89. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,116   ERROR [Thread-3] CSVLOADER: Invalid input on line 90. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,116   ERROR [Thread-3] CSVLOADER: Invalid input on line 91. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,116   ERROR [Thread-3] CSVLOADER: Invalid input on line 92. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,116   ERROR [Thread-3] CSVLOADER: Invalid input on line 93. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,116   ERROR [Thread-3] CSVLOADER: Invalid input on line 94. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 95. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 96. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 97. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 98. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 99. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 100. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 101. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:49:12,150   WARN  [main] CSVLOADER: The number of failed rows exceeds the configured maximum failed rows: 100
+2018-06-08 19:49:12,150   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:49:12,150   INFO  [main] CSVLOADER: Elapsed time: 1.225 seconds
+2018-06-08 19:49:12,150   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
+2018-06-08 19:49:12,150   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
+2018-06-08 19:49:12,150   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
+2018-06-08 19:49:12,994   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:49:13,123   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,124   ERROR [Thread-3] CSVLOADER: Invalid input on line 3. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,126   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,127   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,127   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,127   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,130   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,130   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,131   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,132   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,132   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,132   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,133   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,133   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,134   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,137   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,137   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,147   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,150   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,154   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,154   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,155   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,155   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,155   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,157   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,157   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,158   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,158   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,160   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,160   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,160   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,161   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,161   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,161   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,161   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,162   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,162   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,163   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,166   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,167   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,167   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,168   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,169   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,170   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,170   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,170   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,173   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,173   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,173   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,174   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,175   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,176   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,176   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,176   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,176   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,177   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,177   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,177   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,177   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,178   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:49:13,199   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:49:13,200   INFO  [main] CSVLOADER: Elapsed time: 0.739 seconds
+2018-06-08 19:49:13,200   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-06-08 19:49:13,200   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-06-08 19:49:13,200   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-06-08 19:49:23,282   ERROR [main] CSVLOADER: CSV file '/home/anombela/Escritorio/TFG-taxis/data/../CSVs/' could not be found.
+2018-06-08 19:49:24,173   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:49:24,841   INFO  [main] CSVLOADER: Read 6 rows from file and successfully inserted 6 rows (final)
+2018-06-08 19:49:24,841   INFO  [main] CSVLOADER: Elapsed time: 1.227 seconds
+2018-06-08 19:49:24,841   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
+2018-06-08 19:49:24,842   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
+2018-06-08 19:49:24,842   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
+2018-06-08 19:51:18,008   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:51:18,750   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,758   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,762   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,763   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,775   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,775   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,776   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,779   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,781   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,781   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,786   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,786   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,792   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,801   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,806   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,806   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,809   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,812   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,812   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,819   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,820   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,820   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,821   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,821   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,822   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,822   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,822   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,823   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,823   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,823   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,823   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,824   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,824   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,824   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,824   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,825   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,830   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,830   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,832   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,833   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,833   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,833   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,834   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,837   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,837   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,837   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,838   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,838   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,847   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,852   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,852   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,852   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,853   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,855   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,858   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,859   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,860   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,863   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,866   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,866   ERROR [Thread-3] CSVLOADER: Invalid input on line 62. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,866   ERROR [Thread-3] CSVLOADER: Invalid input on line 63. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,867   ERROR [Thread-3] CSVLOADER: Invalid input on line 64. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,867   ERROR [Thread-3] CSVLOADER: Invalid input on line 65. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,869   ERROR [Thread-3] CSVLOADER: Invalid input on line 66. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,872   ERROR [Thread-3] CSVLOADER: Invalid input on line 67. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,872   ERROR [Thread-3] CSVLOADER: Invalid input on line 68. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,872   ERROR [Thread-3] CSVLOADER: Invalid input on line 69. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,872   ERROR [Thread-3] CSVLOADER: Invalid input on line 70. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,873   ERROR [Thread-3] CSVLOADER: Invalid input on line 71. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,873   ERROR [Thread-3] CSVLOADER: Invalid input on line 72. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,873   ERROR [Thread-3] CSVLOADER: Invalid input on line 73. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,875   ERROR [Thread-3] CSVLOADER: Invalid input on line 74. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,876   ERROR [Thread-3] CSVLOADER: Invalid input on line 75. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,880   ERROR [Thread-3] CSVLOADER: Invalid input on line 76. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,895   ERROR [Thread-3] CSVLOADER: Invalid input on line 77. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,896   ERROR [Thread-3] CSVLOADER: Invalid input on line 78. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,896   ERROR [Thread-3] CSVLOADER: Invalid input on line 79. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,896   ERROR [Thread-3] CSVLOADER: Invalid input on line 80. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,905   ERROR [Thread-3] CSVLOADER: Invalid input on line 81. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,905   ERROR [Thread-3] CSVLOADER: Invalid input on line 82. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,905   ERROR [Thread-3] CSVLOADER: Invalid input on line 83. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,910   ERROR [Thread-3] CSVLOADER: Invalid input on line 84. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,910   ERROR [Thread-3] CSVLOADER: Invalid input on line 85. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,910   ERROR [Thread-3] CSVLOADER: Invalid input on line 86. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,914   ERROR [Thread-3] CSVLOADER: Invalid input on line 87. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,914   ERROR [Thread-3] CSVLOADER: Invalid input on line 88. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,915   ERROR [Thread-3] CSVLOADER: Invalid input on line 89. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,915   ERROR [Thread-3] CSVLOADER: Invalid input on line 90. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,915   ERROR [Thread-3] CSVLOADER: Invalid input on line 91. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,919   ERROR [Thread-3] CSVLOADER: Invalid input on line 92. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,928   ERROR [Thread-3] CSVLOADER: Invalid input on line 93. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,928   ERROR [Thread-3] CSVLOADER: Invalid input on line 94. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,928   ERROR [Thread-3] CSVLOADER: Invalid input on line 95. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,929   ERROR [Thread-3] CSVLOADER: Invalid input on line 96. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,929   ERROR [Thread-3] CSVLOADER: Invalid input on line 97. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,929   ERROR [Thread-3] CSVLOADER: Invalid input on line 98. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,929   ERROR [Thread-3] CSVLOADER: Invalid input on line 99. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,929   ERROR [Thread-3] CSVLOADER: Invalid input on line 100. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,930   ERROR [Thread-3] CSVLOADER: Invalid input on line 101. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,930   ERROR [Thread-3] CSVLOADER: Invalid input on line 102. Incorrect number of columns. 17 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:51:18,963   WARN  [main] CSVLOADER: The number of failed rows exceeds the configured maximum failed rows: 100
+2018-06-08 19:51:18,963   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:51:18,964   INFO  [main] CSVLOADER: Elapsed time: 2.195 seconds
+2018-06-08 19:51:18,964   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-06-08 19:51:18,964   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-06-08 19:51:18,964   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-06-08 19:51:22,884   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:51:23,200   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,201   ERROR [Thread-3] CSVLOADER: Invalid input on line 3. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,206   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,209   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,210   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,214   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,214   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,215   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,215   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,217   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,220   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,220   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,221   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,227   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,250   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,255   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,258   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,262   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,292   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,294   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,300   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,300   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,301   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,304   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,304   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,306   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,306   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,313   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,316   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,317   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,317   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,318   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,318   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,320   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,322   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,322   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,348   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,349   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,350   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,352   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,353   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,354   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,357   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,362   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,363   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,363   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,365   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,372   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,372   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,373   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,374   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,374   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,374   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,374   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,383   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,383   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,383   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,384   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,384   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,384   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:51:23,422   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:51:23,422   INFO  [main] CSVLOADER: Elapsed time: 1.845 seconds
+2018-06-08 19:51:23,423   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-06-08 19:51:23,423   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-06-08 19:51:23,428   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-06-08 19:51:29,497   ERROR [main] CSVLOADER: CSV file '/home/anombela/Escritorio/TFG-taxis/data/../CSVs/' could not be found.
+2018-06-08 19:51:31,430   ERROR [main] CSVLOADER: Error connecting to the servers: localhost
+2018-06-08 19:52:11,067   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:52:11,229   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,230   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,233   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,242   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,247   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,252   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,255   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,255   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,262   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,262   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,264   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,264   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,265   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,265   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,266   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,269   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,276   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,276   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,276   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,277   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,279   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,281   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,282   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,282   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,282   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,283   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,283   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,283   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,283   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,284   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,284   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,284   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,285   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,285   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,285   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,285   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,286   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,286   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,287   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,287   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,287   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,288   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,292   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,292   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,293   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,293   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,294   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,294   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,303   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,304   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,304   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,312   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,315   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,316   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,316   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,318   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,318   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,319   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,321   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,322   ERROR [Thread-3] CSVLOADER: Invalid input on line 62. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,322   ERROR [Thread-3] CSVLOADER: Invalid input on line 63. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,322   ERROR [Thread-3] CSVLOADER: Invalid input on line 64. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,322   ERROR [Thread-3] CSVLOADER: Invalid input on line 65. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,323   ERROR [Thread-3] CSVLOADER: Invalid input on line 66. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,323   ERROR [Thread-3] CSVLOADER: Invalid input on line 67. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,323   ERROR [Thread-3] CSVLOADER: Invalid input on line 68. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,329   ERROR [Thread-3] CSVLOADER: Invalid input on line 69. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,329   ERROR [Thread-3] CSVLOADER: Invalid input on line 70. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,330   ERROR [Thread-3] CSVLOADER: Invalid input on line 71. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,330   ERROR [Thread-3] CSVLOADER: Invalid input on line 72. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,330   ERROR [Thread-3] CSVLOADER: Invalid input on line 73. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,331   ERROR [Thread-3] CSVLOADER: Invalid input on line 74. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,331   ERROR [Thread-3] CSVLOADER: Invalid input on line 75. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,332   ERROR [Thread-3] CSVLOADER: Invalid input on line 76. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,334   ERROR [Thread-3] CSVLOADER: Invalid input on line 77. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,334   ERROR [Thread-3] CSVLOADER: Invalid input on line 78. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,335   ERROR [Thread-3] CSVLOADER: Invalid input on line 79. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,335   ERROR [Thread-3] CSVLOADER: Invalid input on line 80. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,336   ERROR [Thread-3] CSVLOADER: Invalid input on line 81. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,336   ERROR [Thread-3] CSVLOADER: Invalid input on line 82. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,336   ERROR [Thread-3] CSVLOADER: Invalid input on line 83. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,336   ERROR [Thread-3] CSVLOADER: Invalid input on line 84. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,337   ERROR [Thread-3] CSVLOADER: Invalid input on line 85. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,338   ERROR [Thread-3] CSVLOADER: Invalid input on line 86. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,339   ERROR [Thread-3] CSVLOADER: Invalid input on line 87. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,355   ERROR [Thread-3] CSVLOADER: Invalid input on line 88. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,355   ERROR [Thread-3] CSVLOADER: Invalid input on line 89. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,356   ERROR [Thread-3] CSVLOADER: Invalid input on line 90. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,356   ERROR [Thread-3] CSVLOADER: Invalid input on line 91. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,359   ERROR [Thread-3] CSVLOADER: Invalid input on line 92. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,359   ERROR [Thread-3] CSVLOADER: Invalid input on line 93. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,363   ERROR [Thread-3] CSVLOADER: Invalid input on line 94. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,363   ERROR [Thread-3] CSVLOADER: Invalid input on line 95. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,367   ERROR [Thread-3] CSVLOADER: Invalid input on line 96. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,367   ERROR [Thread-3] CSVLOADER: Invalid input on line 97. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,367   ERROR [Thread-3] CSVLOADER: Invalid input on line 98. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,368   ERROR [Thread-3] CSVLOADER: Invalid input on line 99. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,368   ERROR [Thread-3] CSVLOADER: Invalid input on line 100. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,368   ERROR [Thread-3] CSVLOADER: Invalid input on line 101. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,368   ERROR [Thread-3] CSVLOADER: Invalid input on line 102. Incorrect number of columns. 17 found, 19 expected. Please check the table schema and the line content
+2018-06-08 19:52:11,382   WARN  [main] CSVLOADER: The number of failed rows exceeds the configured maximum failed rows: 100
+2018-06-08 19:52:11,382   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:52:11,382   INFO  [main] CSVLOADER: Elapsed time: 0.858 seconds
+2018-06-08 19:52:11,383   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-06-08 19:52:11,383   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-06-08 19:52:11,383   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-06-08 19:52:12,235   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:52:12,896   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,896   ERROR [Thread-3] CSVLOADER: Invalid input on line 3. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,896   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,897   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,901   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,904   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,906   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,913   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,914   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,914   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,914   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,914   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,916   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,917   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,938   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,939   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,942   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,942   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,943   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,943   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,946   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,948   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,949   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,950   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,950   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,950   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,951   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,956   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,958   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,960   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,961   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,962   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,962   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,963   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,963   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,963   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,965   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,969   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,970   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,970   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,970   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,971   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,971   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,971   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,971   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,972   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,972   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,972   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,973   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,973   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,973   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,973   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,974   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,975   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,975   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,975   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,978   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,987   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,988   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,988   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,988   ERROR [Thread-3] CSVLOADER: Invalid input on line 62. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,988   ERROR [Thread-3] CSVLOADER: Invalid input on line 63. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,988   ERROR [Thread-3] CSVLOADER: Invalid input on line 64. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,991   ERROR [Thread-3] CSVLOADER: Invalid input on line 65. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:12,992   ERROR [Thread-3] CSVLOADER: Invalid input on line 66. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,001   ERROR [Thread-3] CSVLOADER: Invalid input on line 67. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,001   ERROR [Thread-3] CSVLOADER: Invalid input on line 68. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,001   ERROR [Thread-3] CSVLOADER: Invalid input on line 69. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,004   ERROR [Thread-3] CSVLOADER: Invalid input on line 70. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,004   ERROR [Thread-3] CSVLOADER: Invalid input on line 71. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,004   ERROR [Thread-3] CSVLOADER: Invalid input on line 72. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,004   ERROR [Thread-3] CSVLOADER: Invalid input on line 73. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,005   ERROR [Thread-3] CSVLOADER: Invalid input on line 74. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,005   ERROR [Thread-3] CSVLOADER: Invalid input on line 75. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,006   ERROR [Thread-3] CSVLOADER: Invalid input on line 76. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,006   ERROR [Thread-3] CSVLOADER: Invalid input on line 77. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,007   ERROR [Thread-3] CSVLOADER: Invalid input on line 78. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,007   ERROR [Thread-3] CSVLOADER: Invalid input on line 79. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,008   ERROR [Thread-3] CSVLOADER: Invalid input on line 80. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,008   ERROR [Thread-3] CSVLOADER: Invalid input on line 81. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,009   ERROR [Thread-3] CSVLOADER: Invalid input on line 82. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,011   ERROR [Thread-3] CSVLOADER: Invalid input on line 83. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,014   ERROR [Thread-3] CSVLOADER: Invalid input on line 84. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,015   ERROR [Thread-3] CSVLOADER: Invalid input on line 85. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,015   ERROR [Thread-3] CSVLOADER: Invalid input on line 86. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,015   ERROR [Thread-3] CSVLOADER: Invalid input on line 87. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,016   ERROR [Thread-3] CSVLOADER: Invalid input on line 88. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,016   ERROR [Thread-3] CSVLOADER: Invalid input on line 89. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,017   ERROR [Thread-3] CSVLOADER: Invalid input on line 90. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,018   ERROR [Thread-3] CSVLOADER: Invalid input on line 91. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,018   ERROR [Thread-3] CSVLOADER: Invalid input on line 92. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,019   ERROR [Thread-3] CSVLOADER: Invalid input on line 93. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,019   ERROR [Thread-3] CSVLOADER: Invalid input on line 94. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,019   ERROR [Thread-3] CSVLOADER: Invalid input on line 95. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,020   ERROR [Thread-3] CSVLOADER: Invalid input on line 96. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,020   ERROR [Thread-3] CSVLOADER: Invalid input on line 97. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,021   ERROR [Thread-3] CSVLOADER: Invalid input on line 98. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,031   ERROR [Thread-3] CSVLOADER: Invalid input on line 99. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,031   ERROR [Thread-3] CSVLOADER: Invalid input on line 100. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,031   ERROR [Thread-3] CSVLOADER: Invalid input on line 101. Incorrect number of columns. 5 found, 17 expected. Please check the table schema and the line content
+2018-06-08 19:52:13,076   WARN  [main] CSVLOADER: The number of failed rows exceeds the configured maximum failed rows: 100
+2018-06-08 19:52:13,076   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:52:13,076   INFO  [main] CSVLOADER: Elapsed time: 1.355 seconds
+2018-06-08 19:52:13,076   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
+2018-06-08 19:52:13,077   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
+2018-06-08 19:52:13,077   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
+2018-06-08 19:52:13,950   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:52:14,577   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,577   ERROR [Thread-3] CSVLOADER: Invalid input on line 3. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,578   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,578   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,579   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,581   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,581   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,581   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,583   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,583   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,583   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,584   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,584   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,584   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,585   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,586   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,591   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,591   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,594   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,594   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,595   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,595   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,599   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,600   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,600   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,600   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,602   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,602   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,602   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,603   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,603   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,624   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,627   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,629   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,629   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,630   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,631   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,631   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,632   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,632   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,634   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,635   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,636   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,639   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,640   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,640   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,640   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,643   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,644   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,644   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,644   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,645   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,645   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,645   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,645   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,646   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,646   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,646   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,646   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,647   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 9 found, 5 expected. Please check the table schema and the line content
+2018-06-08 19:52:14,675   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:52:14,675   INFO  [main] CSVLOADER: Elapsed time: 1.272 seconds
+2018-06-08 19:52:14,675   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-06-08 19:52:14,676   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-06-08 19:52:14,678   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-06-08 19:52:25,793   ERROR [main] CSVLOADER: CSV file '/home/anombela/Escritorio/TFG-taxis/data/../CSVs/' could not be found.
+2018-06-08 19:52:26,879   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:52:27,575   INFO  [main] CSVLOADER: Read 6 rows from file and successfully inserted 6 rows (final)
+2018-06-08 19:52:27,575   INFO  [main] CSVLOADER: Elapsed time: 1.373 seconds
+2018-06-08 19:52:27,576   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
+2018-06-08 19:52:27,576   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
+2018-06-08 19:52:27,576   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
+2018-06-08 19:56:11,403   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:56:12,037   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,038   ERROR [Thread-3] CSVLOADER: Invalid input on line 3. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,041   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,043   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,044   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,045   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,046   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,047   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,047   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,048   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,052   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,053   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,053   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,053   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,054   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,054   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,054   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,054   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,055   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,055   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,055   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,060   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,060   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,063   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,077   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,078   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,080   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,082   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,083   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,088   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,088   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,090   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,091   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,091   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,091   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,091   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,092   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,094   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,094   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,094   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,097   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,098   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,098   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,100   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,101   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,101   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,103   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,104   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,113   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,114   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,114   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,117   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,118   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,118   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,118   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,118   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,118   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,119   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,125   ERROR [Thread-3] CSVLOADER: Invalid input on line 62. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,125   ERROR [Thread-3] CSVLOADER: Invalid input on line 63. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,125   ERROR [Thread-3] CSVLOADER: Invalid input on line 64. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,126   ERROR [Thread-3] CSVLOADER: Invalid input on line 65. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,128   ERROR [Thread-3] CSVLOADER: Invalid input on line 66. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,128   ERROR [Thread-3] CSVLOADER: Invalid input on line 67. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,128   ERROR [Thread-3] CSVLOADER: Invalid input on line 68. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,128   ERROR [Thread-3] CSVLOADER: Invalid input on line 69. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,129   ERROR [Thread-3] CSVLOADER: Invalid input on line 70. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,129   ERROR [Thread-3] CSVLOADER: Invalid input on line 71. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,129   ERROR [Thread-3] CSVLOADER: Invalid input on line 72. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,129   ERROR [Thread-3] CSVLOADER: Invalid input on line 73. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,130   ERROR [Thread-3] CSVLOADER: Invalid input on line 74. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,130   ERROR [Thread-3] CSVLOADER: Invalid input on line 75. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,130   ERROR [Thread-3] CSVLOADER: Invalid input on line 76. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,139   ERROR [Thread-3] CSVLOADER: Invalid input on line 77. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,140   ERROR [Thread-3] CSVLOADER: Invalid input on line 78. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,140   ERROR [Thread-3] CSVLOADER: Invalid input on line 79. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,140   ERROR [Thread-3] CSVLOADER: Invalid input on line 80. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,140   ERROR [Thread-3] CSVLOADER: Invalid input on line 81. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,141   ERROR [Thread-3] CSVLOADER: Invalid input on line 82. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,141   ERROR [Thread-3] CSVLOADER: Invalid input on line 83. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,141   ERROR [Thread-3] CSVLOADER: Invalid input on line 84. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,141   ERROR [Thread-3] CSVLOADER: Invalid input on line 85. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,142   ERROR [Thread-3] CSVLOADER: Invalid input on line 86. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,143   ERROR [Thread-3] CSVLOADER: Invalid input on line 87. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,144   ERROR [Thread-3] CSVLOADER: Invalid input on line 88. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,144   ERROR [Thread-3] CSVLOADER: Invalid input on line 89. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,145   ERROR [Thread-3] CSVLOADER: Invalid input on line 90. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,148   ERROR [Thread-3] CSVLOADER: Invalid input on line 91. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,157   ERROR [Thread-3] CSVLOADER: Invalid input on line 92. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,157   ERROR [Thread-3] CSVLOADER: Invalid input on line 93. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,157   ERROR [Thread-3] CSVLOADER: Invalid input on line 94. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,160   ERROR [Thread-3] CSVLOADER: Invalid input on line 95. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,160   ERROR [Thread-3] CSVLOADER: Invalid input on line 96. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,161   ERROR [Thread-3] CSVLOADER: Invalid input on line 97. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,163   ERROR [Thread-3] CSVLOADER: Invalid input on line 98. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,167   ERROR [Thread-3] CSVLOADER: Invalid input on line 99. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,167   ERROR [Thread-3] CSVLOADER: Invalid input on line 100. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,168   ERROR [Thread-3] CSVLOADER: Invalid input on line 101. Incorrect number of columns. 19 found, 20 expected. Please check the table schema and the line content
+2018-06-08 19:56:12,187   WARN  [main] CSVLOADER: The number of failed rows exceeds the configured maximum failed rows: 100
+2018-06-08 19:56:12,187   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:56:12,187   INFO  [main] CSVLOADER: Elapsed time: 1.323 seconds
+2018-06-08 19:56:12,188   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-06-08 19:56:12,188   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-06-08 19:56:12,188   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-06-08 19:56:13,068   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:56:13,228   ERROR [Thread-3] CSVLOADER: Invalid input on line 2. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,229   ERROR [Thread-3] CSVLOADER: Invalid input on line 4. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,232   ERROR [Thread-3] CSVLOADER: Invalid input on line 5. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,233   ERROR [Thread-3] CSVLOADER: Invalid input on line 6. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,235   ERROR [Thread-3] CSVLOADER: Invalid input on line 7. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,238   ERROR [Thread-3] CSVLOADER: Invalid input on line 8. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,238   ERROR [Thread-3] CSVLOADER: Invalid input on line 9. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,238   ERROR [Thread-3] CSVLOADER: Invalid input on line 10. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,241   ERROR [Thread-3] CSVLOADER: Invalid input on line 11. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,241   ERROR [Thread-3] CSVLOADER: Invalid input on line 12. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,242   ERROR [Thread-3] CSVLOADER: Invalid input on line 13. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,242   ERROR [Thread-3] CSVLOADER: Invalid input on line 14. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,242   ERROR [Thread-3] CSVLOADER: Invalid input on line 15. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,245   ERROR [Thread-3] CSVLOADER: Invalid input on line 16. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,245   ERROR [Thread-3] CSVLOADER: Invalid input on line 17. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,246   ERROR [Thread-3] CSVLOADER: Invalid input on line 18. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,246   ERROR [Thread-3] CSVLOADER: Invalid input on line 19. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,246   ERROR [Thread-3] CSVLOADER: Invalid input on line 20. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,250   ERROR [Thread-3] CSVLOADER: Invalid input on line 21. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,251   ERROR [Thread-3] CSVLOADER: Invalid input on line 22. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,253   ERROR [Thread-3] CSVLOADER: Invalid input on line 23. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,261   ERROR [Thread-3] CSVLOADER: Invalid input on line 24. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,262   ERROR [Thread-3] CSVLOADER: Invalid input on line 25. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,264   ERROR [Thread-3] CSVLOADER: Invalid input on line 26. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,267   ERROR [Thread-3] CSVLOADER: Invalid input on line 27. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,267   ERROR [Thread-3] CSVLOADER: Invalid input on line 28. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,268   ERROR [Thread-3] CSVLOADER: Invalid input on line 29. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,268   ERROR [Thread-3] CSVLOADER: Invalid input on line 30. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,269   ERROR [Thread-3] CSVLOADER: Invalid input on line 31. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,269   ERROR [Thread-3] CSVLOADER: Invalid input on line 32. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,269   ERROR [Thread-3] CSVLOADER: Invalid input on line 33. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,272   ERROR [Thread-3] CSVLOADER: Invalid input on line 34. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,273   ERROR [Thread-3] CSVLOADER: Invalid input on line 35. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,273   ERROR [Thread-3] CSVLOADER: Invalid input on line 36. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,273   ERROR [Thread-3] CSVLOADER: Invalid input on line 37. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,273   ERROR [Thread-3] CSVLOADER: Invalid input on line 38. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,283   ERROR [Thread-3] CSVLOADER: Invalid input on line 39. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,283   ERROR [Thread-3] CSVLOADER: Invalid input on line 40. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,284   ERROR [Thread-3] CSVLOADER: Invalid input on line 41. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,286   ERROR [Thread-3] CSVLOADER: Invalid input on line 42. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,287   ERROR [Thread-3] CSVLOADER: Invalid input on line 43. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,288   ERROR [Thread-3] CSVLOADER: Invalid input on line 44. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,289   ERROR [Thread-3] CSVLOADER: Invalid input on line 45. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,289   ERROR [Thread-3] CSVLOADER: Invalid input on line 46. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,290   ERROR [Thread-3] CSVLOADER: Invalid input on line 47. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,291   ERROR [Thread-3] CSVLOADER: Invalid input on line 48. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,291   ERROR [Thread-3] CSVLOADER: Invalid input on line 49. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,292   ERROR [Thread-3] CSVLOADER: Invalid input on line 50. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,292   ERROR [Thread-3] CSVLOADER: Invalid input on line 51. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,295   ERROR [Thread-3] CSVLOADER: Invalid input on line 52. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,295   ERROR [Thread-3] CSVLOADER: Invalid input on line 53. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,295   ERROR [Thread-3] CSVLOADER: Invalid input on line 54. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,296   ERROR [Thread-3] CSVLOADER: Invalid input on line 55. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,296   ERROR [Thread-3] CSVLOADER: Invalid input on line 56. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,296   ERROR [Thread-3] CSVLOADER: Invalid input on line 57. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,297   ERROR [Thread-3] CSVLOADER: Invalid input on line 58. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,297   ERROR [Thread-3] CSVLOADER: Invalid input on line 59. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,307   ERROR [Thread-3] CSVLOADER: Invalid input on line 60. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,307   ERROR [Thread-3] CSVLOADER: Invalid input on line 61. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,307   ERROR [Thread-3] CSVLOADER: Invalid input on line 62. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,308   ERROR [Thread-3] CSVLOADER: Invalid input on line 63. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,308   ERROR [Thread-3] CSVLOADER: Invalid input on line 64. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,313   ERROR [Thread-3] CSVLOADER: Invalid input on line 65. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,314   ERROR [Thread-3] CSVLOADER: Invalid input on line 66. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,320   ERROR [Thread-3] CSVLOADER: Invalid input on line 67. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,322   ERROR [Thread-3] CSVLOADER: Invalid input on line 68. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,327   ERROR [Thread-3] CSVLOADER: Invalid input on line 69. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,328   ERROR [Thread-3] CSVLOADER: Invalid input on line 70. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,328   ERROR [Thread-3] CSVLOADER: Invalid input on line 71. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,331   ERROR [Thread-3] CSVLOADER: Invalid input on line 72. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,331   ERROR [Thread-3] CSVLOADER: Invalid input on line 73. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,332   ERROR [Thread-3] CSVLOADER: Invalid input on line 74. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,332   ERROR [Thread-3] CSVLOADER: Invalid input on line 75. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,332   ERROR [Thread-3] CSVLOADER: Invalid input on line 76. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,333   ERROR [Thread-3] CSVLOADER: Invalid input on line 77. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,333   ERROR [Thread-3] CSVLOADER: Invalid input on line 78. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,334   ERROR [Thread-3] CSVLOADER: Invalid input on line 79. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,334   ERROR [Thread-3] CSVLOADER: Invalid input on line 80. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,334   ERROR [Thread-3] CSVLOADER: Invalid input on line 81. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,335   ERROR [Thread-3] CSVLOADER: Invalid input on line 82. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,335   ERROR [Thread-3] CSVLOADER: Invalid input on line 83. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,335   ERROR [Thread-3] CSVLOADER: Invalid input on line 84. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,336   ERROR [Thread-3] CSVLOADER: Invalid input on line 85. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,336   ERROR [Thread-3] CSVLOADER: Invalid input on line 86. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,337   ERROR [Thread-3] CSVLOADER: Invalid input on line 87. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,337   ERROR [Thread-3] CSVLOADER: Invalid input on line 88. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,338   ERROR [Thread-3] CSVLOADER: Invalid input on line 89. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,339   ERROR [Thread-3] CSVLOADER: Invalid input on line 90. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,339   ERROR [Thread-3] CSVLOADER: Invalid input on line 91. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,339   ERROR [Thread-3] CSVLOADER: Invalid input on line 92. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,340   ERROR [Thread-3] CSVLOADER: Invalid input on line 93. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,354   ERROR [Thread-3] CSVLOADER: Invalid input on line 94. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,354   ERROR [Thread-3] CSVLOADER: Invalid input on line 95. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,358   ERROR [Thread-3] CSVLOADER: Invalid input on line 96. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,359   ERROR [Thread-3] CSVLOADER: Invalid input on line 97. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,362   ERROR [Thread-3] CSVLOADER: Invalid input on line 98. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,366   ERROR [Thread-3] CSVLOADER: Invalid input on line 99. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,366   ERROR [Thread-3] CSVLOADER: Invalid input on line 100. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,366   ERROR [Thread-3] CSVLOADER: Invalid input on line 101. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,366   ERROR [Thread-3] CSVLOADER: Invalid input on line 102. Incorrect number of columns. 17 found, 18 expected. Please check the table schema and the line content
+2018-06-08 19:56:13,410   WARN  [main] CSVLOADER: The number of failed rows exceeds the configured maximum failed rows: 100
+2018-06-08 19:56:13,410   INFO  [main] CSVLOADER: Read 0 rows from file and successfully inserted 0 rows (final)
+2018-06-08 19:56:13,410   INFO  [main] CSVLOADER: Elapsed time: 0.882 seconds
+2018-06-08 19:56:13,410   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
+2018-06-08 19:56:13,410   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
+2018-06-08 19:56:13,410   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
+2018-06-08 19:56:14,328   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:56:14,780   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
+2018-06-08 19:56:14,780   INFO  [main] CSVLOADER: Elapsed time: 1.022 seconds
+2018-06-08 19:56:14,781   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-06-08 19:56:14,781   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-06-08 19:56:14,781   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-06-08 19:56:18,835   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:56:19,697   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
+2018-06-08 19:56:19,697   INFO  [main] CSVLOADER: Elapsed time: 1.586 seconds
+2018-06-08 19:56:19,698   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
+2018-06-08 19:56:19,700   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
+2018-06-08 19:56:19,700   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
+2018-06-08 19:56:20,730   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:56:21,399   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
+2018-06-08 19:56:21,400   INFO  [main] CSVLOADER: Elapsed time: 1.225 seconds
+2018-06-08 19:56:21,400   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
+2018-06-08 19:56:21,402   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
+2018-06-08 19:56:21,402   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
+2018-06-08 19:58:35,254   ERROR [main] CSVLOADER: Error connecting to the servers: localhost
+2018-06-08 19:58:36,257   ERROR [main] CSVLOADER: Error connecting to the servers: localhost
+2018-06-08 19:58:37,320   ERROR [main] CSVLOADER: Error connecting to the servers: localhost
+2018-06-08 19:58:40,851   ERROR [main] CSVLOADER: Error connecting to the servers: localhost
+2018-06-08 19:58:41,813   ERROR [main] CSVLOADER: Error connecting to the servers: localhost
+2018-06-08 19:59:16,786   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:59:44,611   INFO  [main] CSVLOADER: Read 99999 rows from file and successfully inserted 99999 rows (final)
+2018-06-08 19:59:44,612   INFO  [main] CSVLOADER: Elapsed time: 28.362 seconds
+2018-06-08 19:59:44,612   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_invalidrows.csv
+2018-06-08 19:59:44,612   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_log.log
+2018-06-08 19:59:44,612   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2016_insert_report.log
+2018-06-08 19:59:45,514   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:59:50,760   INFO  [main] CSVLOADER: Read 99998 rows from file and successfully inserted 99998 rows (final)
+2018-06-08 19:59:50,760   INFO  [main] CSVLOADER: Elapsed time: 5.819 seconds
+2018-06-08 19:59:50,761   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_invalidrows.csv
+2018-06-08 19:59:50,761   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_log.log
+2018-06-08 19:59:50,761   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TAXIS2017_insert_report.log
+2018-06-08 19:59:51,686   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 19:59:52,458   INFO  [main] CSVLOADER: Read 265 rows from file and successfully inserted 265 rows (final)
+2018-06-08 19:59:52,459   INFO  [main] CSVLOADER: Elapsed time: 1.341 seconds
+2018-06-08 19:59:52,459   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_invalidrows.csv
+2018-06-08 19:59:52,459   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_log.log
+2018-06-08 19:59:52,459   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_LOCATION_insert_report.log
+2018-06-08 20:00:04,372   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 20:00:05,110   INFO  [main] CSVLOADER: Read 60 rows from file and successfully inserted 60 rows (final)
+2018-06-08 20:00:05,110   INFO  [main] CSVLOADER: Elapsed time: 1.24 seconds
+2018-06-08 20:00:05,110   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_invalidrows.csv
+2018-06-08 20:00:05,110   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_log.log
+2018-06-08 20:00:05,111   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_CENTRAL_PARK_WEATHER_insert_report.log
+2018-06-08 20:00:05,965   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2018-06-08 20:00:06,627   INFO  [main] CSVLOADER: Read 8 rows from file and successfully inserted 8 rows (final)
+2018-06-08 20:00:06,627   INFO  [main] CSVLOADER: Elapsed time: 1.21 seconds
+2018-06-08 20:00:06,628   INFO  [main] CSVLOADER: Invalid row file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_invalidrows.csv
+2018-06-08 20:00:06,628   INFO  [main] CSVLOADER: Log file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_log.log
+2018-06-08 20:00:06,628   INFO  [main] CSVLOADER: Report file: /home/anombela/Escritorio/TFG-taxis/data/files/csvloader_TIME_SLESPSED_insert_report.log
